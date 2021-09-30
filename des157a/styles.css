@@ -1,6 +1,6 @@
 body {
     width: 100%;
-    height: 768px;
+    height: 100vh;
     justify-content: center;
     margin: auto;
     background-color: #d9d3cc;
@@ -19,42 +19,55 @@ h1 {
 
 h2 {
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h3 {
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+ol, ul {
+    list-style-type: none
 }
 
 li {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
     font-weight: 400;
+    font-size: 12px;
 }
 
 #banner {
     width: 80%;
     height: 250px;
     max-width: 1100px;
-    background-color: black;
+    display: flex;
+    overflow: hidden;
     margin: auto;
-    display: table;
 }
 
 #banner div {
-    display: table-cell;
-    background-color: white;
+    flex: 1;
+    background-position: center;
     position: relative;
-    object-fit: contain;
-    width: default;
-    overflow: hidden;
+    transition: all 1s;
 }
 
-#banner div>img {
+#banner div:hover {
+    flex: 50;
+    filter: unset;
+    opacity: 100%;
+    cursor: crosshair;
+}
+
+/* #banner div>img {
     max-height: 100%;
     position: absolute;
     opacity: 60%;
-}
+} */
 
-#banner div>img:hover {
-    opacity: 100%;
-    /* width: 100%; */
-    transition: all 1s;
-}
 
 nav {
     display: flex;
@@ -68,11 +81,47 @@ nav section {
     width: 33%;
     margin: auto;
     max-width: 1100px;
-    background-color: coral;
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 20px;
 }
 
 footer {
     display: flex;
+    margin-top: 5vh;
     justify-content: space-evenly;
-    margin-top: 50%;
 }
+
+/* Pictures for Banner */
+
+#pic1 {
+    background-image: url(images/greenhouse/greenhouse_3.jpg);
+}
+#pic2 {
+    background-image: url(images/pikito.jpg);
+}
+
+#pic3 {
+    background-image: url(images/warehouse/warehouse_1.jpg);
+}
+
+#pic4 {
+    background-image: url(images/mendocino/mendo_2.jpg);
+}
+
+#pic5 {
+    background-image: url(images/greenhouse/greenhouse_5.jpg);
+}
+
+#pic6 {
+    background-image: url(images/warehouse/warehouse_3.jpg);
+}
+
+#pic7 {
+    background-image: url(images/mendocino/mendo_5.jpg);
+}
+
+#pic8 {
+    background-image: url(images/greenhouse/greenhouse_2.jpg);
+}
+
