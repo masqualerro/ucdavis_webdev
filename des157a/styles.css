@@ -96,12 +96,6 @@ li {
     cursor: crosshair;
 }
 
-/* #banner div>img {
-    max-height: 100%;
-    position: absolute;
-    opacity: 60%;
-} */
-
 nav {
     display: flex;
     max-width: 80%;
