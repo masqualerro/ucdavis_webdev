@@ -28,6 +28,7 @@ header img {
     from {
         transform: rotateY(0deg);
     }
+
     to {
         transform: rotateY(180deg);
     }
@@ -56,8 +57,9 @@ h3 {
     font-size: 15px;
 }
 
-ol, ul {
-    list-style-type:none;
+ol,
+ul {
+    list-style-type: none;
     text-align: center;
     padding-left: 0px;
 
@@ -102,6 +104,7 @@ nav {
 
 nav section {
     width: 33%;
+    height: 253.547px;
     margin: auto;
     max-width: 1100px;
     border-radius: 50%;
