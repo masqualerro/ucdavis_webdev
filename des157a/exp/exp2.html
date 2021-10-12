@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Experiment 2</title>
+		<style>
+			body {
+				text-align: center;
+				font-family: sans-serif;
+			}
+			h1 {
+				padding-bottom: 15px;
+			}
+			p {
+				padding: 15px;
+				font-size: 25px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Experiment 2</h1>
+		<img
+			id="squirtle"
+			src="https://www.pngkey.com/png/full/439-4399737_squirtle-pokemon-squirtle-sprite.png"
+			alt="squirtle"
+		/>
+		<p id="chosen"></p>
+
+		<script>
+			//Allows the user to make a custom filter for a .png of squirtle
+			//	1. User picks desired filter from list
+			//	2. User sets number value to control intesity of chosen filter
+			//	3. Filter is applied to squirtle image and text displays telling user what they chose
+
+			//	- Script will display alerts if user enters value not on list / no value
+			//	- Script will display alert if user does not enter a value / enters a non-number
+
+			var image = document.getElementById("squirtle");
+			var filterChoice = prompt(
+				"PICK A FILTER FROM THE FOLLOWING LIST:\ngrayscale\nhue-rotate\ninvert\nsepia"
+			);
+			var paragraph = document.getElementById("chosen");
+
+			if (filterChoice === "" || filterChoice == null) {
+				alert("You did not enter a value");
+			} else if (
+				filterChoice != "grayscale" &&
+				filterChoice != "hue-rotate" &&
+				filterChoice != "invert" &&
+				filterChoice != "sepia"
+			) {
+				alert("Error: Not in the list");
+			} else if (filterChoice === "hue-rotate") {
+				var degValue = prompt("Enter a number to customize filter");
+
+				if (degValue === "" || degValue == null) {
+					alert("You did not enter a value");
+				} else if (isNaN(degValue)) {
+					alert("Not a number");
+				} else {
+					image.style.filter = `${filterChoice}(${degValue}deg)`;
+					paragraph.innerHTML = `<p>You chose: ${filterChoice}(${degValue}deg)`;
+				}
+			} else {
+				var perValue = prompt("Enter a number to customize filter");
+
+				if (perValue === "" || perValue == null) {
+					alert("You did not enter a value");
+				} else if (isNaN(perValue)) {
+					alert("Not a number");
+				} else {
+					image.style.filter = `${filterChoice}(${perValue}%)`;
+					paragraph.innerHTML = `<p>You chose: ${filterChoice}(${perValue}%)`;
+				}
+			}
+		</script>
+	</body>
+</html>
