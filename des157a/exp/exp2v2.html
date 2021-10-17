@@ -25,25 +25,50 @@
 
 <body>
 	<h1>Experiment 2</h1>
-	<img id="squirtle" src="https://www.pngkey.com/png/full/439-4399737_squirtle-pokemon-squirtle-sprite.png"
-		alt="squirtle" />
+	<img id="pokemon" src="images/sq.png" alt="squirtle" />
 	<p id="chosen"></p>
 
 	<script>
-		//Allows the user to make a custom filter for a .png of squirtle
-		//	1. User picks desired filter from list
-		//	2. User sets number value to control intesity of chosen filter
-		//	3. Filter is applied to squirtle image and text displays telling user what they chose
+		//Allows the user to make a custom filter for a .png of chosen pokemon
+		//  1. User picks desired pokemon from list
+		//	2. User picks desired filter from list
+		//	3. User sets number value to control intesity of chosen filter
+		//	4. Filter is applied to squirtle image and text displays telling user what they chose
 
 		//	- Script will display alerts if user enters value not on list / no value
 		//	- Script will display alert if user does not enter a value / enters a non-number
 
-		var image = document.getElementById("squirtle");
+		var image = document.getElementById("pokemon");
+		var pokeChoice = prompt(
+			"Pick a pokemon:\nsquirtle\ncharmander\nbulbasaur\npikachu"
+		);
 		var filterChoice = prompt(
 			"PICK A FILTER FROM THE FOLLOWING LIST:\ngrayscale\nhue-rotate\ninvert\nsepia"
 		);
 		var paragraph = document.getElementById("chosen");
 
+		if (pokeChoice === "" || pokeChoice == null) {
+			alert("You did not enter a pokemon");
+		} else if (
+			pokeChoice != "squirtle" &&
+			pokeChoice != "charmander" &&
+			pokeChoice != "bulbasaur" &&
+			pokeChoice != "pikachu"
+		) {
+			alert("Not on the list");
+		} else if (pokeChoice == "squirtle") {
+			image.setAttribute("src", "images/sq.png");
+			image.setAttribute("alt", "squirtle");
+		} else if (pokeChoice == "bulbasaur") {
+			image.setAttribute("src", "images/bulb.png");
+			image.setAttribute("alt", "bulbasaur");
+		} else if (pokeChoice == "charmander") {
+			image.setAttribute("src", "images/char.png");
+			image.setAttribute("alt", "charmander");
+		} else if (pokeChoice == "pikachu") {
+			image.setAttribute("src", "images/pika.png");
+			image.setAttribute("alt", "charmander");
+		}
 		if (filterChoice === "" || filterChoice == null) {
 			alert("You did not enter a value");
 		} else if (
