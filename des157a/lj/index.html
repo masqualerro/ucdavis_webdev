@@ -1,25 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Learning Journal</title>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Learning Journal</title>
+		<link
+			href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,600&display=swap"
+			rel="stylesheet"
+		/>
 
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" />
-	<link href="styles.css" rel="stylesheet" />
-</head>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Esteban&display=swap"
+			rel="stylesheet"
+		/>
 
-<body>
-	<h1>Learning Journal</h1>
-	<main>
+		<link href="styles.css" rel="stylesheet" />
+	</head>
 
-	</main>
+	<body>
+		<header>
+			<h1>Learning Journal</h1>
+		</header>
 
-	<footer>
-		<a href="https://validator.w3.org/check?uri=https://yourusername.github.io/des157a/lj">Valid HTML</a>
-	</footer>
-</body>
+		<main>
+			<nav>
+				<ol id="jrlist">
+					<li><a href="#">Journal 1</a></li>
+					<li><a href="#">Journal 2</a></li>
+					<li><a href="#">Journal 3</a></li>
+					<li><a href="#">Journal 4</a></li>
+				</ol>
+			</nav>
+			<section>
+				<h2>Best Practices for Form Design: Response</h2>
+				<article id="lj1">
+					<p>
+						<i>Best Practices for Form Design by Salim Ansari</i>
+						reinforced the importance of minimalism in basic
+						functions, clearly defined instructions, and positive
+						feedback towards the user. An example of minimalism in a
+						basic function is the display of password requirements
+						on a form. Many sites hide password requirements until
+						the user fails to fulfill them. Instead of adding this
+						additional feature to the password field, it would be
+						better to simply list the password requirements
+						immediately to avoid extra complication. This also
+						speaks to the value of positive feedback and respect for
+						the user’s time, in that it decreases the chance for
+						“failure” from the user. A proper form should only feel
+						positive and “understanding” to the user; communication
+						from the webpage should seem more friendly and less cold
+						and robotic. For example, an alert saying “Please enter
+						your name” would be more pleasant than one saying “You
+						did not enter your name,” and the labeling of a
+						non-required field as “optional” would be more pleasant
+						than red alerts on required fields.
+					</p>
+					<p>
+						<a
+							href="https://uxdesign.cc/best-practices-for-form-design-ff5de6ca8e5f"
+						>
+							Article
+						</a>
+						<br />
+						<img src="images/glyph.svg" class="separator" />
+						<br />
+						lj 1
+						<br />
+						<time datetime="2021-10-18">10.18.2021</time>
+					</p>
+				</article>
+			</section>
+		</main>
 
+		<footer>
+			<a
+				href="https://validator.w3.org/check?uri=https://yourusername.github.io/des157a/lj"
+			>
+				Valid HTML
+			</a>
+			<a href="https://jigsaw.w3.org/css-validator/check/referer">
+				Valid CSS
+			</a>
+			<a
+				href="mailto:&#115;&#101;&#100;&#105;&#108;&#108;&#111;&#109;&#105;&#103;&#117;&#101;&#108;&#046;&#100;&#101;&#115;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"
+			>
+				Email Me
+			</a>
+		</footer>
+		<script>
+			var liJournal = document.querySelectorAll("li");
+			var myMain = document.querySelector("main");
+
+			for (var i = 0; i < liJournal.length; i++) {
+				liJournal[i].addEventListener("click", mySelect(i));
+			}
+			function mySelect(i) {
+				if (i === 0) {
+					return function () {
+						var cImg = document.createElement("img");
+						liJournal[i].appendChild(cImg);
+						cImg.setAttribute("src", "images/glyph.svg");
+						liJournal[i].style.fontWeight = "700";
+						liJournal[i].style.fontStyle = "italic";
+					};
+				}
+				if (i === 1) {
+					return function () {
+						var cImg = document.createElement("img");
+						liJournal[i].appendChild(cImg);
+						cImg.setAttribute("src", "images/glyph.svg");
+						liJournal[i].style.fontWeight = "700";
+						liJournal[i].style.fontStyle = "italic";
+					};
+				}
+			}
+		</script>
+	</body>
 </html>
