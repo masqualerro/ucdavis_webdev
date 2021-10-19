@@ -27,6 +27,7 @@
 		/>
 
 		<link href="styles.css" rel="stylesheet" />
+		<script src="script.js" defer></script>
 	</head>
 
 	<body>
@@ -110,33 +111,5 @@
 				Email Me
 			</a>
 		</footer>
-		<script>
-			var liJournal = document.querySelectorAll("li");
-			var myMain = document.querySelector("main");
-
-			for (var i = 0; i < liJournal.length; i++) {
-				liJournal[i].addEventListener("click", mySelect(i));
-			}
-			function mySelect(i) {
-				if (i === 0) {
-					return function () {
-						var cImg = document.createElement("img");
-						liJournal[i].appendChild(cImg);
-						cImg.setAttribute("src", "images/glyph.svg");
-						liJournal[i].style.fontWeight = "700";
-						liJournal[i].style.fontStyle = "italic";
-					};
-				}
-				if (i === 1) {
-					return function () {
-						var cImg = document.createElement("img");
-						liJournal[i].appendChild(cImg);
-						cImg.setAttribute("src", "images/glyph.svg");
-						liJournal[i].style.fontWeight = "700";
-						liJournal[i].style.fontStyle = "italic";
-					};
-				}
-			}
-		</script>
 	</body>
 </html>
