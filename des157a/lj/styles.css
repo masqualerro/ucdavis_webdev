@@ -15,22 +15,6 @@ section {
 	flex: 2;
 }
 
-p {
-	font-family: "Esteban", serif;
-	font-weight: 400;
-	font-size: 12px;
-	line-height: 20px;
-	max-width: 450px;
-	margin-right: 20px;
-	padding-right: 50px;
-}
-article > p:first-child {
-	border-right: 0.5px solid black;
-}
-article {
-	display: flex;
-}
-
 h1 {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 400;
@@ -47,10 +31,27 @@ h1 {
 h2 {
 	font-family: "Montserrat", sans-serif;
 	margin-top: 10px;
-	font-size: 13px;
+	font-size: 18px;
 	font-style: italic;
 	font-weight: 600;
 	border-bottom: 0.25px solid black;
+}
+
+p {
+	font-family: "Esteban", serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	max-width: 450px;
+	margin-right: 20px;
+	padding-right: 50px;
+}
+article > p:first-child {
+	border-right: 0.5px solid black;
+}
+article {
+	display: flex;
+	padding-bottom: 15px;
 }
 
 ol {
@@ -106,3 +107,7 @@ footer {
 footer a {
 	width: 33%;
 }
+
+/* main {
+	border-top: 0.5px solid black;
+} */
