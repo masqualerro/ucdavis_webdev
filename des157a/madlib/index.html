@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Mad Libs 2.0</title>
+		<link href="styles.css" rel="stylesheet" />
+		<script src="script.js" defer></script>
+		<script
+			src="https://kit.fontawesome.com/daafecce72.js"
+			crossorigin="anonymous"
+		></script>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Syne:wght@400;700;800&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- 100, 400, 400i, 900i -->
+	</head>
+	<body>
+		<h1>
+			Jazzlibs 2.0
+			<i class="fas fa-glass-whiskey"></i>
+		</h1>
+		<main>
+			<form autocomplete="off">
+				<label for="uName">
+					Enter your first & last name:
+					<input type="text" name="uName" id="uName" />
+				</label>
+
+				<label for="albumName">
+					Enter an album name:
+					<input type="text" name="albumName" id="albumName" />
+				</label>
+				<label for="imgchoice">
+					Choose a concept:
+					<select name="imgchoice" id="imgchoice">
+						<option value="none">---</option>
+						<option value="greenhouse">greenhouse</option>
+						<option value="field">field</option>
+						<option value="city">city</option>
+						<option value="car">car</option>
+						<option value="light">lightleak</option>
+					</select>
+				</label>
+				<fieldset>
+					<legend>Choose a color scheme:</legend>
+
+					<label for="textcolor">
+						Text
+						<input type="color" name="albumcolor" id="textcolor" />
+					</label>
+					<label for="acccolor">
+						Accent
+						<input type="color" name="albumcolor" id="acccolor" />
+					</label>
+					<label for="bgcolor">
+						Background
+						<input type="color" name="albumcolor" id="bgcolor" />
+					</label>
+				</fieldset>
+
+				<label for="noun1">
+					Enter a noun:
+					<input type="text" name="noun1" id="noun1" />
+				</label>
+
+				<label for="noun2">
+					Enter another noun:
+					<input type="text" name="noun2" id="noun2" />
+				</label>
+
+				<label for="adj">
+					Enter an adjective:
+					<input type="text" name="adj" id="adj" />
+				</label>
+				<label for="adj2">
+					Enter adjective 2:
+					<input type="text" name="adj2" id="adj2" />
+				</label>
+				<label for="adj3">
+					Enter adjective 3:
+					<input type="text" name="adj3" id="adj3" />
+				</label>
+
+				<label for="verb">
+					Enter an adverb:
+					<input type="text" name="verb" id="verb" />
+				</label>
+
+				<input type="submit" name="send" value="Generate" />
+				<p id="incomplete"></p>
+			</form>
+
+			<section id="output">
+				<div id="albumgen">
+					<h2 id="atitle"></h2>
+					<h3 id="bandname"></h3>
+					<div id="overlay"></div>
+				</div>
+				<article>
+					<img src="images/glyph.svg" alt="star_glyph" />
+					<p id="madlib"></p>
+				</article>
+			</section>
+		</main>
+	</body>
+</html>
