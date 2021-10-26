@@ -3,21 +3,14 @@ body {
 }
 main {
 	display: flex;
-	justify-content: space-evenly;
 }
 form {
 	margin-left: 0px;
-	/* border: 1px solid red; */
 	width: 35%;
 	padding-left: 15px;
 }
 
-section {
-	/* border: 1px solid red; */
-}
-
 article {
-	/* border: 1px solid blue; */
 	margin-top: auto;
 }
 
