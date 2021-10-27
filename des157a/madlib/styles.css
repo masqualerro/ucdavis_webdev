@@ -6,7 +6,6 @@ main {
 }
 form {
 	margin-left: 0px;
-	width: 35%;
 	padding-left: 15px;
 }
 
@@ -18,7 +17,7 @@ h1 {
 	color: #315937;
 	font-family: "Syne", sans-serif;
 	font-weight: 800;
-	padding-left: 20px;
+	padding-left: 0px;
 }
 
 p {
@@ -29,7 +28,7 @@ p {
 	padding-left: 10px;
 	margin-bottom: 0px;
 	margin-top: auto;
-	line-height: 20px;
+	line-height: 24px;
 }
 
 b {
@@ -147,4 +146,36 @@ img {
 	height: 2em;
 	visibility: hidden;
 	padding-left: 10px;
+}
+
+@media screen and (max-width: 1307px) {
+	main {
+		justify-content: space-evenly;
+	}
+	img {
+		visibility: hidden;
+		display: none;
+	}
+	#output {
+		flex-direction: column;
+		justify-content: center;
+		padding-top: 20px;
+	}
+	p {
+		font-size: 14px;
+		width: 400px;
+		padding-left: 0px;
+		padding-top: 10px;
+		line-height: 20px;
+	}
+}
+
+@media screen and (max-width: 860px) {
+	#albumgen {
+		width: 350px;
+		height: 350px;
+	}
+	p {
+		width: 350px;
+	}
 }
