@@ -179,3 +179,6 @@ img {
 		width: 350px;
 	}
 }
+::selection {
+	background: #e395e3;
+}
