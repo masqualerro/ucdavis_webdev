@@ -1,5 +1,6 @@
 body {
 	background-color: #f2eae4;
+	position: relative;
 }
 main {
 	display: flex;
@@ -179,6 +180,22 @@ img {
 		width: 350px;
 	}
 }
+
 ::selection {
 	background: #e395e3;
+}
+
+footer {
+	display: flex;
+	margin-top: 5vh;
+	font-family: "Syne", sans-serif;
+	font-size: 12px;
+	text-align: center;
+	position: relative;
+	bottom: 0;
+}
+
+footer a {
+	width: 33%;
+	text-decoration: none;
 }

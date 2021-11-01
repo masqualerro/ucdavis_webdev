@@ -8,9 +8,11 @@ main {
 	display: flex;
 	margin: 15px;
 }
+
 nav {
 	flex: 1;
 }
+
 section {
 	flex: 2;
 }
@@ -46,9 +48,11 @@ p {
 	margin-right: 20px;
 	padding-right: 50px;
 }
+
 article > p:first-child {
 	border-right: 0.5px solid black;
 }
+
 article {
 	display: flex;
 	padding-bottom: 15px;
@@ -75,14 +79,33 @@ a:hover {
 	color: #f241c3;
 }
 
+#imgbar {
+	display: flex;
+	flex-direction: column;
+	margin-top: 16px;
+}
 img {
-	height: 1em;
-	animation: animation1 1s linear infinite;
-	vertical-align: middle;
-	margin-left: 20px;
+	/* position: absolute; */
+	width: 400px;
+}
+
+figcaption {
+	text-align: center;
+	font-family: "Esteban", serif;
+	font-size: 12px;
+}
+
+figure {
+	margin: 0px;
+	padding: 0px;
 }
 
 .separator {
+	height: 1em;
+	width: 1em;
+	animation: animation1 1s linear infinite;
+	vertical-align: middle;
+	margin-left: 20px;
 	margin: 5px 0px 5px 0px;
 }
 
@@ -107,7 +130,3 @@ footer {
 footer a {
 	width: 33%;
 }
-
-/* main {
-	border-top: 0.5px solid black;
-} */
