@@ -84,7 +84,8 @@ a:hover {
 	flex-direction: column;
 	margin-top: 16px;
 }
-img {
+
+.aimg {
 	/* position: absolute; */
 	width: 400px;
 }

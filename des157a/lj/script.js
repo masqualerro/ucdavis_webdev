@@ -13,6 +13,7 @@
 			const cImg = document.createElement("img");
 			liJournal[i].appendChild(cImg);
 			cImg.setAttribute("src", "images/glyph.svg");
+			cImg.setAttribute("class", "separator");
 			liJournal[i].style.fontWeight = "700";
 			liJournal[i].style.fontStyle = "italic";
 		};
