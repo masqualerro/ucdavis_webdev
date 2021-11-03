@@ -1,0 +1,93 @@
+body {
+	background-color: #f7f3ea;
+}
+
+h1 {
+	text-align: center;
+	font-family: "Hahmlet", serif;
+}
+#container {
+	width: 800px;
+	height: 540px;
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+}
+
+img {
+	width: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	transition: all 2.5s ease;
+	z-index: -1;
+}
+
+#circle1 {
+	position: absolute;
+	border: 2px solid blue;
+	bottom: 22%;
+	right: 14%;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+#circle1:hover {
+	background-color: rgba(0, 0, 255, 0.3);
+}
+
+#circle2:hover {
+	background-color: rgba(255, 0, 0, 0.3);
+}
+
+#circle2 {
+	position: absolute;
+	border: 2px solid red;
+	top: 48%;
+	right: 13%;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+#instruction {
+	font-family: "JetBrains Mono", monospace;
+	background-color: rgba(255, 255, 255, 0.5);
+	display: inline-block;
+}
+
+.c1zoom {
+	width: 2500px;
+	top: -40%;
+	left: -250px;
+}
+
+.c2zoom {
+	width: 2500px;
+	top: 20%;
+	left: -400px;
+}
+
+.start {
+	width: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.visible {
+	visibility: visible;
+	opacity: 1;
+	transition: opacity 2.5s ease-in;
+}
+
+.hidden {
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s 1s, opacity 1s linear;
+}
