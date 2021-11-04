@@ -8,12 +8,12 @@ h1 {
 }
 
 #container {
-	width: 962px;
+	width: 439px;
 	height: 650px;
 	margin: auto;
 	position: relative;
 	overflow: hidden;
-	border: 2px solid red;
+	/* border: 2px solid red; */
 }
 
 img {
@@ -31,6 +31,8 @@ img {
 	height: 15px;
 	border-radius: 50%;
 	position: absolute;
+	display: flex;
+	justify-content: center;
 }
 
 #circle1 {
@@ -38,6 +40,11 @@ img {
 	bottom: 22%;
 	right: 14%;
 	background-color: rgba(255, 255, 255, 0.3);
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	position: absolute;
+	visibility: hidden;
 }
 
 #circle1:hover {
@@ -48,14 +55,21 @@ img {
 	top: 48%;
 	right: 13%;
 	background-color: rgba(255, 255, 255, 0.3);
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	position: absolute;
+	visibility: hidden;
 }
+
 #circle2:hover {
 	background-color: rgba(255, 0, 0, 0.3);
 }
+
 #circle3 {
 	border: 2px solid green;
-	top: 5%;
-	right: 13%;
+	bottom: 15%;
+	left: 20%;
 	background-color: rgba(255, 255, 255, 0.3);
 }
 #circle3:hover {
@@ -73,46 +87,110 @@ img {
 	background-color: rgba(0, 0, 0, 0.3);
 }
 
+#circle5 {
+	border: 3px solid yellow;
+	bottom: 25%;
+	right: 2%;
+	background-color: rgba(245, 9, 9, 0.3);
+}
+
+#circle6 {
+	border: 3px solid red;
+	top: 62%;
+	left: 40%;
+	background-color: rgba(245, 9, 9, 0.3);
+	visibility: hidden;
+}
+
+#circle7 {
+	border: 3px solid blueviolet;
+	top: 72%;
+	left: 2%;
+	background-color: rgba(245, 9, 9, 0.3);
+	visibility: hidden;
+	/* transition: 2.5s ease; */
+}
+
+#circle8 {
+	border: 3px solid blueviolet;
+	top: 66%;
+	left: 2%;
+	background-color: rgba(245, 9, 9, 0.3);
+	visibility: hidden;
+}
+#circle9 {
+	border: 3px solid blueviolet;
+	top: 61.5%;
+	right: 2%;
+	background-color: rgba(245, 9, 9, 0.3);
+	visibility: hidden;
+}
+
+#build1 {
+	border: 3px solid black;
+	top: 35%;
+	left: 2%;
+	background-color: rgba(245, 9, 9, 0.3);
+	position: absolute;
+	visibility: hidden;
+}
+
 #instruction {
 	font-family: "JetBrains Mono", monospace;
 	/* background-color: rgba(255, 255, 255, 0.5); */
 	position: fixed;
-	left: 10px;
+	left: 50px;
 	font-size: 12px;
 }
 
-.c1zoom {
-	width: 2500px;
+.catz1zoom {
 	top: -30%;
 	left: -220px;
 }
 
-.c2zoom {
-	width: 2500px;
+.catz2zoom {
 	top: 35%;
 	left: -275px;
 }
 
-.c3zoom {
-	width: 1500px;
+.stand1zoom {
+	top: 10px;
+	left: 70%;
 }
 
 .start {
-	width: 100%;
 	position: absolute;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
 }
 
-.visible {
+footer {
+	display: flex;
+	margin-top: 5vh;
+	font-family: "JetBrains Mono", monospace;
+	font-size: 12px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+footer a {
+	padding: 0px 15px 0px 15px;
+	text-decoration: none;
+}
+
+/* .visible {
 	visibility: visible;
 	opacity: 1;
 	transition: opacity 2.5s ease-in;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
 }
 
 .hidden {
 	visibility: hidden;
 	opacity: 0;
 	transition: visibility 0s 1s, opacity 1s linear;
-}
+} */
