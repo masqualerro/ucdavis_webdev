@@ -1,17 +1,19 @@
 body {
-	background-color: #f7f3ea;
+	background-color: #8c736c;
 }
 
 h1 {
 	text-align: center;
 	font-family: "Hahmlet", serif;
 }
+
 #container {
-	width: 800px;
-	height: 540px;
+	width: 962px;
+	height: 650px;
 	margin: auto;
 	position: relative;
 	overflow: hidden;
+	border: 2px solid red;
 }
 
 img {
@@ -24,52 +26,75 @@ img {
 	z-index: -1;
 }
 
-#circle1 {
-	position: absolute;
-	border: 2px solid blue;
-	bottom: 22%;
-	right: 14%;
+.btn {
 	width: 15px;
 	height: 15px;
 	border-radius: 50%;
+	position: absolute;
+}
+
+#circle1 {
+	border: 2px solid blue;
+	bottom: 22%;
+	right: 14%;
 	background-color: rgba(255, 255, 255, 0.3);
 }
 
 #circle1:hover {
 	background-color: rgba(0, 0, 255, 0.3);
 }
-
-#circle2:hover {
-	background-color: rgba(255, 0, 0, 0.3);
-}
-
 #circle2 {
-	position: absolute;
 	border: 2px solid red;
 	top: 48%;
 	right: 13%;
-	width: 15px;
-	height: 15px;
-	border-radius: 50%;
 	background-color: rgba(255, 255, 255, 0.3);
+}
+#circle2:hover {
+	background-color: rgba(255, 0, 0, 0.3);
+}
+#circle3 {
+	border: 2px solid green;
+	top: 5%;
+	right: 13%;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+#circle3:hover {
+	background-color: rgba(0, 255, 0, 0.3);
+}
+
+#circle4 {
+	border: 3px solid black;
+	top: 50%;
+	left: 2%;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+#circle4:hover {
+	background-color: rgba(0, 0, 0, 0.3);
 }
 
 #instruction {
 	font-family: "JetBrains Mono", monospace;
-	background-color: rgba(255, 255, 255, 0.5);
-	display: inline-block;
+	/* background-color: rgba(255, 255, 255, 0.5); */
+	position: fixed;
+	left: 10px;
+	font-size: 12px;
 }
 
 .c1zoom {
 	width: 2500px;
-	top: -40%;
-	left: -250px;
+	top: -30%;
+	left: -220px;
 }
 
 .c2zoom {
 	width: 2500px;
-	top: 20%;
-	left: -400px;
+	top: 35%;
+	left: -275px;
+}
+
+.c3zoom {
+	width: 1500px;
 }
 
 .start {
