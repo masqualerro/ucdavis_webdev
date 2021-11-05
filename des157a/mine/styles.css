@@ -7,12 +7,26 @@ h1 {
 	font-family: "Hahmlet", serif;
 }
 
+h2 {
+	display: inline-block;
+	font-family: "Syne", sans-serif;
+	z-index: 2;
+	color: #f241c3;
+	border: 2px solid #f241c3;
+	background-color: rgba(255, 255, 255, 0.6);
+	margin-right: 20px;
+	visibility: hidden;
+}
+
 #container {
 	width: 439px;
 	height: 650px;
 	margin: auto;
 	position: relative;
 	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
 	/* border: 2px solid red; */
 }
 
@@ -126,6 +140,14 @@ img {
 	visibility: hidden;
 }
 
+#circle10 {
+	border: 3px solid blueviolet;
+	top: 55%;
+	left: 50%;
+	background-color: rgba(245, 9, 9, 0.3);
+	visibility: hidden;
+}
+
 #build1 {
 	border: 3px solid black;
 	top: 35%;
@@ -137,12 +159,19 @@ img {
 
 #instruction {
 	font-family: "JetBrains Mono", monospace;
-	/* background-color: rgba(255, 255, 255, 0.5); */
 	position: fixed;
-	left: 50px;
+	left: 15px;
 	font-size: 12px;
 }
 
+/* #instruction2 {
+	font-family: "JetBrains Mono", monospace;
+	position: fixed;
+	left: 50px;
+	font-size: 12px;
+} */
+
+/* ZOOM BUTTONS */
 .catz1zoom {
 	top: -30%;
 	left: -220px;
@@ -157,7 +186,10 @@ img {
 	top: 10px;
 	left: 70%;
 }
-
+.walk1zoom {
+	top: 10%;
+	left: 12%;
+}
 .start {
 	position: absolute;
 	left: 50%;
@@ -180,7 +212,11 @@ footer a {
 	text-decoration: none;
 }
 
-/* .visible {
+a:hover {
+	color: #f241c3;
+}
+
+.visible {
 	visibility: visible;
 	opacity: 1;
 	transition: opacity 2.5s ease-in;
@@ -193,4 +229,4 @@ footer a {
 	visibility: hidden;
 	opacity: 0;
 	transition: visibility 0s 1s, opacity 1s linear;
-} */
+}

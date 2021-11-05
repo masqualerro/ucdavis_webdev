@@ -20,12 +20,18 @@
 	//"walk.jpg" buttons
 	const walk1 = document.getElementById("circle8");
 	const walk2 = document.getElementById("circle9");
+	const walk3 = document.getElementById("circle10");
 
 	//images, div containers text elements
 	const catImg = document.querySelector("img");
 	const inst = document.getElementById("instruction");
 	const div = document.getElementById("container");
 	let imgWidth = catImg.width;
+	const imgLabel = document.getElementById("imglabel");
+
+	// if (catImg.src == "http://127.0.0.1:5500/images/catz.jpg") {
+	// 	inst.style.
+	// }
 
 	// function divResize() {
 	// 	div.style.width = `${catImg.width}`;
@@ -37,17 +43,21 @@
 		catImg.style.width = "2500px";
 		catImg.style.height = "auto";
 		catz1.style.visibility = "hidden";
-		catz2.style.visibility = "hidden";
+		catz2.style.visibility = "visible";
 		c3.style.visibility = "hidden";
+		c5.style.visibility = "hidden";
 	});
 
 	catz2.addEventListener("click", function () {
+		imgLabel.innerHTML = "el gaucho";
+		imgLabel.style.visibility = "visible";
 		catImg.className = "catz2zoom";
 		catImg.style.width = "2500px";
 		catImg.style.height = "auto";
-		catz1.style.visibility = "hidden";
+		catz1.style.visibility = "visible";
 		catz2.style.visibility = "hidden";
 		c3.style.visibility = "hidden";
+		c5.style.visibility = "hidden";
 	});
 
 	stand1.addEventListener("click", function () {
@@ -57,6 +67,15 @@
 		stand1.style.visibility = "hidden";
 		stand2.style.top = "66%";
 		stand2.style.left = "2%";
+	});
+
+	walk3.addEventListener("click", function () {
+		catImg.className = "walk1zoom";
+		catImg.style.width = "auto";
+		catImg.style.height = "2000px";
+		walk1.style.visibility = "hidden";
+		walk2.style.visibility = "hidden";
+		walk3.style.visibility = "hidden";
 	});
 
 	stand2.addEventListener("click", function () {
@@ -73,6 +92,7 @@
 		stand2.style.visibility = "hidden";
 		walk1.style.visibility = "visible";
 		walk2.style.visibility = "visible";
+		walk3.style.visibility = "visible";
 	});
 
 	walk1.addEventListener("click", function () {
@@ -89,6 +109,7 @@
 		c5.style.visibility = "visible";
 		walk1.style.visibility = "hidden";
 		walk2.style.visibility = "hidden";
+		walk3.style.visibility = "hidden";
 		stand1.style.visibility = "hidden";
 		stand2.style.visibility = "hidden";
 	});
@@ -143,6 +164,7 @@
 		console.log(`image changed: ${catImg.src}`);
 		catImg.style.height = "100%";
 		catImg.style.width = "auto";
+		catImg.className = "start";
 		console.log(`img width = ${imgWidth}px`);
 		console.log(`img height = ${catImg.height}px`);
 		div.style.width = "439px";
@@ -183,13 +205,27 @@
 		) {
 			catImg.className = "start";
 			catImg.style.width = "100%";
-			catz1.className = "visible";
-			catz2.className = "visible";
+			catz1.style.visibility = "visible";
+			catz2.style.visibility = "visible";
+		} else if (
+			e.key === "Escape" &&
+			catImg.src == "http://127.0.0.1:5500/images/stand.jpg"
+		) {
+			catImg.className = "start";
+			catImg.style.height = "100%";
+			stand1.style.visibility = "visible";
+		} else if (
+			e.key === "Escape" &&
+			catImg.src == "http://127.0.0.1:5500/images/walk.jpg"
+		) {
+			catImg.className = "start";
+			catImg.style.height = "100%";
+			walk1.style.visibility = "visible";
+			walk2.style.visibility = "visible";
+			walk3.style.visibility = "visible";
 		} else if (e.key === "Escape") {
 			catImg.className = "start";
 			catImg.style.height = "100%";
-			catz1.className = "visible";
-			catz2.className = "visible";
 		}
 	});
 
