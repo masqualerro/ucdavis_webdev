@@ -1,0 +1,232 @@
+/* MAIN PAGE STYLING (BODY, DIV, IMG, FOOTER) */
+body {
+	background-color: #8c736c;
+}
+
+#container {
+	width: 439px;
+	height: 650px;
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	/* border: 2px solid red; */
+}
+
+img {
+	width: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	transition: all 2.5s ease;
+	z-index: -1;
+}
+
+footer {
+	display: flex;
+	margin-top: 5vh;
+	font-family: "JetBrains Mono", monospace;
+	font-size: 12px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+footer a {
+	padding: 0px 15px 0px 15px;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #f241c3;
+}
+
+/* TEXT */
+h1 {
+	text-align: center;
+	/* font-family: "Hahmlet", serif; */
+	font-family: "Syne", sans-serif;
+
+	/* font-family: "Sora", sans-serif; */
+	/* font-family: "Proza Libre", sans-serif; */
+}
+
+#instruction {
+	font-family: "JetBrains Mono", monospace;
+	position: fixed;
+	left: 15px;
+	font-size: 12px;
+}
+
+#stats {
+	font-family: "JetBrains Mono", monospace;
+	position: fixed;
+	right: 120px;
+	font-size: 12px;
+}
+
+span {
+	font-style: italic;
+}
+
+/* NAVIGATION BUTTONS */
+.btn {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	transition: all 1s ease;
+}
+
+#circle1 {
+	border: 2px solid blue;
+	bottom: 22%;
+	right: 14%;
+	background-color: rgba(255, 255, 255, 0.3);
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	position: absolute;
+	visibility: hidden;
+}
+
+#circle1:hover {
+	background-color: rgba(0, 0, 255, 0.3);
+}
+
+#circle2 {
+	border: 2px solid red;
+	top: 48%;
+	right: 13%;
+	background-color: rgba(255, 255, 255, 0.3);
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	position: absolute;
+	visibility: hidden;
+	transition: all 2.5s ease;
+}
+
+#circle2:hover {
+	background-color: rgba(255, 0, 0, 0.3);
+}
+
+#circle3 {
+	border: 2px solid green;
+	bottom: 15%;
+	left: 20%;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+#circle3:hover {
+	background-color: rgba(0, 255, 0, 0.3);
+}
+
+#circle4 {
+	border: 3px solid black;
+	top: 50%;
+	left: 2%;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+#circle4:hover {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+#circle5 {
+	border: 3px solid yellow;
+	bottom: 25%;
+	right: 2%;
+	background-color: rgba(245, 9, 9, 0.3);
+	transition: all 1.5s ease;
+}
+
+#circle6 {
+	border: 3px solid red;
+	top: 62%;
+	left: 40%;
+	background-color: rgba(245, 9, 9, 0.3);
+	visibility: hidden;
+}
+
+#circle7 {
+	border: 3px solid blueviolet;
+	top: 72%;
+	left: 2%;
+	background-color: rgba(245, 9, 9, 0.3);
+	visibility: hidden;
+	transition: all 2.5s ease;
+}
+
+#circle8 {
+	border: 3px solid blueviolet;
+	top: 66%;
+	left: 2%;
+	background-color: rgba(245, 9, 9, 0.3);
+	visibility: hidden;
+}
+#circle9 {
+	border: 3px solid blueviolet;
+	top: 61.5%;
+	right: 2%;
+	background-color: rgba(245, 9, 9, 0.3);
+	visibility: hidden;
+}
+
+#circle10 {
+	border: 3px solid blueviolet;
+	top: 55%;
+	left: 50%;
+	background-color: rgba(245, 9, 9, 0.3);
+	visibility: hidden;
+}
+
+#build1 {
+	border: 3px solid black;
+	top: 35%;
+	left: 2%;
+	background-color: rgba(245, 9, 9, 0.3);
+	position: absolute;
+	visibility: hidden;
+}
+
+/* ZOOM-IN / ZOOM OUT */
+.catz1zoom {
+	top: -30%;
+	left: -220px;
+}
+
+.catz2zoom {
+	top: 35%;
+	left: -275px;
+}
+
+.stand1zoom {
+	top: 10px;
+	left: 70%;
+}
+.walk1zoom {
+	top: 10%;
+	left: 12%;
+}
+.start {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* BUTTON FADE EFFECT */
+.visible {
+	opacity: 1;
+	transition: opacity 1.5s ease-in;
+}
+
+.hidden {
+	opacity: 0;
+	transition: all 1.5s linear;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+		/>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@900&family=JetBrains+Mono:ital@0;1&family=Sora:wght@800&family=Source+Code+Pro&family=Syne:wght@500;600;800&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- 
+		font-family: 'Hahmlet', serif;
+		font-family: 'JetBrains Mono', monospace;
+		font-family: 'Sora', sans-serif;
+		font-family: 'Source Code Pro', monospace;
+		font-family: 'Syne', sans-serif;
+		-->
+
+		<link href="styles.css" rel="stylesheet" />
+		<script src="script.js" defer></script>
+		<script
+			src="https://kit.fontawesome.com/daafecce72.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<h1>
+			office cats
+			<i class="fas fa-cat"></i>
+		</h1>
+		<p id="instruction">
+			CONTROLS:
+			<br />
+			<br />
+			click circles to navigate
+			<br />
+			<br />
+			g for grayscale
+			<br />
+			h for hue rotate
+			<br />
+			s for sepia
+			<br />
+			i for invert
+			<i class="fas fa-ghost"></i>
+			<br />
+			n to return to 'normal'
+			<br />
+			esc to zoom out
+		</p>
+		<p id="stats">
+			INFO
+			<i class="fas fa-level-down-alt"></i>
+			<br />
+			<br />
+			image:
+			<span>trucks.jpg</span>
+			<br />
+			story:
+			<span></span>
+			<br />
+			<br />
+			Cat:
+			<i class="fas fa-level-down-alt"></i>
+			<br />
+			<br />
+			none to be seen --> go find one!
+			<br />
+			Name:
+			<span>"El Gaucho"</span>
+			<br />
+			Color:
+			<span>black</span>
+			<br />
+			Personality:
+			<span></span>
+			<br />
+			Activity:
+			<span></span>
+		</p>
+		<div id="container">
+			<!-- catz.jpg (cats with food) -->
+			<div id="circle1" class="btn hidden">c1</div>
+			<div id="circle2" class="btn hidden">c2</div>
+			<!-- truckz.jpg (main page) -->
+			<div id="circle3" class="btn visible">c3</div>
+			<div id="circle4" class="btn visible">c4</div>
+			<div id="circle5" class="btn visible">c5</div>
+			<!-- build.jpg (building) -->
+			<div id="build1" class="btn hidden">b1</div>
+			<!-- stand.jpg (standing cat) -->
+			<div id="circle6" class="btn hidden">c6</div>
+			<div id="circle7" class="btn hidden">c7</div>
+			<!-- walk.jpg (walking cat) -->
+			<div id="circle8" class="btn hidden">c8</div>
+			<div id="circle9" class="btn hidden">c9</div>
+			<div id="circle10" class="btn hidden">c10</div>
+			<img src="images/truckz.jpg" alt="warehouse_yard" />
+		</div>
+
+		<footer>
+			<a
+				href="https://validator.w3.org/check?uri=https://masqualerro.github.io/des157a/ep"
+			>
+				Valid HTML
+			</a>
+			<a href="https://jigsaw.w3.org/css-validator/check/referer">
+				Valid CSS
+			</a>
+			<a
+				href="mailto:&#115;&#101;&#100;&#105;&#108;&#108;&#111;&#109;&#105;&#103;&#117;&#101;&#108;&#046;&#100;&#101;&#115;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"
+			>
+				Email Me
+			</a>
+		</footer>
+	</body>
+</html>
