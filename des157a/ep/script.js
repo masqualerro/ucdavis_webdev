@@ -260,7 +260,8 @@
 	document.addEventListener("keydown", function (e) {
 		if (
 			e.key === "Escape" &&
-			catImg.src == "http://127.0.0.1:5500/images/catz.jpg"
+			catImg.src ==
+				" https://masqualerro.github.io/des157a/ep/images/catz.jpg"
 		) {
 			catImg.className = "start";
 			catImg.style.width = "100%";
@@ -275,7 +276,8 @@
 			console.log("zoom out");
 		} else if (
 			e.key === "Escape" &&
-			catImg.src == "http://127.0.0.1:5500/images/stand.jpg"
+			catImg.src ==
+				"https://masqualerro.github.io/des157a/ep/images/stand.jpg"
 		) {
 			catImg.className = "start";
 			catImg.style.height = "100%";
@@ -284,7 +286,8 @@
 			console.log("zoom out");
 		} else if (
 			e.key === "Escape" &&
-			catImg.src == "http://127.0.0.1:5500/images/walk.jpg"
+			catImg.src ==
+				"https://masqualerro.github.io/des157a/ep/images/walk.jpg"
 		) {
 			catImg.className = "start";
 			catImg.style.height = "100%";
