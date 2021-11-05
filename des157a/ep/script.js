@@ -261,7 +261,7 @@
 		if (
 			e.key === "Escape" &&
 			catImg.src ==
-				" https://masqualerro.github.io/des157a/ep/images/catz.jpg"
+				"https://masqualerro.github.io/des157a/ep/images/catz.jpg"
 		) {
 			catImg.className = "start";
 			catImg.style.width = "100%";
