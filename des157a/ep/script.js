@@ -283,6 +283,8 @@
 			catImg.style.height = "100%";
 			stand1.style.visibility = "visible";
 			stand1.className = "btn visible";
+			stand2.style.top = "72%";
+			stand2.className = "btn visible";
 			console.log("zoom out");
 		} else if (
 			e.key === "Escape" &&
