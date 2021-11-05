@@ -78,6 +78,7 @@
 		catImg.style.width = "auto";
 		catImg.style.height = "2000px";
 		stand1.style.visibility = "hidden";
+		stand1.className = "hidden";
 		stand2.style.top = "66%";
 		stand2.style.left = "2%";
 	});
