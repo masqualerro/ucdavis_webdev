@@ -17,6 +17,22 @@
 	// 		n to return to remove filters
 	// 		esc to zoom out (while zoomed)
 
+	//cat statistics
+	// srcName;
+	// catName;
+	// story;
+	// catColor;
+	// catPer;
+	// catAct;
+	const srcName = document.getElementById("srcname");
+	const catName = document.getElementById("catname");
+	const story = document.getElementById("story");
+	const catColor = document.getElementById("catcolor");
+	const catPer = document.getElementById("catper");
+	const catAct = document.getElementById("catact");
+	const catYN = document.getElementById("catyn");
+	const catStats = document.getElementById("catstats");
+
 	//"catz.jpg" buttons
 	const catz1 = document.getElementById("circle1");
 	const catz2 = document.getElementById("circle2");
@@ -55,6 +71,15 @@
 		catz2.className = "btn visible";
 		c3.className = "btn hidden";
 		c5.className = "btn hidden";
+
+		catStats.style.visibility = "visible";
+
+		catName.innerHTML = "Bubba";
+		// story;
+		catColor.innerHTML = "Gray (Tabby)";
+		catPer.innerHTML = "aloof";
+		catAct.innerHTML = "vibing";
+		catStats.style.visibility = "visible";
 	});
 
 	catz2.addEventListener("click", function () {
@@ -70,6 +95,13 @@
 		catz2.className = "btn hidden";
 		c3.className = "btn hidden";
 		c5.className = "btn hidden";
+
+		catName.innerHTML = "'El Gaucho'";
+		// story;
+		catColor.innerHTML = "Black";
+		catPer.innerHTML = "feisty";
+		catAct.innerHTML = "eatin";
+		catStats.style.visibility = "visible";
 	});
 
 	//stand.jpg buttons
@@ -81,6 +113,13 @@
 		stand1.className = "hidden";
 		stand2.style.top = "66%";
 		stand2.style.left = "2%";
+
+		catName.innerHTML = "Mackerel";
+		// story;
+		catColor.innerHTML = "Brown (striped)";
+		catPer.innerHTML = "mysterious";
+		catAct.innerHTML = "contemplating";
+		catStats.style.visibility = "visible";
 	});
 
 	stand2.addEventListener("click", function () {
@@ -91,6 +130,9 @@
 		div.style.width = "439px";
 		catImg.className = "start";
 		catImg.style.height = "100%";
+
+		srcName.innerHTML = "walk.jpg";
+
 		stand1.style.visibility = "hidden";
 		stand2.style.visibility = "hidden";
 		walk1.style.visibility = "visible";
@@ -111,6 +153,10 @@
 		catImg.style.height = "100%";
 		catImg.style.width = "962px";
 		div.style.width = "962px";
+
+		srcName.innerHTML = "catz.jpg";
+		catYN.innerHTML = "You found TWO !!!";
+
 		catz1.style.visibility = "visible";
 		catz2.style.visibility = "visible";
 		c3.style.visibility = "hidden";
@@ -139,6 +185,10 @@
 		catImg.style.height = "100%";
 		catImg.style.width = "auto";
 		div.style.width = "439px";
+
+		srcName.innerHTML = "stand.jpg";
+		catYN.innerHTML = "O N E (1) !!!";
+
 		walk1.style.visibility = "hidden";
 		walk2.style.visibility = "hidden";
 		walk3.style.visibility = "hidden";
@@ -167,6 +217,15 @@
 		walk1.className = "btn hidden";
 		walk2.className = "btn hidden";
 		walk3.className = "btn hidden";
+
+		catYN.innerHTML = "O N E (1) !!!";
+		catName.innerHTML = "Mackerel";
+		// story;
+		catColor.innerHTML = "Brown (striped)";
+		catPer.innerHTML = "mysterious";
+		catAct.innerHTML = "walking";
+
+		catStats.style.visibility = "visible";
 	});
 
 	// truckz.jpg images --> STARTING PAGE
@@ -176,6 +235,10 @@
 		catImg.style.height = "100%";
 		catImg.style.width = "962px";
 		div.style.width = "962px";
+
+		srcName.innerHTML = "catz.jpg";
+		catYN.innerHTML = "T W O (222222)!!!";
+
 		catz1.style.visibility = "visible";
 		catz2.style.visibility = "visible";
 		c3.style.visibility = "hidden";
@@ -193,6 +256,10 @@
 		catImg.style.height = "100%";
 		catImg.style.width = "auto";
 		div.style.width = "439px";
+
+		srcName.innerHTML = "build.jpg";
+		catYN.innerHTML = "none to be seen --> go find one!";
+
 		catz1.style.visibility = "hidden";
 		catz2.style.visibility = "hidden";
 		c3.style.visibility = "hidden";
@@ -215,6 +282,9 @@
 		catImg.style.width = "auto";
 		catImg.className = "start";
 		div.style.width = "439px";
+
+		srcName.innerHTML = "stand.jpg";
+
 		catz1.style.visibility = "hidden";
 		catz2.style.visibility = "hidden";
 		c3.style.visibility = "hidden";
@@ -242,6 +312,10 @@
 		catImg.style.height = "100%";
 		catImg.style.width = "auto";
 		div.style.width = "439px";
+
+		srcName.innerHTML = "truckz.jpg";
+		catYN.innerHTML = "none to be seen --> go find one!";
+
 		catz1.style.visibility = "hidden";
 		catz2.style.visibility = "hidden";
 		c3.style.visibility = "visible";
@@ -275,6 +349,8 @@
 			c5.className = "btn visible";
 			catz2.style.top = "48%";
 			console.log("zoom out");
+
+			catStats.style.visibility = "hidden";
 		} else if (
 			e.key === "Escape" &&
 			catImg.src ==
@@ -287,6 +363,7 @@
 			stand2.style.top = "72%";
 			stand2.className = "btn visible";
 			console.log("zoom out");
+			catStats.style.visibility = "hidden";
 		} else if (
 			e.key === "Escape" &&
 			catImg.src ==
@@ -302,10 +379,12 @@
 			walk2.className = "btn visible";
 			walk3.className = "btn visible";
 			console.log("zoom out");
+			catStats.style.visibility = "hidden";
 		} else if (e.key === "Escape") {
 			catImg.className = "start";
 			catImg.style.height = "100%";
 			console.log("zoom out");
+			catStats.style.visibility = "hidden";
 		}
 	});
 
