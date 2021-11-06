@@ -18,12 +18,6 @@
 	// 		esc to zoom out (while zoomed)
 
 	//cat statistics
-	// srcName;
-	// catName;
-	// story;
-	// catColor;
-	// catPer;
-	// catAct;
 	const srcName = document.getElementById("srcname");
 	const catName = document.getElementById("catname");
 	const story = document.getElementById("story");
@@ -32,6 +26,11 @@
 	const catAct = document.getElementById("catact");
 	const catYN = document.getElementById("catyn");
 	const catStats = document.getElementById("catstats");
+	//filters
+	const grayScale = document.getElementById("grayscale");
+	const sepia = document.getElementById("sepia");
+	const hueRotate = document.getElementById("huerotate");
+	const invert = document.getElementById("invert");
 
 	//"catz.jpg" buttons
 	const catz1 = document.getElementById("circle1");
@@ -155,7 +154,7 @@
 		div.style.width = "962px";
 
 		srcName.innerHTML = "catz.jpg";
-		catYN.innerHTML = "You found TWO !!!";
+		catYN.innerHTML = "You found TWO !!!<br>Click on one for more info<br>";
 
 		catz1.style.visibility = "visible";
 		catz2.style.visibility = "visible";
@@ -218,7 +217,7 @@
 		walk2.className = "btn hidden";
 		walk3.className = "btn hidden";
 
-		catYN.innerHTML = "O N E (1) !!!";
+		catYN.innerHTML = "You found one!<br>Click on them for more info";
 		catName.innerHTML = "Mackerel";
 		// story;
 		catColor.innerHTML = "Brown (striped)";
@@ -237,7 +236,7 @@
 		div.style.width = "962px";
 
 		srcName.innerHTML = "catz.jpg";
-		catYN.innerHTML = "T W O (222222)!!!";
+		catYN.innerHTML = "You found TWO !!!<br>Click on one for more info<br>";
 
 		catz1.style.visibility = "visible";
 		catz2.style.visibility = "visible";
@@ -284,6 +283,7 @@
 		div.style.width = "439px";
 
 		srcName.innerHTML = "stand.jpg";
+		catYN.innerHTML = "You found one!";
 
 		catz1.style.visibility = "hidden";
 		catz2.style.visibility = "hidden";
@@ -391,6 +391,14 @@
 	document.addEventListener("keydown", function (e) {
 		if (e.key === "g" || e.key === "G") {
 			catImg.style.filter = "grayscale(100%)";
+			grayScale.style.fontWeight = "700";
+			grayScale.style.fontStyle = "italic";
+			sepia.style.fontWeight = "400";
+			sepia.style.fontStyle = "normal";
+			hueRotate.style.fontWeight = "400";
+			hueRotate.style.fontStyle = "normal";
+			invert.style.fontWeight = "400";
+			invert.style.fontStyle = "normal";
 			console.log("filter: grayscale");
 		}
 	});
@@ -398,6 +406,14 @@
 	document.addEventListener("keydown", function (e) {
 		if (e.key === "h" || e.key === "H") {
 			catImg.style.filter = "hue-rotate(200deg)";
+			hueRotate.style.fontWeight = "700";
+			hueRotate.style.fontStyle = "italic";
+			sepia.style.fontWeight = "400";
+			sepia.style.fontStyle = "normal";
+			invert.style.fontWeight = "400";
+			invert.style.fontStyle = "normal";
+			grayScale.style.fontWeight = "400";
+			grayScale.style.fontStyle = "normal";
 			console.log("filter: hue-rotate");
 		}
 	});
@@ -405,6 +421,14 @@
 	document.addEventListener("keydown", function (e) {
 		if (e.key === "s" || e.key === "S") {
 			catImg.style.filter = "sepia(100%)";
+			sepia.style.fontWeight = "700";
+			sepia.style.fontStyle = "italic";
+			invert.style.fontWeight = "400";
+			invert.style.fontStyle = "normal";
+			hueRotate.style.fontWeight = "400";
+			hueRotate.style.fontStyle = "normal";
+			grayScale.style.fontWeight = "400";
+			grayScale.style.fontStyle = "normal";
 			console.log("filter: sepia");
 		}
 	});
@@ -412,6 +436,15 @@
 	document.addEventListener("keydown", function (e) {
 		if (e.key === "i" || e.key === "I") {
 			catImg.style.filter = "invert(100%)";
+			invert.style.fontWeight = "700";
+			invert.style.fontStyle = "italic";
+			sepia.style.fontWeight = "400";
+			sepia.style.fontStyle = "normal";
+			hueRotate.style.fontWeight = "400";
+			hueRotate.style.fontStyle = "normal";
+			grayScale.style.fontWeight = "400";
+			grayScale.style.fontStyle = "normal";
+
 			console.log("filter: invert");
 		}
 	});
@@ -419,6 +452,15 @@
 	document.addEventListener("keydown", function (e) {
 		if (e.key === "n" || e.key === "N") {
 			catImg.style.filter = "none";
+			invert.style.fontWeight = "400";
+			invert.style.fontStyle = "normal";
+			sepia.style.fontWeight = "400";
+			sepia.style.fontStyle = "normal";
+			hueRotate.style.fontWeight = "400";
+			hueRotate.style.fontStyle = "normal";
+			grayScale.style.fontWeight = "400";
+			grayScale.style.fontStyle = "normal";
+
 			console.log("filter: none");
 		}
 	});
