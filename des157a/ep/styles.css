@@ -223,7 +223,7 @@ h1 {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 950px) {
+/* @media screen and (max-width: 950px) {
 	#container {
 		border: 2px solid red;
 		margin-left: 50vh;
@@ -232,4 +232,4 @@ h1 {
 		margin-right: 10vh;
 		text-align: right;
 	}
-}
+} */

@@ -90,6 +90,10 @@ input[type="color"] {
 	vertical-align: middle;
 }
 
+input[type="color"]:hover {
+	cursor: pointer;
+}
+
 legend {
 	margin-left: -15px;
 }
