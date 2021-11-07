@@ -168,6 +168,13 @@ h1 {
 	transition: all 2.5s ease;
 }
 
+#circle11 {
+	top: 15%;
+	left: 5%;
+	visibility: hidden;
+	transition: all 2.5s ease;
+}
+
 #build1 {
 	top: 35%;
 	left: 2%;

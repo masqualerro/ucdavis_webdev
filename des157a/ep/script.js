@@ -35,6 +35,7 @@
 	//"catz.jpg" buttons
 	const catz1 = document.getElementById("circle1");
 	const catz2 = document.getElementById("circle2");
+	const catz3 = document.getElementById("circle11");
 	//"truckz.jpg" buttons (homepage)
 	const c3 = document.getElementById("circle3");
 	const c4 = document.getElementById("circle4");
@@ -62,12 +63,14 @@
 		catImg.style.height = "auto";
 		catz1.style.visibility = "hidden";
 		catz2.style.visibility = "visible";
+		catz3.style.visibility = "hidden";
 		c3.style.visibility = "hidden";
 		c5.style.visibility = "hidden";
 		catz2.style.top = "10%";
 
 		catz1.className = "btn hidden";
 		catz2.className = "btn visible";
+		catz3.className = "btn hidden";
 		c3.className = "btn hidden";
 		c5.className = "btn hidden";
 
@@ -87,11 +90,13 @@
 		catImg.style.height = "auto";
 		catz1.style.visibility = "visible";
 		catz2.style.visibility = "hidden";
+		catz3.style.visibility = "hidden";
 		c3.style.visibility = "hidden";
 		c5.style.visibility = "hidden";
 
 		catz1.className = "btn visible";
 		catz2.className = "btn hidden";
+		catz3.className = "btn hidden";
 		c3.className = "btn hidden";
 		c5.className = "btn hidden";
 
@@ -101,6 +106,33 @@
 		catPer.innerHTML = "feisty";
 		catAct.innerHTML = "eatin";
 		catStats.style.visibility = "visible";
+	});
+
+	catz3.addEventListener("click", function () {
+		catImg.src = "images/truckz.jpg";
+		console.log(`image changed: ${catImg.src}`);
+		catImg.style.height = "100%";
+		catImg.style.width = "auto";
+		div.style.width = "439px";
+
+		srcName.innerHTML = "truckz.jpg";
+		catYN.innerHTML = "none to be seen --> go find one!";
+
+		catz1.style.visibility = "hidden";
+		catz2.style.visibility = "hidden";
+		catz3.style.visibility = "hidden";
+		c3.style.visibility = "visible";
+		c4.style.visibility = "visible";
+		c5.style.visibility = "visible";
+		b1.style.visibility = "hidden";
+
+		catz1.className = "btn hidden";
+		catz2.className = "btn hidden";
+		catz3.className = "btn hidden";
+		c3.className = "btn visible";
+		c4.className = "btn visible";
+		c5.className = "btn visible";
+		b1.className = "btn hidden";
 	});
 
 	//stand.jpg buttons
@@ -159,6 +191,7 @@
 
 		catz1.style.visibility = "visible";
 		catz2.style.visibility = "visible";
+		catz3.style.visibility = "visible";
 		c3.style.visibility = "hidden";
 		c4.style.visibility = "hidden";
 		c5.style.visibility = "visible";
@@ -170,6 +203,7 @@
 
 		catz1.className = "btn visible";
 		catz2.className = "btn visible";
+		catz3.className = "btn visible";
 		c3.className = "btn hidden";
 		c4.className = "btn hidden";
 		c5.className = "btn visible";
@@ -241,11 +275,13 @@
 
 		catz1.style.visibility = "visible";
 		catz2.style.visibility = "visible";
+		catz3.style.visibility = "visible";
 		c3.style.visibility = "hidden";
 		c4.style.visibility = "hidden";
 
 		catz1.className = "btn visible";
 		catz2.className = "btn visible";
+		catz3.className = "btn visible";
 		c3.className = "btn hidden";
 		c4.className = "btn hidden";
 	});
@@ -343,10 +379,12 @@
 			catImg.style.width = "100%";
 			catz1.style.visibility = "visible";
 			catz2.style.visibility = "visible";
+			catz3.style.visibility = "visible";
 			c5.style.visibility = "visible";
 
 			catz1.className = "btn visible";
 			catz2.className = "btn visible";
+			catz3.className = "btn visible";
 			c5.className = "btn visible";
 			catz2.style.top = "48%";
 			console.log("zoom out");
