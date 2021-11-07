@@ -324,6 +324,7 @@
 
 		catz1.style.visibility = "hidden";
 		catz2.style.visibility = "hidden";
+		catz3.style.visibility = "hidden";
 		c3.style.visibility = "hidden";
 		c4.style.visibility = "hidden";
 		c5.style.visibility = "hidden";
@@ -335,6 +336,7 @@
 
 		catz1.className = "btn hidden";
 		catz2.className = "btn hidden";
+		catz3.className = "btn hidden";
 		c3.className = "btn hidden";
 		c4.className = "btn hidden";
 		c5.className = "btn hidden";
