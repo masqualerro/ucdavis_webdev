@@ -131,6 +131,7 @@
 		catImg.style.height = "100%";
 
 		srcName.innerHTML = "walk.jpg";
+		catStats.style.visibility = "hidden";
 
 		stand1.style.visibility = "hidden";
 		stand2.style.visibility = "hidden";
@@ -186,7 +187,7 @@
 		div.style.width = "439px";
 
 		srcName.innerHTML = "stand.jpg";
-		catYN.innerHTML = "O N E (1) !!!";
+		catYN.innerHTML = "You found one!<br> Click on them for more info";
 
 		walk1.style.visibility = "hidden";
 		walk2.style.visibility = "hidden";
@@ -283,7 +284,7 @@
 		div.style.width = "439px";
 
 		srcName.innerHTML = "stand.jpg";
-		catYN.innerHTML = "You found one!";
+		catYN.innerHTML = "You found one!<br>Click on them for more info";
 
 		catz1.style.visibility = "hidden";
 		catz2.style.visibility = "hidden";
