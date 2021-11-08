@@ -77,7 +77,6 @@
 		catStats.style.visibility = "visible";
 
 		catName.innerHTML = "Bubba";
-		// story;
 		catColor.innerHTML = "Gray (Tabby)";
 		catPer.innerHTML = "aloof";
 		catAct.innerHTML = "vibing";
@@ -101,7 +100,6 @@
 		c5.className = "btn hidden";
 
 		catName.innerHTML = "'El Gaucho'";
-		// story;
 		catColor.innerHTML = "Black";
 		catPer.innerHTML = "feisty";
 		catAct.innerHTML = "eatin";
@@ -146,7 +144,6 @@
 		stand2.style.left = "2%";
 
 		catName.innerHTML = "Mackerel";
-		// story;
 		catColor.innerHTML = "Brown (striped)";
 		catPer.innerHTML = "mysterious";
 		catAct.innerHTML = "contemplating";
@@ -228,7 +225,6 @@
 		walk3.style.visibility = "hidden";
 		stand1.style.visibility = "visible";
 		stand2.style.visibility = "visible";
-		// b1.style.visibility = "visible";
 		stand2.style.top = "72%";
 		stand2.style.left = "2%";
 
@@ -254,7 +250,6 @@
 
 		catYN.innerHTML = "You found one!<br>Click on them for more info<br>";
 		catName.innerHTML = "Mackerel";
-		// story;
 		catColor.innerHTML = "Brown (striped)";
 		catPer.innerHTML = "mysterious";
 		catAct.innerHTML = "walking";
@@ -330,7 +325,6 @@
 		c5.style.visibility = "hidden";
 		stand1.style.visibility = "visible";
 		stand2.style.visibility = "visible";
-		// b1.style.visibility = "visible";
 		stand2.style.top = "72%";
 		stand2.style.left = "2%";
 
