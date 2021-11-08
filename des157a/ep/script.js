@@ -221,7 +221,7 @@
 		div.style.width = "439px";
 
 		srcName.innerHTML = "stand.jpg";
-		catYN.innerHTML = "You found one!<br> Click on them for more info";
+		catYN.innerHTML = "You found one!<br> Click on them for more info<br>";
 
 		walk1.style.visibility = "hidden";
 		walk2.style.visibility = "hidden";
@@ -252,7 +252,7 @@
 		walk2.className = "btn hidden";
 		walk3.className = "btn hidden";
 
-		catYN.innerHTML = "You found one!<br>Click on them for more info";
+		catYN.innerHTML = "You found one!<br>Click on them for more info<br>";
 		catName.innerHTML = "Mackerel";
 		// story;
 		catColor.innerHTML = "Brown (striped)";
@@ -320,7 +320,7 @@
 		div.style.width = "439px";
 
 		srcName.innerHTML = "stand.jpg";
-		catYN.innerHTML = "You found one!<br>Click on them for more info";
+		catYN.innerHTML = "You found one!<br>Click on them for more info<br>";
 
 		catz1.style.visibility = "hidden";
 		catz2.style.visibility = "hidden";
