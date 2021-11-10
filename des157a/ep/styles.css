@@ -3,6 +3,10 @@ body {
 	background-color: #8c736c;
 }
 
+.preload {
+	display: none;
+}
+
 #container {
 	width: 439px;
 	height: 650px;
@@ -18,7 +22,7 @@ body {
 	visibility: hidden;
 }
 
-img {
+#catimage {
 	width: 100%;
 	position: absolute;
 	left: 50%;

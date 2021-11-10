@@ -51,7 +51,7 @@
 	const walk3 = document.getElementById("circle10");
 
 	//images, div containers text elements
-	const catImg = document.querySelector("img");
+	const catImg = document.getElementById("catimage");
 	const inst = document.getElementById("instruction");
 	const div = document.getElementById("container");
 	let imgWidth = catImg.width;
