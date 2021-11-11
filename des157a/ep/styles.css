@@ -3,10 +3,6 @@ body {
 	background-color: #8c736c;
 }
 
-.preload {
-	display: none;
-}
-
 #container {
 	width: 439px;
 	height: 650px;
@@ -22,7 +18,7 @@ body {
 	visibility: hidden;
 }
 
-#catimage {
+img {
 	width: 100%;
 	position: absolute;
 	left: 50%;
@@ -219,4 +215,8 @@ h1 {
 .hidden {
 	opacity: 0;
 	transition: all 1.5s linear;
+}
+
+.preload {
+	display: none;
 }
