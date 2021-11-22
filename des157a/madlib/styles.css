@@ -9,20 +9,17 @@ form {
 	margin-left: 0px;
 	padding-left: 15px;
 }
-
 article {
 	margin-top: auto;
 }
-
 h1 {
 	color: #315937;
-	font-family: "Syne", sans-serif;
+	font-family: 'Syne', sans-serif;
 	font-weight: 800;
 	padding-left: 0px;
 }
-
 p {
-	font-family: "Syne", sans-serif;
+	font-family: 'Syne', sans-serif;
 	font-size: 16px;
 	color: #315937;
 	width: 450px;
@@ -31,50 +28,43 @@ p {
 	margin-top: auto;
 	line-height: 24px;
 }
-
 b {
 	color: red;
 }
-
 label,
 legend {
 	color: #315937;
-	font-family: "Syne", sans-serif;
+	font-family: 'Syne', sans-serif;
 	font-size: 16px;
 	display: block;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
-
-input[type="text"] {
+input[type='text'] {
 	background: transparent;
 	border: none;
 	border-bottom: 1px solid #315937;
 	outline: none;
 }
-
 input,
 select {
-	font-family: "Syne", sans-serif;
+	font-family: 'Syne', sans-serif;
 	color: #6da671;
 	font-size: 20px;
 	font-weight: 100;
 }
-
 select {
 	background-color: transparent;
 	border: 1px solid #315937;
 	outline: none;
 }
-
-input[type="submit"] {
+input[type='submit'] {
 	color: #315937;
 	background-color: #6da671;
 	font-weight: 900;
 	margin-top: 15px;
 	font-size: 16px;
 }
-
 fieldset {
 	display: flex;
 	align-items: center;
@@ -84,13 +74,13 @@ fieldset label {
 	padding-right: 15px;
 }
 
-input[type="color"] {
+input[type='color'] {
 	border: none;
 	background-color: transparent;
 	vertical-align: middle;
 }
 
-input[type="color"]:hover {
+input[type='color']:hover {
 	cursor: pointer;
 }
 
@@ -118,7 +108,7 @@ label > img {
 
 #atitle {
 	text-align: right;
-	font-family: "Syne", sans-serif;
+	font-family: 'Syne', sans-serif;
 	font-weight: 900;
 	padding-right: 10px;
 	margin-bottom: 0px;
@@ -126,7 +116,7 @@ label > img {
 
 #bandname {
 	text-align: right;
-	font-family: "Montserrat", sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
 	padding-right: 10px;
 	margin-top: 0px;
@@ -184,15 +174,13 @@ img {
 		width: 350px;
 	}
 }
-
 ::selection {
 	background: #e395e3;
 }
-
 footer {
 	display: flex;
 	margin-top: 5vh;
-	font-family: "Syne", sans-serif;
+	font-family: 'Syne', sans-serif;
 	font-size: 12px;
 	text-align: center;
 	position: relative;

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Game On!</title>
+
+		<!-- NORMALIZE CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+
+		<!-- GOOGLE FONTS -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;700;800&family=Roboto+Condensed&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- STYLESHEET (script at bottom of body) -->
+		<link rel="stylesheet" href="styles.css" />
+		<script src="https://kit.fontawesome.com/daafecce72.js" crossorigin="anonymous"></script>
+
+		<!-- font-family: 'Eczar', serif; font-family: 'Roboto Condensed', sans-serif; 
+        Eczar: 
+            Regular 400
+            Medium 500
+            Bold 700
+            Extra-bold 800
+        -->
+	</head>
+	<body>
+		<h1 id="title">"pig"</h1>
+
+		<form autocomplete="off">
+			<label for="uName">
+				Enter name:
+				<input type="text" name="uName" id="uName" />
+			</label>
+			<fieldset id="char-select">
+				<legend>Pick your character</legend>
+
+				<label for="smoker">
+					<input type="radio" id="smoker" name="character" value="smoker" />
+					<img src="images/smoker.png" alt="smoker_painting" />
+				</label>
+
+				<label for="thinker">
+					<input type="radio" id="thinker" name="character" value="thinker" />
+					<img src="images/thinker.png" alt="smoker_painting" />
+				</label>
+
+				<label for="guardian">
+					<input type="radio" id="guardian" name="character" value="guardian" />
+					<img src="images/guard.png" alt="smoker_painting" />
+				</label>
+
+				<label for="knight">
+					<input type="radio" id="knight" name="character" value="knight" />
+					<img src="images/knight.png" alt="smoker_painting" />
+				</label>
+
+				<label for="colors">
+					<input type="radio" id="colors" name="character" value="colors" />
+					<img src="images/colores.png" alt="smoker_painting" />
+				</label>
+			</fieldset>
+
+			<input type="submit" name="send" value="Play !" />
+		</form>
+		<main>
+			<section id="gcmaster">
+				<div id="gamecontrol"></div>
+				<div id="gamecontrol2"></div>
+				<div id="score"></div>
+			</section>
+
+			<section id="game">
+				<div id="player1">
+					<h1 id="p1name"></h1>
+					<h2 id="p1score">
+						Score:
+						<span id="score1">0</span>
+					</h2>
+					<img src="images/guard.png" alt="guardian" class="playeravi" id="p1avi" />
+				</div>
+				<section id="gamecenter">
+					<div id="p1dice">
+						<i class="fas fa-dice-one" id="p1roll1"></i>
+						<i class="fas fa-dice-two" id="p1roll2"></i>
+					</div>
+					<div id="actions">
+						<button type="button" id="roll">Roll!</button>
+						<button type="button" id="pass">Pass</button>
+						<button type="button" id="quit">Quit</button>
+					</div>
+				</section>
+				<div id="player2">
+					<h1 id="p2name">p2</h1>
+					<h2 id="p2score">
+						Score:
+						<span id="score2">0</span>
+					</h2>
+					<img src="images/knight.png" alt="knight" class="playeravi" id="p2avi" />
+				</div>
+			</section>
+		</main>
+		<footer>
+			<a href="https://validator.w3.org/check?uri=https://masqualerro.github.io/des157a/game-on/">Valid HTML</a>
+			<a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+			<a
+				href="mailto:&#115;&#101;&#100;&#105;&#108;&#108;&#111;&#109;&#105;&#103;&#117;&#101;&#108;&#046;&#100;&#101;&#115;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"
+			>
+				Email Me
+			</a>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>

@@ -1,0 +1,218 @@
+body {
+	background-color: hsl(0, 11%, 83%);
+	margin: 20px;
+	position: relative;
+}
+
+#game {
+	justify-content: space-around;
+	display: none;
+	padding-top: 50px;
+}
+
+h1,
+h2,
+h3,
+form,
+input,
+p,
+span,
+button {
+	color: hsl(0, 11%, 50%);
+	font-family: 'Eczar', serif;
+}
+
+form {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* border: 1px solid blue; */
+	font-weight: 500;
+	font-size: 25px;
+	margin-top: 30px;
+}
+#char-select {
+	margin: 35px;
+	border: none;
+	background-color: hsl(0, 16%, 78%);
+	box-shadow: 0px 8px 20px rgba(142, 113, 113, 0.4);
+	border-radius: 25px;
+}
+#title {
+	/* display: inline-block; */
+	text-align: center;
+	font-size: 100px;
+	font-weight: 800;
+	padding: 0;
+	margin: 0;
+	/* border: 1px solid red; */
+	/* text-align: center; */
+}
+#title:hover {
+	cursor: pointer;
+}
+
+#gamecenter {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/* border: 1px solid blue; */
+}
+#actions {
+	display: flex;
+	flex-direction: column;
+	/* border: 1px solid red; */
+	align-items: center;
+}
+#p1dice {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	/* border: 1px solid red; */
+	padding-bottom: 50px;
+	width: 100px;
+}
+
+i {
+	font-size: 50px;
+	color: hsl(0, 11%, 50%);
+}
+h1 {
+	font-weight: 700;
+	font-size: 50px;
+}
+
+h2 {
+	font-weight: 400;
+}
+
+form img {
+	max-height: 10em;
+	vertical-align: middle;
+}
+
+fieldset {
+	display: flex;
+}
+
+input[type='text'] {
+	background: transparent;
+	border: none;
+	color: hsl(0, 11%, 50%);
+	outline: none;
+	border-bottom: 1px solid hsl(0, 11%, 50%);
+}
+
+input[type='submit'] {
+	background: transparent;
+	border: none;
+	font-weight: 700;
+	font-size: 30px;
+	border: 1px red;
+}
+
+input[type='submit']:hover {
+	color: rgb(115, 87, 118);
+}
+
+fieldset > label:hover,
+input[type='submit']:hover,
+button:hover {
+	cursor: pointer;
+}
+
+#player1,
+#player2 {
+	/* border: 1px solid black; */
+	border-radius: 25px;
+	width: 500px;
+	height: 500px;
+	position: relative;
+	background-color: hsl(0, 16%, 78%);
+	box-shadow: 0px 8px 20px rgba(142, 113, 113, 0.8);
+}
+
+button,
+input[type='submit'] {
+	border: none;
+	border-radius: 45px;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	background-color: hsl(0, 16%, 78%);
+	width: 140px;
+	height: 45px;
+	transition: all 0.25s ease;
+}
+
+button:hover,
+input[type='submit']:hover {
+	background-color: hsl(0, 11%, 50%);
+	box-shadow: 0px 15px 20px rgba(142, 113, 113, 0.4);
+	color: hsl(0, 11%, 83%);
+	transform: translateY(-5px);
+}
+
+.playeravi {
+	max-width: 450px;
+	max-height: 450px;
+	position: absolute;
+	bottom: 0;
+}
+
+#p1name {
+	margin-top: 0;
+	position: absolute;
+	left: 0;
+	top: 10px;
+}
+
+#p2name {
+	margin-top: 0;
+	position: absolute;
+	top: 0;
+	right: 10px;
+}
+
+#p2avi {
+	right: 25px;
+}
+
+#p1score {
+	position: absolute;
+	right: 10px;
+}
+
+#p2score {
+	position: absolute;
+	left: 10px;
+}
+
+#gcmaster {
+	position: absolute;
+	text-align: center;
+	padding-bottom: 150px;
+	left: 50%;
+	top: 150px;
+	transform: translate(-50%, -50%);
+}
+
+span {
+	padding: 15px;
+}
+footer {
+	display: flex;
+	margin-top: 9vh;
+	font-family: 'JetBrains Mono', monospace;
+	font-size: 12px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+footer a {
+	padding: 0px 15px 0px 15px;
+	text-decoration: none;
+}
