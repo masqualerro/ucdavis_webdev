@@ -16,6 +16,10 @@ h3 {
 
 p {
 	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	width: 450px;
+	font-size: 18px;
+	padding-left: 20px;
 }
 
 h1 {
@@ -33,12 +37,18 @@ h3 {
 	font-weight: 400;
 }
 
-p {
-	font-weight: 300;
-	width: 450px;
-	font-size: 18px;
-	padding-left: 20px;
+a {
+	text-decoration: none;
 }
+
+a:hover {
+	color: red;
+}
+
+img {
+	max-height: 250px;
+}
+
 .comp_child {
 	display: flex;
 	flex-direction: row;
@@ -49,17 +59,6 @@ p {
 	align-items: center;
 }
 
-img {
-	max-height: 250px;
-}
-
 .num_section {
 	border-right: 1px solid black;
-}
-
-a {
-	text-decoration: none;
-}
-a:hover {
-	color: red;
 }
