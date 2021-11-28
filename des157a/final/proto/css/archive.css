@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'general_sanslight';
+	src: url('../../fonts/generalsans-light-webfont.woff2') format('woff2'),
+		url('../../fonts/generalsans-light-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* MAIN PAGE STYLING (BODY, DIV, IMG, FOOTER) */
+body {
+	background-color: #d8d3cd;
+}
+h1 {
+	text-align: right;
+	font-family: 'general_sanslight', sans-serif;
+	font-size: 100px;
+	padding: 0;
+	padding-right: 15px;
+	margin: 0;
+	/* display: inline-block; */
+}
