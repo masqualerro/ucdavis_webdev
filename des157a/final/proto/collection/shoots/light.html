@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Lightleak</title>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+
+		<script src="https://kit.fontawesome.com/daafecce72.js" crossorigin="anonymous"></script>
+
+		<link rel="stylesheet" href="../../css/collect.css" />
+		<link rel="stylesheet" href="../../css/fonts.css" />
+		<script src="../../js/collect.js" defer></script>
+		<script src="../../js/filters.js" defer></script>
+	</head>
+	<body>
+		<div id="overlay"></div>
+		<header>
+			<h1>lightleak</h1>
+			<nav>
+				<ul>
+					<li>
+						<a href="../../index.html">home</a>
+					</li>
+					<li>
+						<a href="#">collections</a>
+					</li>
+					<li>
+						<a href="#">archive</a>
+					</li>
+				</ul>
+			</nav>
+			<p id="instruction">
+				<span id="controllabel">controls</span>
+				<br />
+				<i class="fas fa-arrow-right pointer"></i>
+				<br />
+				<span id="grayscale">g for grayscale</span>
+				<br />
+				<span id="huerotate">h for hue rotate</span>
+				<br />
+				<span id="sepia">s for sepia</span>
+				<br />
+				<span id="invert">i for invert</span>
+				<i class="fas fa-ghost"></i>
+				<br />
+				n to return to 'normal'
+			</p>
+		</header>
+
+		<main>
+			<div id="imgslide">
+				<img src="../../images/lightleak/ll_1.jpg" alt="lightleak_photo1" />
+				<img src="../../images/lightleak/ll_2.jpg" alt="lightleak_photo2" />
+				<img src="../../images/lightleak/ll_3.jpg" alt="lightleak_photo3" />
+				<img src="../../images/lightleak/ll_4.jpg" alt="lightleak_photo4" />
+				<img src="../../images/lightleak/ll_5.jpg" alt="lightleak_photo5" />
+				<img src="../../images/lightleak/ll_6.jpg" alt="lightleak_photo6" />
+			</div>
+			<section id="mosaic">
+				<section id="info">
+					<p>
+						<span class="plabel">info</span>
+						<br />
+						<i class="fas fa-arrow-right pointer"></i>
+						<br />
+						<span id="cam">camera:</span>
+						<br />
+						pentax k1000
+						<br />
+						<br />
+						some pretty lightleaks
+					</p>
+				</section>
+				<div id="mosaicimg">
+					<div class="mchild"><img src="../../images/lightleak/ll_1.jpg" alt="lightleak_photo1" /></div>
+					<div class="mchild"><img src="../../images/lightleak/ll_2.jpg" alt="lightleak_photo2" /></div>
+					<div class="mchild"><img src="../../images/lightleak/ll_3.jpg" alt="lightleak_photo3" /></div>
+					<div class="mchild"><img src="../../images/lightleak/ll_4.jpg" alt="lightleak_photo4" /></div>
+					<div class="mchild"><img src="../../images/lightleak/ll_5.jpg" alt="lightleak_photo5" /></div>
+					<div class="mchild"><img src="../../images/lightleak/ll_6.jpg" alt="lightleak_photo6" /></div>
+				</div>
+			</section>
+		</main>
+		<footer class="down">
+			<i class="fas fa-chevron-down" id="downarrow"></i>
+		</footer>
+	</body>
+</html>

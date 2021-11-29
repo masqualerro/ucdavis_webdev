@@ -1,15 +1,24 @@
-@font-face {
-	font-family: 'general_sanslight';
-	src: url('../../fonts/generalsans-light-webfont.woff2') format('woff2'),
-		url('../../fonts/generalsans-light-webfont.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-}
-
 /* MAIN PAGE STYLING (BODY, DIV, IMG, FOOTER) */
 body {
 	background-color: #d8d3cd;
+	overflow-x: hidden;
 }
+main {
+	position: relative;
+	overflow-y: hidden;
+}
+
+#imgslide {
+	display: flex;
+	overflow-x: scroll;
+	opacity: 100%;
+	transition: all 1s ease;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
 h1 {
 	text-align: right;
 	font-family: 'general_sanslight', sans-serif;
@@ -18,4 +27,141 @@ h1 {
 	padding-right: 15px;
 	margin: 0;
 	/* display: inline-block; */
+}
+
+#instruction,
+#info {
+	font-family: 'general_sanslight', sans-serif;
+	font-size: 12px;
+	padding: 0px 15px 0px 15px;
+}
+
+#cam {
+	font-family: 'GeneralSans-LightItalic';
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'general_sanslight';
+	font-size: 20px;
+}
+
+li {
+	padding: 0px 15px 0px 15px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: #f241c3;
+	cursor: pointer;
+}
+
+.pointer {
+	transform: rotate(45deg);
+	font-size: 20px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row-reverse;
+	align-items: center;
+}
+.plabel {
+	font-size: 20px;
+}
+img {
+	height: 620px;
+	padding: 0px 5px 0px 0px;
+	transition: all 0.5s ease;
+}
+
+footer {
+	padding-top: 5px;
+	font-size: 20px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.fa-chevron-down {
+	transition: all 0.25s ease;
+}
+
+.fa-chevron-down:hover {
+	cursor: pointer;
+}
+
+#overlay {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.overw {
+	height: 750px;
+	width: 1110px;
+}
+
+.overh {
+	height: 750px;
+	width: 507px;
+}
+
+#mosaic {
+	position: absolute;
+	transform: translateY(100%);
+	display: flex;
+	transition: all 1s ease;
+	align-items: center;
+	justify-content: space-around;
+	height: 620px;
+	width: 1366px;
+}
+
+/* #mosaic img {
+	padding-bottom: 5px;
+	height: 200px;
+}
+
+#mosaicimg {
+	border: 5px solid green;
+	width: 650px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+} */
+
+#mosaicimg {
+	display: flex;
+	flex-wrap: wrap;
+	width: 650px;
+}
+
+.mchild {
+	height: 25vh;
+	flex-grow: 1;
+}
+
+.mchild:last-child {
+	flex-grow: 10;
+}
+
+.mchild img {
+	max-height: 100%;
+	min-width: 100%;
+	object-fit: cover;
+	vertical-align: bottom;
 }

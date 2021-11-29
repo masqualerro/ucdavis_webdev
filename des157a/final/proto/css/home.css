@@ -83,7 +83,7 @@ img {
 	border-radius: 50%;
 	/* border: 1px solid black; */
 	margin: 10px;
-	transition: all 1s ease-in-out;
+	transition: all 0.5s ease-in-out;
 }
 
 img:hover {
