@@ -79,7 +79,7 @@ header {
 	font-size: 20px;
 }
 img {
-	height: 620px;
+	height: 610px;
 	padding: 0px 5px 0px 0px;
 	transition: all 0.5s ease;
 }
@@ -90,6 +90,25 @@ footer {
 	text-align: center;
 	align-items: center;
 	justify-content: center;
+	overflow: hidden;
+	transition: all 0.25s ease;
+}
+
+footer:hover {
+	color: #f241c3;
+	cursor: pointer;
+}
+
+#up {
+	display: none;
+}
+
+#up:hover {
+	transform: translateY(-3px);
+}
+
+#down:hover {
+	transform: translateY(3px);
 }
 
 .fa-chevron-down {
@@ -100,7 +119,7 @@ footer {
 	cursor: pointer;
 }
 
-#overlay {
+/* #overlay {
 	position: fixed;
 	left: 50%;
 	top: 50%;
@@ -117,7 +136,7 @@ footer {
 .overh {
 	height: 750px;
 	width: 507px;
-}
+} */
 
 #mosaic {
 	position: absolute;
