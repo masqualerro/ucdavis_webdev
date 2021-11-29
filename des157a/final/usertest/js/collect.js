@@ -25,7 +25,7 @@
 
 	scrollContainer.addEventListener('wheel', (evt) => {
 		evt.preventDefault();
-		scrollContainer.scrollLeft += evt.deltaY;
+		scrollContainer.scrollLeft += evt.deltaY + evt.deltaX;
 	});
 
 	document.addEventListener('keydown', function (e) {
