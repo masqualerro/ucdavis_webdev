@@ -1,0 +1,39 @@
+h1 {
+	text-align: right;
+	font-family: 'general_sanslight', sans-serif;
+	font-size: 75px;
+	padding: 0;
+	padding-right: 15px;
+	margin: 0;
+	/* display: inline-block; */
+}
+
+p {
+	font-family: 'general_sanslight', sans-serif;
+	padding: 0px 5px 5px 5px;
+}
+
+body {
+	background-color: #d8d3cd;
+}
+
+main {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+img {
+	height: 350px;
+	border: 1px solid black;
+	display: block;
+	margin: auto;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'general_sanslight', sans-serif;
+}
+section {
+	border: 1px solid black;
+	width: 455.33px;
+}
