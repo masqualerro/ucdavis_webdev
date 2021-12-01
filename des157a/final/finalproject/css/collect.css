@@ -36,6 +36,25 @@ h1 {
 	padding: 0px 15px 0px 15px;
 }
 
+button {
+	font-family: 'general_sanslight', sans-serif;
+	font-size: 13px;
+	border: none;
+	background-color: transparent;
+	outline: none;
+	border: 1px solid black;
+	border-radius: 45px;
+	width: 75px;
+	height: 20px;
+	transition: all 0.25s ease;
+}
+
+button:hover {
+	background-color: #f241c3;
+	color: #d8d3cd;
+	cursor: pointer;
+}
+
 #cam {
 	font-family: 'GeneralSans-LightItalic';
 }
@@ -79,7 +98,7 @@ header {
 	font-size: 20px;
 }
 img {
-	height: 610px;
+	height: 600px;
 	padding: 0px 5px 0px 0px;
 	transition: all 0.5s ease;
 }
@@ -111,33 +130,6 @@ footer:hover {
 	transform: translateY(3px);
 }
 
-.fa-chevron-down {
-	transition: all 0.25s ease;
-}
-
-.fa-chevron-down:hover {
-	cursor: pointer;
-}
-
-/* #overlay {
-	position: fixed;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
-.overw {
-	height: 750px;
-	width: 1110px;
-}
-
-.overh {
-	height: 750px;
-	width: 507px;
-} */
-
 #mosaic {
 	position: absolute;
 	transform: translateY(100%);
@@ -148,20 +140,6 @@ footer:hover {
 	height: 620px;
 	width: 1366px;
 }
-
-/* #mosaic img {
-	padding-bottom: 5px;
-	height: 200px;
-}
-
-#mosaicimg {
-	border: 5px solid green;
-	width: 650px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	align-items: center;
-} */
 
 #mosaicimg {
 	display: flex;

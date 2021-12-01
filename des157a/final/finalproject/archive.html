@@ -11,15 +11,138 @@
 		<script src="https://kit.fontawesome.com/daafecce72.js" crossorigin="anonymous"></script>
 
 		<link rel="stylesheet" href="css/archive.css" />
-		<script src="js/script.js" defer></script>
+		<link rel="stylesheet" href="css/fonts.css" />
+		<script src="js/filters.js" defer></script>
 	</head>
 	<body>
-		<h1>archive</h1>
+		<header>
+			<h1>archive</h1>
+			<nav>
+				<ul>
+					<li>
+						<a href="index.html">home</a>
+					</li>
+					<li>
+						<a href="collection/index.html">collections</a>
+					</li>
+					<li>
+						<a href="game/index.html">game</a>
+					</li>
+				</ul>
+			</nav>
+			<p id="instruction">
+				<span class="plabel">controls</span>
+				<br />
+				<i class="fas fa-arrow-right pointer"></i>
+				<br />
+				- -scroll to browse - -
+				<br />
+				<span id="grayscale">g for grayscale</span>
+				<br />
+				<span id="huerotate">h for hue rotate</span>
+				<br />
+				<span id="sepia">s for sepia</span>
+				<br />
+				<span id="invert">i for invert</span>
+				<i class="fas fa-ghost"></i>
+				<br />
+				n to return to 'normal'
+			</p>
+		</header>
 
-		<main>
-			<div id="vert1" class="vertical"></div>
-			<div id="horizon"></div>
-			<div id="vert1" class="vertical"></div>
+		<main id="mosaic">
+			<div id="mosaicimg">
+				<div class="mchild"><img src="../../images/mendo/mendo_1.jpg" alt="mendocino_photo1" /></div>
+				<div class="mchild"><img src="../../images/mendo/mendo_2.jpg" alt="mendocino_photo2" /></div>
+				<div class="mchild"><img src="../../images/mendo/mendo_3.jpg" alt="mendocino_photo3" /></div>
+				<div class="mchild"><img src="../../images/mendo/mendo_4.jpg" alt="mendocino_photo4" /></div>
+				<div class="mchild"><img src="../../images/mendo/mendo_5.jpg" alt="mendocino_photo5" /></div>
+				<div class="mchild"><img src="../../images/mendo/mendo_6.jpg" alt="mendocino_photo6" /></div>
+				<div class="mchild"><img src="../../images/mendo/mendo_7.jpg" alt="mendocino_photo7" /></div>
+				<div class="mchild"><img src="../../images/mendo/mendo_8.jpg" alt="mendocino_photo8" /></div>
+				<div class="mchild"><img src="../../images/mendo/mendo_9.jpg" alt="mendocino_photo9" /></div>
+				<div class="mchild"><img src="../../images/mendo/mendo_10.jpg" alt="mendocino_photo10" /></div>
+				<div class="mchild"><img src="../../images/mendo/mendo_12.jpg" alt="mendocino_photo11" /></div>
+				<div class="mchild">
+					<img src="../../images/greenhouse/greenhouse_1.jpg" alt="greenhouse_photo1" />
+				</div>
+				<div class="mchild">
+					<img src="../../images/greenhouse/greenhouse_2.jpg" alt="greenhouse_photo2" />
+				</div>
+				<div class="mchild">
+					<img src="../../images/greenhouse/greenhouse_3.jpg" alt="greenhouse_photo3" />
+				</div>
+				<div class="mchild">
+					<img src="../../images/greenhouse/greenhouse_5.jpg" alt="greenhouse_photo5" />
+				</div>
+				<div class="mchild">
+					<img src="../../images/greenhouse/greenhouse_6.jpg" alt="greenhouse_photo6" />
+				</div>
+
+				<div class="mchild">
+					<img src="../../images/greenhouse/greenhouse_7.jpg" alt="greenhouse_photo7" />
+				</div>
+				<div class="mchild">
+					<img src="../../images/greenhouse/greenhouse_8.jpg" alt="greenhouse_photo8" />
+				</div>
+				<div class="mchild">
+					<img src="../../images/greenhouse/greenhouse_4.jpg" alt="greenhouse_photo4" />
+				</div>
+				<div class="mchild">
+					<img src="../../images/warehouse/warehouse_1.jpg" alt="warehouse_photo1" />
+				</div>
+				<div class="mchild">
+					<img src="../../images/warehouse/warehouse_2.jpg" alt="warehouse_photo2" />
+				</div>
+				<div class="mchild">
+					<img src="../../images/warehouse/warehouse_3.jpg" alt="warehouse_photo3" />
+				</div>
+				<div class="mchild">
+					<img src="../../images/warehouse/warehouse_4.jpg" alt="warehouse_photo4" />
+				</div>
+				<div class="mchild">
+					<img src="../../images/warehouse/warehouse_5.jpg" alt="warehouse_photo5" />
+				</div>
+				<div class="mchild">
+					<img src="../../images/warehouse/warehouse_6.jpg" alt="warehouse_photo6" />
+				</div>
+				<div class="mchild">
+					<img src="../../images/warehouse/warehouse_8.jpg" alt="warehouse_photo8" />
+				</div>
+				<div class="mchild">
+					<img src="../../images/warehouse/warehouse_6.jpg" alt="warehouse_photo9" />
+				</div>
+				<div class="mchild">
+					<img src="../../images/warehouse/warehouse_10.jpg" alt="warehouse_photo10" />
+				</div>
+				<div class="mchild">
+					<img src="../../images/warehouse/warehouse_11.jpg" alt="warehouse_photo11" />
+				</div>
+				<div class="mchild">
+					<img src="../../images/warehouse/warehouse_12.jpg" alt="warehouse_photo12" />
+				</div>
+				<div class="mchild">
+					<img src="../../images/warehouse/warehouse_14.jpg" alt="warehouse_photo14" />
+				</div>
+				<div class="mchild">
+					<img src="../../images/warehouse/warehouse_15.jpg" alt="warehouse_photo15" />
+				</div>
+				<div class="mchild"><img src="../../images/lightleak/ll_1.jpg" alt="lightleak_photo1" /></div>
+				<div class="mchild"><img src="../../images/lightleak/ll_2.jpg" alt="lightleak_photo2" /></div>
+				<div class="mchild"><img src="../../images/lightleak/ll_3.jpg" alt="lightleak_photo3" /></div>
+				<div class="mchild"><img src="../../images/lightleak/ll_4.jpg" alt="lightleak_photo4" /></div>
+				<div class="mchild"><img src="../../images/lightleak/ll_5.jpg" alt="lightleak_photo5" /></div>
+				<div class="mchild"><img src="../../images/lightleak/ll_6.jpg" alt="lightleak_photo6" /></div>
+				<div class="mchild"><img src="../../images/family/familia_1.jpg" alt="family_photo1" /></div>
+				<div class="mchild"><img src="../../images/family/familia_2a.jpg" alt="family_photo2" /></div>
+				<div class="mchild"><img src="../../images/family/familia_3.jpg" alt="family_photo3" /></div>
+				<div class="mchild"><img src="../../images/family/familia_4.jpg" alt="family_photo4" /></div>
+
+				<div class="mchild"><img src="../../images/family/familia_6.jpg" alt="family_photo6" /></div>
+				<div class="mchild"><img src="../../images/family/familia_7.jpg" alt="family_photo7" /></div>
+				<div class="mchild"><img src="../../images/family/familia_8.jpg" alt="family_photo8" /></div>
+				<div class="mchild"><img src="../../images/family/familia_5.jpg" alt="family_photo5" /></div>
+			</div>
 		</main>
 	</body>
 </html>

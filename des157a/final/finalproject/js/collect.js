@@ -6,6 +6,7 @@
 	const foot1 = document.getElementById('up');
 	const scrollContainer = document.getElementById('imgslide');
 	const mosaic = document.getElementById('mosaic');
+	const info = document.querySelector('button');
 
 	foot.addEventListener('click', function () {
 		mosaic.style.transform = 'translateY(-100%)';
@@ -13,6 +14,14 @@
 		scrollContainer.style.opacity = '0%';
 		foot.style.display = 'none';
 		foot1.style.display = 'block';
+	});
+	foot.addEventListener('mouseover', function () {
+		info.style.backgroundColor = '#f241c3';
+		info.style.color = '#d8d3cd';
+	});
+	foot.addEventListener('mouseout', function () {
+		info.style.backgroundColor = 'transparent';
+		info.style.color = 'black';
 	});
 
 	foot1.addEventListener('click', function () {
