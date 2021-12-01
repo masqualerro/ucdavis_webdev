@@ -56,7 +56,7 @@ button:hover {
 }
 
 #cam {
-	font-family: 'GeneralSans-LightItalic';
+	font-family: 'GeneralSans-LightItalic', sans-serif;
 }
 
 ul {
@@ -65,7 +65,7 @@ ul {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: 'general_sanslight';
+	font-family: 'general_sanslight', sans-serif;
 	font-size: 20px;
 }
 

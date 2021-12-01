@@ -40,7 +40,7 @@ header {
 h1,
 h2,
 ul {
-	font-family: 'general_sanslight';
+	font-family: 'general_sanslight', sans-serif;
 }
 
 h1 {
