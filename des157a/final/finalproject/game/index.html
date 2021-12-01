@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Office Cats</title>
+
+		<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;1,400;1,700&family=Syne:wght@800&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link href="../css/game.css" rel="stylesheet" />
+		<script src="../js/game.js" defer></script>
+		<script src="https://kit.fontawesome.com/daafecce72.js" crossorigin="anonymous"></script>
+
+		<link rel="preload" as="image" href="images/build.jpg" />
+		<link rel="preload" as="image" href="images/catz.jpg" />
+		<link rel="preload" as="image" href="images/stand.jpg" />
+		<link rel="preload" as="image" href="images/truckz.jpg" />
+		<link rel="preload" as="image" href="images/walk.jpg" />
+	</head>
+	<body>
+		<h1>game</h1>
+		<nav>
+			<ul>
+				<li>
+					<a href="../index.html">home</a>
+				</li>
+				<li>
+					<a href="../collection/index.html">collections</a>
+				</li>
+				<li>
+					<a href="#">archive</a>
+				</li>
+			</ul>
+		</nav>
+		<p id="instruction">
+			CONTROLS
+			<br />
+			<i class="fas fa-arrow-right pointer"></i>
+			<br />
+			click circles to navigate
+			<br />
+			esc to zoom out
+			<br />
+			<br />
+			<span id="grayscale">g for grayscale</span>
+			<br />
+			<span id="huerotate">h for hue rotate</span>
+			<br />
+			<span id="sepia">s for sepia</span>
+			<br />
+			<span id="invert">i for invert</span>
+			<i class="fas fa-ghost"></i>
+			<br />
+			n to return to 'normal'
+		</p>
+		<p id="stats">
+			INFO
+			<br />
+			<i class="fas fa-arrow-right pointer"></i>
+			<br />
+
+			image:
+			<span id="srcname">trucks.jpg</span>
+			<!-- <br />
+			story:
+			<span id="story">this is where the cats live</span> -->
+			<br />
+			<br />
+
+			CAT
+			<br />
+			<i class="fas fa-arrow-right pointer"></i>
+			<br />
+			<span id="catyn">none to be seen --> go find one!</span>
+			<span id="catstats">
+				<br />
+				Name:
+				<span id="catname" class="stat">"El Gaucho"</span>
+				<br />
+				Color:
+				<span id="catcolor" class="stat">black</span>
+				<br />
+				Personality:
+				<span id="catper" class="stat"></span>
+				<br />
+				Activity:
+				<span id="catact" class="stat"></span>
+			</span>
+		</p>
+		<div id="container">
+			<!-- catz.jpg (cats with food) -->
+			<div id="circle1" class="btn hidden"></div>
+			<div id="circle2" class="btn hidden"></div>
+			<div id="circle11" class="btn hidden"></div>
+			<!-- truckz.jpg (main page) -->
+			<div id="circle3" class="btn visible"></div>
+			<div id="circle4" class="btn visible"></div>
+			<div id="circle5" class="btn visible"></div>
+			<!-- build.jpg (building) -->
+			<div id="build1" class="btn hidden"></div>
+			<!-- stand.jpg (standing cat) -->
+			<div id="circle6" class="btn hidden"></div>
+			<div id="circle7" class="btn hidden"></div>
+			<!-- walk.jpg (walking cat) -->
+			<div id="circle8" class="btn hidden"></div>
+			<div id="circle9" class="btn hidden"></div>
+			<div id="circle10" class="btn hidden"></div>
+			<img src="images/truckz.jpg" alt="warehouse_yard" id="catimage" />
+		</div>
+
+		<footer>
+			<a href="https://validator.w3.org/check?uri=https://masqualerro.github.io/des157a/final/proto/game/">
+				Valid HTML
+			</a>
+			<a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+			<a
+				href="mailto:&#115;&#101;&#100;&#105;&#108;&#108;&#111;&#109;&#105;&#103;&#117;&#101;&#108;&#046;&#100;&#101;&#115;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"
+			>
+				Email Me
+			</a>
+		</footer>
+	</body>
+</html>

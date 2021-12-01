@@ -1,0 +1,271 @@
+@font-face {
+	font-family: 'general_sanslight';
+	src: url('../fonts/generalsans-light-webfont.woff2') format('woff2'),
+		url('../fonts/generalsans-light-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'general_sanslight_italic';
+	src: url('../fonts/generalsans-lightitalic-webfont.woff2') format('woff2'),
+		url('../fonts/generalsans-lightitalic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* MAIN PAGE STYLING (BODY, DIV, IMG, FOOTER) */
+body {
+	background-color: #d8d3cd;
+}
+
+nav {
+	top: 0;
+	left: 50%;
+	margin-top: -85px;
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'general_sanslight';
+	font-size: 20px;
+}
+li {
+	padding: 15px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#container {
+	width: 439px;
+	height: 650px;
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin-top: -15px;
+}
+
+#catstats {
+	visibility: hidden;
+}
+
+img {
+	width: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	transition: all 1.5s ease;
+	z-index: -1;
+}
+
+footer {
+	display: flex;
+	margin-top: 2vh;
+	font-family: 'general_sanslight', sans-serif;
+	font-size: 12px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+footer a {
+	padding: 0px 15px 0px 15px;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #f241c3;
+}
+
+/* TEXT */
+h1 {
+	text-align: right;
+	font-family: 'general_sanslight', sans-serif;
+	font-size: 100px;
+	padding: 0;
+	padding-right: 15px;
+	margin: 0;
+
+	/* display: inline-block; */
+}
+
+#instruction {
+	font-family: 'general_sanslight', sans-serif;
+	position: fixed;
+	left: 15px;
+	font-size: 12px;
+}
+
+#stats {
+	font-family: 'general_sanslight', sans-serif;
+	position: fixed;
+	left: 15px;
+	top: 40%;
+	font-size: 12px;
+}
+
+.stat {
+	font-style: italic;
+}
+
+/* NAVIGATION BUTTONS */
+.btn {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	transition: all 1s ease;
+	border: 3px solid black;
+	background-color: rgba(245, 9, 9, 0.3);
+}
+
+.btn:hover {
+	background-color: rgba(245, 9, 9, 0.7);
+	cursor: pointer;
+}
+
+#circle1 {
+	bottom: 22%;
+	right: 14%;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	position: absolute;
+	visibility: hidden;
+	transition: all 1.5s ease;
+}
+
+#circle2 {
+	top: 48%;
+	right: 13%;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	position: absolute;
+	visibility: hidden;
+	transition: all 1.5s ease;
+}
+
+#circle3 {
+	bottom: 15%;
+	left: 20%;
+	transition: all 1.5s ease;
+}
+
+#circle4 {
+	top: 50%;
+	left: 2%;
+	transition: all 1.5s ease;
+}
+
+#circle5 {
+	bottom: 25%;
+	right: 2%;
+	transition: all 1.5s ease;
+}
+
+#circle6 {
+	top: 62%;
+	left: 40%;
+	visibility: hidden;
+	transition: all 1.5s ease;
+}
+
+#circle7 {
+	top: 72%;
+	left: 2%;
+	visibility: hidden;
+	transition: all 1.5s ease;
+}
+
+#circle8 {
+	top: 66%;
+	left: 2%;
+	visibility: hidden;
+	transition: all 1.5s ease;
+}
+#circle9 {
+	top: 61.5%;
+	right: 2%;
+	visibility: hidden;
+	transition: all 1.5s ease;
+}
+
+#circle10 {
+	top: 55%;
+	left: 50%;
+	visibility: hidden;
+	transition: all 1.5s ease;
+}
+
+#circle11 {
+	top: 15%;
+	left: 5%;
+	visibility: hidden;
+	transition: all 1.5s ease;
+}
+
+#build1 {
+	top: 35%;
+	left: 2%;
+	position: absolute;
+	visibility: hidden;
+	transition: all 1.5s ease;
+}
+
+/* ZOOM-IN / ZOOM OUT */
+.catz1zoom {
+	top: -30%;
+	left: -220px;
+}
+
+.catz2zoom {
+	top: 35%;
+	left: -275px;
+}
+
+.stand1zoom {
+	top: 10px;
+	left: 70%;
+}
+.walk1zoom {
+	top: 10%;
+	left: 12%;
+}
+.start {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* BUTTON FADE EFFECT */
+.visible {
+	opacity: 1;
+	transition: opacity 1.5s ease-in;
+}
+
+.hidden {
+	opacity: 0;
+	transition: all 1.5s linear;
+}
+
+.preload {
+	display: none;
+}
+.pointer {
+	transform: rotate(45deg);
+	margin: 0;
+	padding: 0;
+}
