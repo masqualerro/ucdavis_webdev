@@ -2,6 +2,8 @@
 	'use strict';
 	console.log('reading js');
 
+	window.onunload = function () {};
+
 	const randomC = document.getElementById('random');
 	const collections = ['family.html', 'greenhouse.html', 'light.html', 'mendo.html', 'warehouse.html'];
 
