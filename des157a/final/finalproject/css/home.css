@@ -139,11 +139,9 @@ footer a:hover {
 @media screen and (max-width: 760px) {
 	h1 {
 		width: auto;
-		border: 1px solid red;
 		margin: 0;
 	}
 	h2 {
-		border: 1px solid blue;
 	}
 	h1,
 	h2 {
@@ -174,7 +172,7 @@ footer a:hover {
 	}
 
 	main {
-		border: 3px solid greenyellow;
+		/* border: 3px solid greenyellow; */
 	}
 
 	header {
