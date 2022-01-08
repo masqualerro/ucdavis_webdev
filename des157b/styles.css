@@ -160,35 +160,35 @@ h2 {
 }
 
 #pic1 {
-	background-image: url(images/greenhouse/greenhouse_3.jpg);
+	background-image: url(images/greenhouse/greenhouse_3.png);
 }
 
 #pic2 {
-	background-image: url(images/pikito.jpg);
+	background-image: url(images/pikito.png);
 }
 
 #pic3 {
-	background-image: url(images/warehouse/warehouse_1.jpg);
+	background-image: url(images/warehouse/warehouse_1.png);
 }
 
 #pic4 {
-	background-image: url(images/mendocino/mendo_2.jpg);
+	background-image: url(images/mendocino/mendo_2.png);
 }
 
 #pic5 {
-	background-image: url(images/greenhouse/greenhouse_5.jpg);
+	background-image: url(images/greenhouse/greenhouse_5.png);
 }
 
 #pic6 {
-	background-image: url(images/warehouse/warehouse_3.jpg);
+	background-image: url(images/warehouse/warehouse_3.png);
 }
 
 #pic7 {
-	background-image: url(images/mendocino/mendo_5.jpg);
+	background-image: url(images/mendocino/mendo_5.png);
 }
 
 #pic8 {
-	background-image: url(images/greenhouse/greenhouse_2.jpg);
+	background-image: url(images/greenhouse/greenhouse_2.png);
 }
 
 /* media query for non-fullscreen (vertical) */
@@ -201,4 +201,21 @@ h2 {
 		margin-top: 0;
 		padding-top: 0;
 	}
+}
+
+footer {
+	position: fixed;
+	bottom: 5px;
+	left: 1px;
+	display: flex;
+	font-family: 'Darker Grotesque', sans-serif;
+	font-size: 12px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+footer a {
+	padding: 0px 15px 0px 15px;
+	text-decoration: none;
 }
