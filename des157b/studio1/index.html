@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Blockbuster Video!</title>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet" />
+
+		<script src="https://kit.fontawesome.com/daafecce72.js" crossorigin="anonymous"></script>
+
+		<link rel="stylesheet" href="styles.css" />
+		<script src="script.js" defer></script>
+
+		<link rel="preload" as="image" href="media/images/1.png" />
+		<link rel="preload" as="image" href="media/images/2.png" />
+		<link rel="preload" as="image" href="media/images/3.png" />
+		<link rel="preload" as="image" href="media/images/4.png" />
+		<link rel="preload" as="image" href="media/images/5.png" />
+		<link rel="preload" as="image" href="media/images/6.png" />
+		<link rel="preload" as="image" href="media/images/7.png" />
+		<link rel="preload" as="image" href="media/images/8.png" />
+		<link rel="preload" as="image" href="media/images/9.png" />
+		<link rel="preload" as="image" href="media/images/10.png" />
+		<link rel="preload" as="image" href="media/images/11.png" />
+		<link rel="preload" as="image" href="media/images/12.png" />
+		<link rel="preload" as="image" href="media/images/13.png" />
+		<link rel="preload" as="image" href="media/images/14.png" />
+		<link rel="preload" as="image" href="media/images/15.png" />
+		<link rel="preload" as="image" href="media/images/16.png" />
+		<link rel="preload" as="image" href="media/images/17.png" />
+		<link rel="preload" as="image" href="media/images/18.png" />
+		<link rel="preload" as="image" href="media/images/19.png" />
+	</head>
+	<body>
+		<div id="wrapper">
+			<img src="" alt="" id="londres" class="vert-small" />
+			<video id="myVideo" poster="media/cloud-poster.png" muted loop autoplay playsinline>
+				<source src="media/cloud.webm" type="video/webm" />
+				<source src="media/cloud.mp4" type="video/mp4" />
+				<p>
+					HTML5 video not supported by browser. Here is a
+					<a href="media/cloud.mp4">link</a>
+				</p>
+			</video>
+			<p id="lorem" class="hidden"></p>
+		</div>
+		<!-- <i class="fas fa-plane"></i> -->
+		<section id="mySection"></section>
+		<div id="buttons">
+			<div id="slide-controls">
+				<button type="button" id="speed">slideshow</button>
+				<button type="button" id="pause">pause</button>
+				<button type="button" id="stop">stop</button>
+				<br />
+				<button type="button" id="macbeth">macbeth</button>
+				<button type="button" id="macbeth-stop">stop</button>
+			</div>
+			<div id="video-controls">
+				<h2>video</h2>
+				<button type="button" id="hueR">hue-rotate</button>
+				<button type="button" id="gray">grayscale</button>
+				<button type="button" id="sepia">sepia</button>
+				<button type="button" id="invert">invert</button>
+			</div>
+			<div id="img-controls">
+				<h2>image</h2>
+				<button type="button" id="hueI">hue-rotate</button>
+				<button type="button" id="grayI">grayscale</button>
+				<button type="button" id="sepiaI">sepia</button>
+				<button type="button" id="invertI">invert</button>
+			</div>
+		</div>
+	</body>
+</html>
