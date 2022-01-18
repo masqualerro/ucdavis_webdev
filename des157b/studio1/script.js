@@ -296,9 +296,15 @@
 	});
 
 	pause.addEventListener('click', function () {
-		clearInterval(run);
-		speed.innerHTML = 'play';
-		speedC -= 1;
+		if (speedC === 1) {
+			clearInterval(run);
+			speed.innerHTML = 'play';
+			speedC = 4;
+		} else {
+			clearInterval(run);
+			speed.innerHTML = 'play';
+			speedC -= 1;
+		}
 	});
 	stop.addEventListener('click', function () {
 		clearInterval(run);
