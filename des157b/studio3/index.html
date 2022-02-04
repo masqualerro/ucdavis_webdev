@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Check Yourself</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet" />
+
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+		<link rel="stylesheet" href="style.css" />
+		<script defer src="script.js"></script>
+	</head>
+	<body>
+		<h1>Books</h1>
+		<p>Miguel Sedillo book tracking list</p>
+
+		<form>
+			<div class="formRow">
+				<select name="genres" id="genres">
+					<option value="start">---genre---</option>
+					<option value="non-fiction">Non-Fiction</option>
+					<option value="science-fiction">Sc-Fi</option>
+					<option value="fantasy">Fantasy</option>
+					<option value="horror">Horror</option>
+					<option value="magical-realism">Magical Realism</option>
+					<option value="music">Music</option>
+					<option value="mystery">Mystery</option>
+					<option value="romance">Romance</option>
+					<option value="biography">Biography</option>
+					<option value="mythology">Mythology</option>
+					<option value="philosophy">Philosophy</option>
+					<option value="comics">Comics</option>
+					<option value="classics">Classics</option>
+					<option value="short-stories">Short Stories</option>
+				</select>
+				<select name="world" id="world">
+					<option value="start">---part of world---</option>
+					<option value=" american">USA</option>
+					<option value="south-american">South America</option>
+					<option value="european">Europe</option>
+					<option value="asian">Asia</option>
+					<option value="african">Africa</option>
+					<option value="mexican">Mexico</option>
+					<option value="japanese">Japan</option>
+				</select>
+			</div>
+			<!-- <div class="formRow">
+				<fieldset>
+					<legend>Date Range:</legend>
+					<input type="text" id="rangeStart" name="rangeStart" />
+					to
+					<input type="text" id="rangeEnd" name="rangeEnd" />
+				</fieldset>
+			</div> -->
+
+			<input type="submit" value="Filter" id="submit" />
+		</form>
+		<div id="bookP"></div>
+		<div id="stats"><canvas id="myChart"></canvas></div>
+		<!-- <div id="test">
+			<div class="child"></div>
+		</div> -->
+	</body>
+</html>

@@ -5,7 +5,7 @@ body {
 }
 
 nav {
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 main {
 	position: relative;
@@ -30,7 +30,7 @@ h1 {
 	padding: 0;
 	padding-right: 15px;
 	margin: 0;
-	border: 1px solid green;
+	/* border: 1px solid green; */
 }
 
 #instruction,
@@ -38,7 +38,7 @@ h1 {
 	font-family: 'general_sanslight', sans-serif;
 	font-size: 12px;
 	padding: 0px 15px 0px 15px;
-	border: 1px solid blue;
+	/* border: 1px solid blue; */
 }
 
 button {
@@ -98,7 +98,7 @@ header {
 	justify-content: space-between;
 	flex-direction: row-reverse;
 	align-items: center;
-	border: 1px solid violet;
+	/* border: 1px solid violet; */
 }
 .plabel {
 	font-size: 20px;
@@ -145,7 +145,7 @@ footer:hover {
 	justify-content: space-around;
 	height: 620px;
 	width: 100%;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 
 #mosaicimg {
@@ -284,7 +284,7 @@ footer:hover {
 		align-items: center;
 		flex-direction: column;
 		overflow-x: auto;
-		border: 1px solid red;
+		/* border: 1px solid red; */
 	}
 	main {
 		overflow-y: auto;
