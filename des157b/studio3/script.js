@@ -3,6 +3,7 @@ document.querySelector('.amButton').addEventListener('click', runAm);
 document.querySelector('.spButton').addEventListener('click', runSp);
 
 function runAm() {
+	document.getElementById('myChart2').style.display = 'none';
 	getDataAm();
 	document.querySelector('.amButton').removeEventListener('click', runAm);
 	document.querySelector('.amButton').setAttribute('class', 'amClicked');
@@ -16,6 +17,7 @@ function runAm() {
 }
 
 function runSp() {
+	document.getElementById('myChart').style.display = 'none';
 	getDataSp();
 	document.querySelector('.spButton').removeEventListener('click', runSp);
 	document.querySelector('.spButton').setAttribute('class', 'spClicked');
@@ -93,6 +95,18 @@ function listGenres(x, chart) {
 		type: chart,
 		data: data,
 		options: {
+			animation: {
+				duration: 1000,
+			},
+			hover: {
+				animationDuration: 0,
+			},
+			responsiveAnimationDuration: 0,
+			elements: {
+				line: {
+					tension: 0,
+				},
+			},
 			plugins: {
 				legend: {
 					display: false,
@@ -144,6 +158,15 @@ function listSpotify(x, chart) {
 		type: chart,
 		data: data,
 		options: {
+			animation: {
+				duration: 1000,
+				delay: 200,
+			},
+			elements: {
+				line: {
+					tension: 0,
+				},
+			},
 			plugins: {
 				legend: {
 					display: false,
