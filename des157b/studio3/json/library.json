@@ -1,0 +1,1010 @@
+{
+	"library": [
+		{
+			"genre": "Hip-Hop/Rap",
+			"albums": 1127,
+			"songs": 9787,
+			"subgenres": [
+				{
+					"genre": "Alternative Rap",
+					"albums": 4,
+					"songs": 38
+				},
+				{
+					"genre": "Experimental Hip-Hop",
+					"albums": 2,
+					"songs": 24
+				},
+				{
+					"genre": "Hardcore",
+					"albums": 2,
+					"songs": 17
+				},
+				{
+					"genre": "Instrumental Hip-Hop",
+					"albums": 5,
+					"songs": 129
+				},
+				{
+					"genre": "Underground Rap",
+					"albums": 10,
+					"songs": 160
+				}
+			]
+		},
+		{
+			"genre": "Alternative",
+			"albums": 415,
+			"songs": 3818,
+			"subgenres": [
+				{
+					"genre": "Alternative Folk",
+					"albums": 1,
+					"songs": 10
+				},
+				{
+					"genre": "Indie Pop",
+					"albums": 9,
+					"songs": 64
+				},
+				{
+					"genre": "Indie Rock",
+					"albums": 18,
+					"songs": 181
+				},
+				{
+					"genre": "New Wave",
+					"albums": 3,
+					"songs": 3
+				},
+				{
+					"genre": "Shoegaze",
+					"albums": 2,
+					"songs": 8
+				}
+			]
+		},
+		{
+			"genre": "Jazz",
+			"albums": 412,
+			"songs": 3140,
+			"subgenres": [
+				{
+					"genre": "Avante-Garde Jazz",
+					"albums": 1,
+					"songs": 4
+				},
+				{
+					"genre": "Bop",
+					"albums": 1,
+					"songs": 7
+				},
+				{
+					"genre": "Bossa Nova",
+					"albums": 6,
+					"songs": 53
+				},
+				{
+					"genre": "Brazilian",
+					"albums": 14,
+					"songs": 98
+				},
+				{
+					"genre": "Contemporary Jazz",
+					"albums": 5,
+					"songs": 42
+				},
+				{
+					"genre": "Crossover Jazz",
+					"albums": 1,
+					"songs": 6
+				},
+				{
+					"genre": "Cuban",
+					"albums": 1,
+					"songs": 14
+				},
+				{
+					"genre": "Jazz/Blues/Rock",
+					"albums": 1,
+					"songs": 17
+				},
+				{
+					"genre": "Latin Jazz",
+					"albums": 2,
+					"songs": 31
+				},
+				{
+					"genre": "Lounge",
+					"albums": 1,
+					"songs": 1
+				},
+				{
+					"genre": "Smooth Jazz",
+					"albums": 1,
+					"songs": 10
+				}
+			]
+		},
+		{
+			"genre": "Rock",
+			"albums": 222,
+			"songs": 2116,
+			"subgenres": [
+				{
+					"genre": "Death Metal/Black Metal",
+					"albums": 1,
+					"songs": 6
+				},
+				{
+					"genre": "Folk",
+					"albums": 2,
+					"songs": 23
+				},
+				{
+					"genre": "Hard Rock",
+					"albums": 12,
+					"songs": 100
+				},
+				{
+					"genre": "Indie Rock",
+					"albums": 18,
+					"songs": 181
+				},
+				{
+					"genre": "Metal",
+					"albums": 16,
+					"songs": 162
+				},
+				{
+					"genre": "New Wave",
+					"albums": 3,
+					"songs": 3
+				},
+				{
+					"genre": "Prog-Rock/Art Rock",
+					"albums": 1,
+					"songs": 14
+				},
+				{
+					"genre": "Psychadelic",
+					"albums": 2,
+					"songs": 11
+				},
+				{
+					"genre": "Punk",
+					"albums": 16,
+					"songs": 243
+				},
+				{
+					"genre": "Shoegaze",
+					"albums": 2,
+					"songs": 8
+				}
+			]
+		},
+		{
+			"genre": "R&B/Soul",
+			"albums": 293,
+			"songs": 2074,
+			"subgenres": [
+				{
+					"genre": "City Pop",
+					"albums": 7,
+					"songs": 68
+				},
+				{
+					"genre": "Contemporary R&B",
+					"albums": 1,
+					"songs": 10
+				},
+				{
+					"genre": "Disco",
+					"albums": 3,
+					"songs": 43
+				},
+				{
+					"genre": "Funk",
+					"albums": 15,
+					"songs": 105
+				},
+				{
+					"genre": "Neo-Soul",
+					"albums": 1,
+					"songs": 7
+				},
+				{
+					"genre": "Soul",
+					"albums": 12,
+					"songs": 59
+				}
+			]
+		},
+		{
+			"genre": "Electronic",
+			"albums": 225,
+			"songs": 1922,
+			"subgenres": [
+				{
+					"genre": "Breakbeat",
+					"albums": 2,
+					"songs": 18
+				},
+				{
+					"genre": "Dance",
+					"albums": 45,
+					"songs": 277
+				},
+				{
+					"genre": "Electronica",
+					"albums": 11,
+					"songs": 91
+				},
+				{
+					"genre": "Funk",
+					"albums": 15,
+					"songs": 105
+				},
+				{
+					"genre": "House",
+					"albums": 5,
+					"songs": 34
+				},
+				{
+					"genre": "IDM/Experimental",
+					"albums": 4,
+					"songs": 69
+				},
+				{
+					"genre": "New Age",
+					"albums": 3,
+					"songs": 20
+				},
+				{
+					"genre": "Synthwave",
+					"albums": 1,
+					"songs": 14
+				},
+				{
+					"genre": "Vaporwave",
+					"albums": 3,
+					"songs": 31
+				}
+			]
+		},
+		{
+			"genre": "Pop",
+			"albums": 235,
+			"songs": 1605,
+			"subgenres": [
+				{
+					"genre": "Afro-Pop",
+					"albums": 3,
+					"songs": 15
+				},
+				{
+					"genre": "City Pop",
+					"albums": 7,
+					"songs": 68
+				},
+				{
+					"genre": "Dance",
+					"albums": 45,
+					"songs": 277
+				},
+				{
+					"genre": "Disco",
+					"albums": 3,
+					"songs": 43
+				},
+				{
+					"genre": "French Pop",
+					"albums": 4,
+					"songs": 18
+				},
+				{
+					"genre": "Funk",
+					"albums": 15,
+					"songs": 105
+				},
+				{
+					"genre": "Indie Pop",
+					"albums": 9,
+					"songs": 64
+				},
+				{
+					"genre": "J-Pop",
+					"albums": 29,
+					"songs": 267
+				},
+				{
+					"genre": "K-Pop",
+					"albums": 6,
+					"songs": 29
+				},
+				{
+					"genre": "Pop Latino",
+					"albums": 9,
+					"songs": 65
+				},
+				{
+					"genre": "Urbano Latino",
+					"albums": 12,
+					"songs": 108
+				}
+			]
+		},
+		{
+			"genre": "Soundtrack",
+			"albums": 58,
+			"songs": 735,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Video Game Soundtrack",
+			"albums": 9,
+			"songs": 466,
+			"subgenres": "none"
+		},
+		{
+			"genre": "World",
+			"albums": 58,
+			"songs": 465,
+			"subgenres": [
+				{
+					"genre": "African",
+					"albums": 7,
+					"songs": 69,
+					"subgenres": [
+						{
+							"genre": "Afro-Beat",
+							"albums": 7,
+							"songs": 29
+						},
+						{
+							"genre": "Afro-Pop",
+							"albums": 3,
+							"songs": 15
+						}
+					]
+				},
+				{
+					"genre": "Afro-Beat",
+					"albums": 7,
+					"songs": 29
+				},
+				{
+					"genre": "Afro-Pop",
+					"albums": 3,
+					"songs": 15
+				},
+				{
+					"genre": "Baladas y Boleros",
+					"albums": 3,
+					"songs": 3
+				},
+				{
+					"genre": "Bossa Nova",
+					"albums": 6,
+					"songs": 53
+				},
+				{
+					"genre": "Brazilian",
+					"albums": 14,
+					"songs": 98
+				},
+				{
+					"genre": "City Pop",
+					"albums": 7,
+					"songs": 68
+				},
+				{
+					"genre": "Cuban",
+					"albums": 1,
+					"songs": 14
+				},
+				{
+					"genre": "French Pop",
+					"albums": 4,
+					"songs": 18
+				},
+				{
+					"genre": "J-Pop",
+					"albums": 29,
+					"songs": 267
+				},
+				{
+					"genre": "K-Pop",
+					"albums": 6,
+					"songs": 29
+				},
+				{
+					"genre": "Kayokyoku",
+					"albums": 2,
+					"songs": 3
+				},
+				{
+					"genre": "Latin Jazz",
+					"albums": 2,
+					"songs": 31
+				},
+				{
+					"genre": "MPB",
+					"albums": 9,
+					"songs": 107
+				},
+				{
+					"genre": "Música Mexicana",
+					"albums": 4,
+					"songs": 17
+				},
+				{
+					"genre": "Música Tropical",
+					"albums": 23,
+					"songs": 193
+				},
+				{
+					"genre": "Pop Latino",
+					"albums": 9,
+					"songs": 65
+				},
+				{
+					"genre": "Reggae",
+					"albums": 39,
+					"songs": 436
+				},
+				{
+					"genre": "Samba",
+					"albums": 1,
+					"songs": 12
+				},
+				{
+					"genre": "South America",
+					"albums": 3,
+					"songs": 36
+				},
+				{
+					"genre": "Urbano Latino",
+					"albums": 12,
+					"songs": 108
+				}
+			]
+		},
+		{
+			"genre": "Reggae",
+			"albums": 39,
+			"songs": 436,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Unknown Genre",
+			"albums": 80,
+			"songs": 336,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Dance",
+			"albums": 45,
+			"songs": 277,
+			"subgenres": "none"
+		},
+		{
+			"genre": "J-Pop",
+			"albums": 29,
+			"songs": 267,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Punk",
+			"albums": 16,
+			"songs": 243,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Música Tropical",
+			"albums": 23,
+			"songs": 193,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Indie Rock",
+			"albums": 18,
+			"songs": 181,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Latin",
+			"albums": 18,
+			"songs": 180,
+			"subgenres": [
+				{
+					"genre": "Baladas y Boleros",
+					"albums": 3,
+					"songs": 3
+				},
+				{
+					"genre": "Bossa Nova",
+					"albums": 6,
+					"songs": 53
+				},
+				{
+					"genre": "Brazilian",
+					"albums": 14,
+					"songs": 98
+				},
+				{
+					"genre": "Latin Jazz",
+					"albums": 2,
+					"songs": 31
+				},
+				{
+					"genre": "MPB",
+					"albums": 9,
+					"songs": 107
+				},
+				{
+					"genre": "Música Mexicana",
+					"albums": 4,
+					"songs": 17
+				},
+				{
+					"genre": "Música Tropical",
+					"albums": 23,
+					"songs": 193
+				},
+				{
+					"genre": "Pop Latino",
+					"albums": 9,
+					"songs": 65
+				},
+				{
+					"genre": "South America",
+					"albums": 3,
+					"songs": 36
+				},
+				{
+					"genre": "Urbano Latino",
+					"albums": 12,
+					"songs": 108
+				}
+			]
+		},
+		{
+			"genre": "Classical",
+			"albums": 24,
+			"songs": 175,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Metal",
+			"albums": 16,
+			"songs": 162,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Underground Rap",
+			"albums": 10,
+			"songs": 160,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Anime Soundtrack",
+			"albums": 10,
+			"songs": 141,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Instrumental Hip-Hop",
+			"albums": 5,
+			"songs": 129,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Singer/Songwriter",
+			"albums": 13,
+			"songs": 128,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Country",
+			"albums": 8,
+			"songs": 123,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Urbano Latino",
+			"albums": 12,
+			"songs": 108,
+			"subgenres": "none"
+		},
+		{
+			"genre": "MPB",
+			"albums": 9,
+			"songs": 107,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Funk",
+			"albums": 15,
+			"songs": 105,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Instrumental",
+			"albums": 9,
+			"songs": 104,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Hard Rock",
+			"albums": 12,
+			"songs": 100,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Brazilian",
+			"albums": 14,
+			"songs": 98,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Electronica",
+			"albums": 11,
+			"songs": 91,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Blues",
+			"albums": 7,
+			"songs": 70,
+			"subgenres": "none"
+		},
+		{
+			"genre": "African",
+			"albums": 7,
+			"songs": 69,
+			"subgenres": [
+				{
+					"genre": "Afro-Beat",
+					"albums": 7,
+					"songs": 29
+				},
+				{
+					"genre": "Afro-Pop",
+					"albums": 3,
+					"songs": 15
+				}
+			]
+		},
+		{
+			"genre": "IDM/Experimental",
+			"albums": 4,
+			"songs": 69,
+			"subgenres": "none"
+		},
+		{
+			"genre": "City Pop",
+			"albums": 7,
+			"songs": 68,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Pop Latino",
+			"albums": 9,
+			"songs": 65,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Holiday",
+			"albums": 13,
+			"songs": 64,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Indie Pop",
+			"albums": 9,
+			"songs": 64,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Soul",
+			"albums": 12,
+			"songs": 59,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Bossa Nova",
+			"albums": 6,
+			"songs": 53,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Disco",
+			"albums": 3,
+			"songs": 43,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Original Score",
+			"albums": 4,
+			"songs": 43,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Compilation",
+			"albums": 3,
+			"songs": 42,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Contemporary Jazz",
+			"albums": 5,
+			"songs": 42,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Alternative Rap",
+			"albums": 4,
+			"songs": 38,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Fusion",
+			"albums": 5,
+			"songs": 37,
+			"subgenres": "none"
+		},
+		{
+			"genre": "South America",
+			"albums": 3,
+			"songs": 36,
+			"subgenres": "none"
+		},
+		{
+			"genre": "House",
+			"albums": 5,
+			"songs": 34,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Latin Jazz",
+			"albums": 2,
+			"songs": 31,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Vaporwave",
+			"albums": 3,
+			"songs": 31,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Afro-Beat",
+			"albums": 7,
+			"songs": 29,
+			"subgenres": "none"
+		},
+		{
+			"genre": "K-Pop",
+			"albums": 6,
+			"songs": 29,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Motown",
+			"albums": 3,
+			"songs": 29,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Experimental Hip-Hop",
+			"albums": 2,
+			"songs": 24,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Folk",
+			"albums": 2,
+			"songs": 23,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Christian",
+			"albums": 2,
+			"songs": 20,
+			"subgenres": "none"
+		},
+		{
+			"genre": "New Age",
+			"albums": 3,
+			"songs": 20,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Breakbeat",
+			"albums": 2,
+			"songs": 18,
+			"subgenres": "none"
+		},
+		{
+			"genre": "French Pop",
+			"albums": 4,
+			"songs": 18,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Hardcore",
+			"albums": 2,
+			"songs": 17,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Jazz/Blues/Rock",
+			"albums": 1,
+			"songs": 17,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Música Mexicana",
+			"albums": 4,
+			"songs": 17,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Ska",
+			"albums": 2,
+			"songs": 17,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Spoken Word",
+			"albums": 5,
+			"songs": 16,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Afro-Pop",
+			"albums": 3,
+			"songs": 15,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Cuban",
+			"albums": 1,
+			"songs": 14,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Easy Listening",
+			"albums": 2,
+			"songs": 14,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Prog-Rock/Art Rock",
+			"albums": 1,
+			"songs": 14,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Synthwave",
+			"albums": 1,
+			"songs": 14,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Samba",
+			"albums": 1,
+			"songs": 12,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Psychadelic",
+			"albums": 2,
+			"songs": 11,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Alternative Folk",
+			"albums": 1,
+			"songs": 10,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Contemporary R&B",
+			"albums": 1,
+			"songs": 10,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Smooth Jazz",
+			"albums": 1,
+			"songs": 10,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Hard Bop",
+			"albums": 2,
+			"songs": 9,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Shoegaze",
+			"albums": 2,
+			"songs": 8,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Bop",
+			"albums": 1,
+			"songs": 7,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Comedy",
+			"albums": 1,
+			"songs": 7,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Neo-Soul",
+			"albums": 1,
+			"songs": 7,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Crossover Jazz",
+			"albums": 1,
+			"songs": 6,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Death Metal/Black Metal",
+			"albums": 1,
+			"songs": 6,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Avante-Garde Jazz",
+			"albums": 1,
+			"songs": 4,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Baladas y Boleros",
+			"albums": 3,
+			"songs": 3,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Kayokyoku",
+			"albums": 2,
+			"songs": 3,
+			"subgenres": "none"
+		},
+		{
+			"genre": "New Wave",
+			"albums": 3,
+			"songs": 3,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Modern Era",
+			"albums": 2,
+			"songs": 2,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Christmas",
+			"albums": 1,
+			"songs": 1,
+			"subgenres": "none"
+		},
+		{
+			"genre": "Lounge",
+			"albums": 1,
+			"songs": 1,
+			"subgenres": "none"
+		}
+	]
+}

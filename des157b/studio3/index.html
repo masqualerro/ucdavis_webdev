@@ -4,66 +4,99 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Check Yourself</title>
-
+		<title>apple x spotify genre classification</title>
+		<!-- google fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet" />
-
+		<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet" />
+		<!-- chart.js -->
 		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
+		<!-- granim.js -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/granim/2.0.0/granim.min.js"></script>
+		<!-- stylesheet -->
 		<link rel="stylesheet" href="style.css" />
-		<script defer src="script.js"></script>
 	</head>
 	<body>
-		<h1>Books</h1>
-		<p>Miguel Sedillo book tracking list</p>
-
-		<form>
-			<div class="formRow">
-				<select name="genres" id="genres">
-					<option value="start">---genre---</option>
-					<option value="non-fiction">Non-Fiction</option>
-					<option value="science-fiction">Sc-Fi</option>
-					<option value="fantasy">Fantasy</option>
-					<option value="horror">Horror</option>
-					<option value="magical-realism">Magical Realism</option>
-					<option value="music">Music</option>
-					<option value="mystery">Mystery</option>
-					<option value="romance">Romance</option>
-					<option value="biography">Biography</option>
-					<option value="mythology">Mythology</option>
-					<option value="philosophy">Philosophy</option>
-					<option value="comics">Comics</option>
-					<option value="classics">Classics</option>
-					<option value="short-stories">Short Stories</option>
-				</select>
-				<select name="world" id="world">
-					<option value="start">---part of world---</option>
-					<option value=" american">USA</option>
-					<option value="south-american">South America</option>
-					<option value="european">Europe</option>
-					<option value="asian">Asia</option>
-					<option value="african">Africa</option>
-					<option value="mexican">Mexico</option>
-					<option value="japanese">Japan</option>
-				</select>
+		<header>
+			<img src="images/am_icon.svg" alt="applemusicicon" />
+			<img src="images/spotify_icon.svg" alt="spotifyicon" />
+			<h1>
+				Apple Music vs. Spotify
+				<br />
+				Genre Tracking
+			</h1>
+		</header>
+		<main>
+			<section id="data">
+				<div id="subButtons">
+					<h2>create chart</h2>
+					<button class="amButton">apple music</button>
+					<button class="spButton">spotify</button>
+				</div>
+				<h2>my data</h2>
+				<section id="amData">
+					<ul>
+						<h3>apple music</h3>
+						<li>songs: 31,209</li>
+						<li>albums: 3,568</li>
+						<li>artists: 3,258</li>
+						<li>genres: 89</li>
+					</ul>
+				</section>
+				<section id="spotData">
+					<ul>
+						<h3>spotify</h3>
+						<li>songs: 3,479</li>
+						<li>albums: 1,567</li>
+						<li>artists: 1,677</li>
+						<li>genres: 491</li>
+					</ul>
+				</section>
+			</section>
+			<section id="insights">
+				<h2>insights</h2>
+				<ul>
+					<li>apple music favors generality and parent genres over specifics and subgenres</li>
+					<li>spotify has massive subgenre classification</li>
+					<li>
+						apple music allows library sorting and manual classification by genre while spotify does not
+					</li>
+					<li>spotify de-emphasizes genre despite incredible genre filtering</li>
+					<li>spotify assigns genre by artist rather than song/album</li>
+					<li>apple music assigns genre by song/album rather than genre</li>
+					<li>apple has moderate subgenre classification for alternative and rock music</li>
+					<li>apple has obscenely low subgenre classification for the "Hip-Hop/Rap" umbrella</li>
+					<li>
+						apple has low subgenre classification for the "World" umbrella -- most music outside of the US
+						is simply classified as the name of the respective continent or "World" eg. "African"
+					</li>
+					<li>
+						spotify acknowledges geographic origin and attatches genre to the end -- eg. "Brazilian Jazz"
+						instead of "Brazilian"
+					</li>
+					<li>
+						apple does allow manual metadata editing capabilities -- user can classify all of their songs if
+						they want to
+					</li>
+					<li>
+						spotify genre classification seems more for algorithmic purposes -- when searching for deep
+						subgenres only results are user-created playlist and nothing officially sorted by spotify
+					</li>
+				</ul>
+			</section>
+			<section id="gList">
+				<h2 id="genreH">genre list --</h2>
+				<div class="lds-dual-ring"></div>
+				<p id="amListAll"></p>
+				<p id="spListAll"></p>
+			</section>
+			<div id="chartContainer">
+				<canvas id="myChart"></canvas>
+				<canvas id="myChart2"></canvas>
 			</div>
-			<!-- <div class="formRow">
-				<fieldset>
-					<legend>Date Range:</legend>
-					<input type="text" id="rangeStart" name="rangeStart" />
-					to
-					<input type="text" id="rangeEnd" name="rangeEnd" />
-				</fieldset>
-			</div> -->
+		</main>
+		<!-- <canvas id="canvas-basic"></canvas> -->
 
-			<input type="submit" value="Filter" id="submit" />
-		</form>
-		<div id="bookP"></div>
-		<div id="stats"><canvas id="myChart"></canvas></div>
-		<!-- <div id="test">
-			<div class="child"></div>
-		</div> -->
+		<script defer src="script.js"></script>
 	</body>
 </html>

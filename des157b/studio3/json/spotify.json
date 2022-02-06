@@ -1,0 +1,2949 @@
+{
+	"library": [
+		{
+			"genre": "hip hop",
+			"songs": 1055,
+			"artists": 151
+		},
+
+		{
+			"genre": "rap",
+			"songs": 907,
+			"artists": 127
+		},
+
+		{
+			"genre": "alternative hip hop",
+			"songs": 767,
+			"artists": 113
+		},
+
+		{
+			"genre": "underground hip hop",
+			"songs": 360,
+			"artists": 95
+		},
+
+		{
+			"genre": "escape room",
+			"songs": 354,
+			"artists": 71
+		},
+
+		{
+			"genre": "indie soul",
+			"songs": 290,
+			"artists": 78
+		},
+
+		{
+			"genre": "jazz",
+			"songs": 271,
+			"artists": 65
+		},
+
+		{
+			"genre": "east coast hip hop",
+			"songs": 247,
+			"artists": 43
+		},
+
+		{
+			"genre": "southern hip hop",
+			"songs": 226,
+			"artists": 56
+		},
+
+		{
+			"genre": "trap",
+			"songs": 207,
+			"artists": 70
+		},
+
+		{
+			"genre": "pop",
+			"songs": 205,
+			"artists": 45
+		},
+
+		{
+			"genre": "rock",
+			"songs": 202,
+			"artists": 35
+		},
+
+		{
+			"genre": "electronica",
+			"songs": 195,
+			"artists": 38
+		},
+
+		{
+			"genre": "funk",
+			"songs": 195,
+			"artists": 71
+		},
+
+		{
+			"genre": "psychedelic hip hop",
+			"songs": 191,
+			"artists": 24
+		},
+
+		{
+			"genre": "art pop",
+			"songs": 184,
+			"artists": 54
+		},
+
+		{
+			"genre": "gangster rap",
+			"songs": 175,
+			"artists": 47
+		},
+
+		{
+			"genre": "soul",
+			"songs": 175,
+			"artists": 59
+		},
+
+		{
+			"genre": "chicago rap",
+			"songs": 172,
+			"artists": 23
+		},
+
+		{
+			"genre": "atl hip hop",
+			"songs": 168,
+			"artists": 30
+		},
+
+		{
+			"genre": "experimental hip hop",
+			"songs": 167,
+			"artists": 36
+		},
+
+		{
+			"genre": "art rock",
+			"songs": 162,
+			"artists": 32
+		},
+
+		{
+			"genre": "hardcore hip hop",
+			"songs": 161,
+			"artists": 40
+		},
+
+		{
+			"genre": "bebop",
+			"songs": 159,
+			"artists": 46
+		},
+
+		{
+			"genre": "abstract hip hop",
+			"songs": 158,
+			"artists": 19
+		},
+
+		{
+			"genre": "conscious hip hop",
+			"songs": 155,
+			"artists": 32
+		},
+
+		{
+			"genre": "adult standards",
+			"songs": 155,
+			"artists": 37
+		},
+
+		{
+			"genre": "alternative rock",
+			"songs": 151,
+			"artists": 31
+		},
+
+		{
+			"genre": "alternative r&b",
+			"songs": 150,
+			"artists": 45
+		},
+
+		{
+			"genre": "jazz fusion",
+			"songs": 148,
+			"artists": 30
+		},
+
+		{
+			"genre": "vocal jazz",
+			"songs": 135,
+			"artists": 29
+		},
+
+		{
+			"genre": "permanent wave",
+			"songs": 134,
+			"artists": 18
+		},
+
+		{
+			"genre": "new wave",
+			"songs": 131,
+			"artists": 22
+		},
+
+		{
+			"genre": "hard bop",
+			"songs": 126,
+			"artists": 34
+		},
+
+		{
+			"genre": "neo soul",
+			"songs": 124,
+			"artists": 33
+		},
+
+		{
+			"genre": "post-punk",
+			"songs": 124,
+			"artists": 18
+		},
+
+		{
+			"genre": "jazz rap",
+			"songs": 121,
+			"artists": 17
+		},
+
+		{
+			"genre": "pop rap",
+			"songs": 119,
+			"artists": 55
+		},
+
+		{
+			"genre": "jazz funk",
+			"songs": 118,
+			"artists": 48
+		},
+
+		{
+			"genre": "afrofuturism",
+			"songs": 117,
+			"artists": 22
+		},
+
+		{
+			"genre": "cool jazz",
+			"songs": 117,
+			"artists": 19
+		},
+
+		{
+			"genre": "quiet storm",
+			"songs": 115,
+			"artists": 44
+		},
+
+		{
+			"genre": "r&b",
+			"songs": 113,
+			"artists": 43
+		},
+
+		{
+			"genre": "ambient",
+			"songs": 110,
+			"artists": 8
+		},
+
+		{
+			"genre": "intelligent dance music",
+			"songs": 109,
+			"artists": 14
+		},
+
+		{
+			"genre": "dirty south rap",
+			"songs": 107,
+			"artists": 14
+		},
+
+		{
+			"genre": "motown",
+			"songs": 100,
+			"artists": 30
+		},
+
+		{
+			"genre": "wonky",
+			"songs": 98,
+			"artists": 22
+		},
+
+		{
+			"genre": "jazz saxophone",
+			"songs": 97,
+			"artists": 24
+		},
+
+		{
+			"genre": "uk experimental electronic",
+			"songs": 93,
+			"artists": 3
+		},
+
+		{
+			"genre": "braindance",
+			"songs": 92,
+			"artists": 2
+		},
+
+		{
+			"genre": "freak folk",
+			"songs": 88,
+			"artists": 19
+		},
+
+		{
+			"genre": "urban contemporary",
+			"songs": 87,
+			"artists": 33
+		},
+
+		{
+			"genre": "jazz piano",
+			"songs": 87,
+			"artists": 23
+		},
+
+		{
+			"genre": "lounge",
+			"songs": 85,
+			"artists": 25
+		},
+
+		{
+			"genre": "free jazz",
+			"songs": 85,
+			"artists": 25
+		},
+
+		{
+			"genre": "boom bap",
+			"songs": 80,
+			"artists": 22
+		},
+
+		{
+			"genre": "indie rock",
+			"songs": 80,
+			"artists": 24
+		},
+
+		{
+			"genre": "funk rock",
+			"songs": 78,
+			"artists": 7
+		},
+
+		{
+			"genre": "psychedelic rock",
+			"songs": 78,
+			"artists": 18
+		},
+
+		{
+			"genre": "bossa nova",
+			"songs": 77,
+			"artists": 21
+		},
+
+		{
+			"genre": "abstract beats",
+			"songs": 76,
+			"artists": 5
+		},
+
+		{
+			"genre": "classic rock",
+			"songs": 76,
+			"artists": 20
+		},
+
+		{
+			"genre": "dance rock",
+			"songs": 76,
+			"artists": 5
+		},
+
+		{
+			"genre": "dub",
+			"songs": 76,
+			"artists": 34
+		},
+
+		{
+			"genre": "reggae",
+			"songs": 76,
+			"artists": 33
+		},
+
+		{
+			"genre": "shibuya-kei",
+			"songs": 75,
+			"artists": 12
+		},
+
+		{
+			"genre": "roots reggae",
+			"songs": 75,
+			"artists": 34
+		},
+
+		{
+			"genre": "old school atlanta hip hop",
+			"songs": 74,
+			"artists": 2
+		},
+
+		{
+			"genre": "industrial hip hop",
+			"songs": 73,
+			"artists": 5
+		},
+
+		{
+			"genre": "contemporary post-bop",
+			"songs": 73,
+			"artists": 18
+		},
+
+		{
+			"genre": "jazz guitar",
+			"songs": 72,
+			"artists": 19
+		},
+
+		{
+			"genre": "indie jazz",
+			"songs": 72,
+			"artists": 38
+		},
+
+		{
+			"genre": "queens hip hop",
+			"songs": 68,
+			"artists": 7
+		},
+
+		{
+			"genre": "fourth world",
+			"songs": 65,
+			"artists": 14
+		},
+
+		{
+			"genre": "chillwave",
+			"songs": 63,
+			"artists": 25
+		},
+
+		{
+			"genre": "disco",
+			"songs": 63,
+			"artists": 34
+		},
+
+		{
+			"genre": "classic j-rock",
+			"songs": 61,
+			"artists": 3
+		},
+
+		{
+			"genre": "classic soul",
+			"songs": 61,
+			"artists": 28
+		},
+
+		{
+			"genre": "dance pop",
+			"songs": 60,
+			"artists": 32
+		},
+
+		{
+			"genre": "experimental",
+			"songs": 60,
+			"artists": 19
+		},
+
+		{
+			"genre": "vapor trap",
+			"songs": 59,
+			"artists": 27
+		},
+
+		{
+			"genre": "alternative dance",
+			"songs": 58,
+			"artists": 16
+		},
+
+		{
+			"genre": "pluggnb",
+			"songs": 57,
+			"artists": 14
+		},
+
+		{
+			"genre": "zolo",
+			"songs": 56,
+			"artists": 4
+		},
+
+		{
+			"genre": "uk post-punk",
+			"songs": 55,
+			"artists": 7
+		},
+
+		{
+			"genre": "stride",
+			"songs": 55,
+			"artists": 21
+		},
+
+		{
+			"genre": "soul jazz",
+			"songs": 55,
+			"artists": 22
+		},
+
+		{
+			"genre": "art punk",
+			"songs": 54,
+			"artists": 4
+		},
+
+		{
+			"genre": "jazz trumpet",
+			"songs": 54,
+			"artists": 12
+		},
+
+		{
+			"genre": "golden age hip hop",
+			"songs": 53,
+			"artists": 5
+		},
+
+		{
+			"genre": "milwaukee hip hop",
+			"songs": 53,
+			"artists": 4
+		},
+
+		{
+			"genre": "electropop",
+			"songs": 53,
+			"artists": 21
+		},
+
+		{
+			"genre": "west coast rap",
+			"songs": 52,
+			"artists": 17
+		},
+
+		{
+			"genre": "new rave",
+			"songs": 52,
+			"artists": 13
+		},
+
+		{
+			"genre": "madchester",
+			"songs": 51,
+			"artists": 5
+		},
+
+		{
+			"genre": "lgbtq+ hip hop",
+			"songs": 51,
+			"artists": 7
+		},
+
+		{
+			"genre": "chillhop",
+			"songs": 50,
+			"artists": 10
+		},
+
+		{
+			"genre": "boy band",
+			"songs": 50,
+			"artists": 1
+		},
+
+		{
+			"genre": "brazilian jazz",
+			"songs": 50,
+			"artists": 15
+		},
+
+		{
+			"genre": "indietronica",
+			"songs": 50,
+			"artists": 14
+		},
+
+		{
+			"genre": "melancholia",
+			"songs": 49,
+			"artists": 7
+		},
+
+		{
+			"genre": "electro",
+			"songs": 47,
+			"artists": 6
+		},
+
+		{
+			"genre": "indie r&b",
+			"songs": 47,
+			"artists": 25
+		},
+
+		{
+			"genre": "indie pop",
+			"songs": 46,
+			"artists": 17
+		},
+
+		{
+			"genre": "modern rock",
+			"songs": 46,
+			"artists": 10
+		},
+
+		{
+			"genre": "canadian pop",
+			"songs": 45,
+			"artists": 7
+		},
+
+		{
+			"genre": "melodic rap",
+			"songs": 44,
+			"artists": 25
+		},
+
+		{
+			"genre": "uk alternative hip hop",
+			"songs": 43,
+			"artists": 19
+		},
+
+		{
+			"genre": "latin jazz",
+			"songs": 43,
+			"artists": 7
+		},
+
+		{
+			"genre": "ska",
+			"songs": 43,
+			"artists": 17
+		},
+
+		{
+			"genre": "filter house",
+			"songs": 42,
+			"artists": 3
+		},
+
+		{
+			"genre": "plugg",
+			"songs": 41,
+			"artists": 11
+		},
+
+		{
+			"genre": "deep house",
+			"songs": 41,
+			"artists": 19
+		},
+
+		{
+			"genre": "rocksteady",
+			"songs": 41,
+			"artists": 16
+		},
+
+		{
+			"genre": "j-rock",
+			"songs": 40,
+			"artists": 5
+		},
+
+		{
+			"genre": "hip pop",
+			"songs": 40,
+			"artists": 23
+		},
+
+		{
+			"genre": "experimental pop",
+			"songs": 40,
+			"artists": 11
+		},
+
+		{
+			"genre": "float house",
+			"songs": 39,
+			"artists": 19
+		},
+
+		{
+			"genre": "detroit hip hop",
+			"songs": 39,
+			"artists": 8
+		},
+
+		{
+			"genre": "world",
+			"songs": 39,
+			"artists": 15
+		},
+
+		{
+			"genre": "virginia hip hop",
+			"songs": 38,
+			"artists": 11
+		},
+
+		{
+			"genre": "samba-jazz",
+			"songs": 38,
+			"artists": 6
+		},
+
+		{
+			"genre": "british soul",
+			"songs": 37,
+			"artists": 4
+		},
+
+		{
+			"genre": "downtempo",
+			"songs": 37,
+			"artists": 5
+		},
+
+		{
+			"genre": "sophisti-pop",
+			"songs": 36,
+			"artists": 5
+		},
+
+		{
+			"genre": "neo-psychedelic",
+			"songs": 36,
+			"artists": 9
+		},
+
+		{
+			"genre": "punk",
+			"songs": 36,
+			"artists": 12
+		},
+
+		{
+			"genre": "new wave pop",
+			"songs": 36,
+			"artists": 12
+		},
+
+		{
+			"genre": "new romantic",
+			"songs": 36,
+			"artists": 11
+		},
+
+		{
+			"genre": "japanese dream pop",
+			"songs": 34,
+			"artists": 1
+		},
+
+		{
+			"genre": "toronto rap",
+			"songs": 34,
+			"artists": 6
+		},
+
+		{
+			"genre": "microhouse",
+			"songs": 34,
+			"artists": 16
+		},
+
+		{
+			"genre": "mpb",
+			"songs": 34,
+			"artists": 12
+		},
+
+		{
+			"genre": "indie folk",
+			"songs": 33,
+			"artists": 8
+		},
+
+		{
+			"genre": "modern alternative rock",
+			"songs": 33,
+			"artists": 3
+		},
+
+		{
+			"genre": "noise pop",
+			"songs": 33,
+			"artists": 8
+		},
+
+		{
+			"genre": "synth funk",
+			"songs": 32,
+			"artists": 11
+		},
+
+		{
+			"genre": "southern soul",
+			"songs": 31,
+			"artists": 12
+		},
+
+		{
+			"genre": "canadian hip hop",
+			"songs": 30,
+			"artists": 3
+		},
+
+		{
+			"genre": "chamber psych",
+			"songs": 30,
+			"artists": 7
+		},
+
+		{
+			"genre": "uk hip hop",
+			"songs": 30,
+			"artists": 16
+		},
+
+		{
+			"genre": "blues rock",
+			"songs": 30,
+			"artists": 5
+		},
+
+		{
+			"genre": "album rock",
+			"songs": 29,
+			"artists": 10
+		},
+
+		{
+			"genre": "grime",
+			"songs": 29,
+			"artists": 13
+		},
+
+		{
+			"genre": "synthpop",
+			"songs": 29,
+			"artists": 7
+		},
+
+		{
+			"genre": "violao",
+			"songs": 29,
+			"artists": 7
+		},
+
+		{
+			"genre": "anti-folk",
+			"songs": 29,
+			"artists": 6
+		},
+
+		{
+			"genre": "indiana hip hop",
+			"songs": 29,
+			"artists": 5
+		},
+
+		{
+			"genre": "big band",
+			"songs": 29,
+			"artists": 14
+		},
+
+		{
+			"genre": "jazz blues",
+			"songs": 29,
+			"artists": 8
+		},
+
+		{
+			"genre": "afrobeat",
+			"songs": 29,
+			"artists": 16
+		},
+
+		{
+			"genre": "uk alternative pop",
+			"songs": 28,
+			"artists": 6
+		},
+
+		{
+			"genre": "new jersey rap",
+			"songs": 28,
+			"artists": 7
+		},
+
+		{
+			"genre": "proto-techno",
+			"songs": 28,
+			"artists": 3
+		},
+
+		{
+			"genre": "contemporary jazz",
+			"songs": 28,
+			"artists": 14
+		},
+
+		{
+			"genre": "post-disco",
+			"songs": 27,
+			"artists": 19
+		},
+
+		{
+			"genre": "stomp and holler",
+			"songs": 27,
+			"artists": 3
+		},
+
+		{
+			"genre": "japanese soundtrack",
+			"songs": 27,
+			"artists": 3
+		},
+
+		{
+			"genre": "avant-garde jazz",
+			"songs": 27,
+			"artists": 12
+		},
+
+		{
+			"genre": "afropop",
+			"songs": 27,
+			"artists": 16
+		},
+
+		{
+			"genre": "lovers rock",
+			"songs": 26,
+			"artists": 18
+		},
+
+		{
+			"genre": "lo-fi",
+			"songs": 26,
+			"artists": 3
+		},
+
+		{
+			"genre": "turntablism",
+			"songs": 25,
+			"artists": 22
+		},
+
+		{
+			"genre": "jazz trio",
+			"songs": 25,
+			"artists": 6
+		},
+
+		{
+			"genre": "classic city pop",
+			"songs": 24,
+			"artists": 16
+		},
+
+		{
+			"genre": "cali rap",
+			"songs": 24,
+			"artists": 17
+		},
+
+		{
+			"genre": "japanese folk",
+			"songs": 24,
+			"artists": 1
+		},
+
+		{
+			"genre": "japanese psychedelic",
+			"songs": 24,
+			"artists": 1
+		},
+
+		{
+			"genre": "japanese singer-songwriter",
+			"songs": 24,
+			"artists": 1
+		},
+
+		{
+			"genre": "new weird america",
+			"songs": 24,
+			"artists": 1
+		},
+
+		{
+			"genre": "trip hop",
+			"songs": 24,
+			"artists": 9
+		},
+
+		{
+			"genre": "post-hardcore",
+			"songs": 24,
+			"artists": 9
+		},
+
+		{
+			"genre": "experimental rock",
+			"songs": 23,
+			"artists": 9
+		},
+
+		{
+			"genre": "metropopolis",
+			"songs": 22,
+			"artists": 8
+		},
+
+		{
+			"genre": "hyperpop",
+			"songs": 22,
+			"artists": 6
+		},
+
+		{
+			"genre": "japanese chillhop",
+			"songs": 22,
+			"artists": 2
+		},
+
+		{
+			"genre": "instrumental funk",
+			"songs": 22,
+			"artists": 5
+		},
+
+		{
+			"genre": "indie hip hop",
+			"songs": 22,
+			"artists": 8
+		},
+
+		{
+			"genre": "british invasion",
+			"songs": 21,
+			"artists": 2
+		},
+
+		{
+			"genre": "merseybeat",
+			"songs": 21,
+			"artists": 2
+		},
+
+		{
+			"genre": "hard rock",
+			"songs": 21,
+			"artists": 5
+		},
+
+		{
+			"genre": "japanese old school hip hop",
+			"songs": 21,
+			"artists": 1
+		},
+
+		{
+			"genre": "easy listening",
+			"songs": 21,
+			"artists": 5
+		},
+
+		{
+			"genre": "acid rock",
+			"songs": 21,
+			"artists": 5
+		},
+
+		{
+			"genre": "psychedelic soul",
+			"songs": 21,
+			"artists": 10
+		},
+
+		{
+			"genre": "beatlesque",
+			"songs": 20,
+			"artists": 1
+		},
+
+		{
+			"genre": "oxford indie",
+			"songs": 20,
+			"artists": 4
+		},
+
+		{
+			"genre": "instrumental grime",
+			"songs": 20,
+			"artists": 7
+		},
+
+		{
+			"genre": "p funk",
+			"songs": 20,
+			"artists": 8
+		},
+
+		{
+			"genre": "black punk",
+			"songs": 20,
+			"artists": 2
+		},
+
+		{
+			"genre": "hardcore punk",
+			"songs": 20,
+			"artists": 5
+		},
+
+		{
+			"genre": "brazilian classical",
+			"songs": 20,
+			"artists": 4
+		},
+
+		{
+			"genre": "latin classical",
+			"songs": 20,
+			"artists": 4
+		},
+
+		{
+			"genre": "trap queen",
+			"songs": 19,
+			"artists": 10
+		},
+
+		{
+			"genre": "birmingham grime",
+			"songs": 19,
+			"artists": 6
+		},
+
+		{
+			"genre": "lo-fi beats",
+			"songs": 19,
+			"artists": 6
+		},
+
+		{
+			"genre": "vapor twitch",
+			"songs": 19,
+			"artists": 5
+		},
+
+		{
+			"genre": "deep soul house",
+			"songs": 19,
+			"artists": 9
+		},
+
+		{
+			"genre": "uk bass",
+			"songs": 19,
+			"artists": 13
+		},
+
+		{
+			"genre": "vaporwave",
+			"songs": 19,
+			"artists": 10
+		},
+
+		{
+			"genre": "brooklyn indie",
+			"songs": 19,
+			"artists": 6
+		},
+
+		{
+			"genre": "compositional ambient",
+			"songs": 19,
+			"artists": 7
+		},
+
+		{
+			"genre": "jazz double bass",
+			"songs": 19,
+			"artists": 6
+		},
+
+		{
+			"genre": "british jazz",
+			"songs": 19,
+			"artists": 9
+		},
+
+		{
+			"genre": "r&b en espanol",
+			"songs": 18,
+			"artists": 2
+		},
+
+		{
+			"genre": "nyhc",
+			"songs": 18,
+			"artists": 2
+		},
+
+		{
+			"genre": "krautrock",
+			"songs": 18,
+			"artists": 4
+		},
+
+		{
+			"genre": "nu jazz",
+			"songs": 18,
+			"artists": 5
+		},
+
+		{
+			"genre": "japanese electropop",
+			"songs": 18,
+			"artists": 2
+		},
+
+		{
+			"genre": "canadian contemporary r&b",
+			"songs": 18,
+			"artists": 7
+		},
+
+		{
+			"genre": "folk rock",
+			"songs": 18,
+			"artists": 13
+		},
+
+		{
+			"genre": "glam rock",
+			"songs": 17,
+			"artists": 4
+		},
+
+		{
+			"genre": "space rock",
+			"songs": 17,
+			"artists": 3
+		},
+
+		{
+			"genre": "musica tradicional cubana",
+			"songs": 17,
+			"artists": 4
+		},
+
+		{
+			"genre": "techno",
+			"songs": 17,
+			"artists": 7
+		},
+
+		{
+			"genre": "ska punk",
+			"songs": 17,
+			"artists": 2
+		},
+
+		{
+			"genre": "jazz drums",
+			"songs": 17,
+			"artists": 7
+		},
+
+		{
+			"genre": "uk contemporary jazz",
+			"songs": 17,
+			"artists": 11
+		},
+
+		{
+			"genre": "contemporary r&b",
+			"songs": 16,
+			"artists": 13
+		},
+
+		{
+			"genre": "candy pop",
+			"songs": 16,
+			"artists": 4
+		},
+
+		{
+			"genre": "fluxwork",
+			"songs": 16,
+			"artists": 3
+		},
+
+		{
+			"genre": "dc hardcore",
+			"songs": 16,
+			"artists": 1
+		},
+
+		{
+			"genre": "soul flow",
+			"songs": 16,
+			"artists": 6
+		},
+
+		{
+			"genre": "mellow gold",
+			"songs": 16,
+			"artists": 12
+		},
+
+		{
+			"genre": "memphis soul",
+			"songs": 16,
+			"artists": 3
+		},
+
+		{
+			"genre": "latin alternative",
+			"songs": 16,
+			"artists": 4
+		},
+
+		{
+			"genre": "dream pop",
+			"songs": 16,
+			"artists": 11
+		},
+
+		{
+			"genre": "torch song",
+			"songs": 16,
+			"artists": 3
+		},
+
+		{
+			"genre": "protopunk",
+			"songs": 16,
+			"artists": 6
+		},
+
+		{
+			"genre": "kawaii future bass",
+			"songs": 15,
+			"artists": 2
+		},
+
+		{
+			"genre": "west coast trap",
+			"songs": 15,
+			"artists": 10
+		},
+
+		{
+			"genre": "gothenburg indie",
+			"songs": 15,
+			"artists": 3
+		},
+
+		{
+			"genre": "swedish electropop",
+			"songs": 15,
+			"artists": 3
+		},
+
+		{
+			"genre": "swedish synthpop",
+			"songs": 15,
+			"artists": 3
+		},
+
+		{
+			"genre": "post-teen pop",
+			"songs": 15,
+			"artists": 4
+		},
+
+		{
+			"genre": "edmonton indie",
+			"songs": 15,
+			"artists": 3
+		},
+
+		{
+			"genre": "jazz vibraphone",
+			"songs": 15,
+			"artists": 5
+		},
+
+		{
+			"genre": "minimalism",
+			"songs": 14,
+			"artists": 2
+		},
+
+		{
+			"genre": "denton tx indie",
+			"songs": 14,
+			"artists": 2
+		},
+
+		{
+			"genre": "uk pop",
+			"songs": 14,
+			"artists": 3
+		},
+
+		{
+			"genre": "garage rock",
+			"songs": 14,
+			"artists": 3
+		},
+
+		{
+			"genre": "uk reggae",
+			"songs": 14,
+			"artists": 1
+		},
+
+		{
+			"genre": "detroit house",
+			"songs": 14,
+			"artists": 6
+		},
+
+		{
+			"genre": "atl trap",
+			"songs": 14,
+			"artists": 10
+		},
+
+		{
+			"genre": "yacht rock",
+			"songs": 14,
+			"artists": 9
+		},
+
+		{
+			"genre": "swing",
+			"songs": 14,
+			"artists": 12
+		},
+
+		{
+			"genre": "country rock",
+			"songs": 13,
+			"artists": 8
+		},
+
+		{
+			"genre": "future bass",
+			"songs": 13,
+			"artists": 2
+		},
+
+		{
+			"genre": "experimental ambient",
+			"songs": 13,
+			"artists": 1
+		},
+
+		{
+			"genre": "hammond organ",
+			"songs": 13,
+			"artists": 5
+		},
+
+		{
+			"genre": "old school dancehall",
+			"songs": 13,
+			"artists": 12
+		},
+
+		{
+			"genre": "singer-songwriter",
+			"songs": 12,
+			"artists": 11
+		},
+
+		{
+			"genre": "drill",
+			"songs": 12,
+			"artists": 9
+		},
+
+		{
+			"genre": "dmv rap",
+			"songs": 12,
+			"artists": 8
+		},
+
+		{
+			"genre": "shoegaze",
+			"songs": 12,
+			"artists": 6
+		},
+
+		{
+			"genre": "minneapolis sound",
+			"songs": 12,
+			"artists": 2
+		},
+
+		{
+			"genre": "punk blues",
+			"songs": 12,
+			"artists": 4
+		},
+
+		{
+			"genre": "latinx alternative",
+			"songs": 12,
+			"artists": 1
+		},
+
+		{
+			"genre": "samba",
+			"songs": 12,
+			"artists": 7
+		},
+
+		{
+			"genre": "detroit rock",
+			"songs": 12,
+			"artists": 2
+		},
+
+		{
+			"genre": "chicha",
+			"songs": 12,
+			"artists": 8
+		},
+
+		{
+			"genre": "soft rock",
+			"songs": 12,
+			"artists": 9
+		},
+
+		{
+			"genre": "new orleans rap",
+			"songs": 12,
+			"artists": 8
+		},
+
+		{
+			"genre": "jazz quartet",
+			"songs": 12,
+			"artists": 4
+		},
+
+		{
+			"genre": "japanese jazz",
+			"songs": 11,
+			"artists": 9
+		},
+
+		{
+			"genre": "experimental folk",
+			"songs": 11,
+			"artists": 1
+		},
+
+		{
+			"genre": "experimental psych",
+			"songs": 11,
+			"artists": 1
+		},
+
+		{
+			"genre": "newcastle indie",
+			"songs": 11,
+			"artists": 1
+		},
+
+		{
+			"genre": "rap kreyol",
+			"songs": 11,
+			"artists": 1
+		},
+
+		{
+			"genre": "future garage",
+			"songs": 11,
+			"artists": 7
+		},
+
+		{
+			"genre": "political hip hop",
+			"songs": 11,
+			"artists": 8
+		},
+
+		{
+			"genre": "ecm-style jazz",
+			"songs": 11,
+			"artists": 5
+		},
+
+		{
+			"genre": "jazz flute",
+			"songs": 11,
+			"artists": 4
+		},
+
+		{
+			"genre": "glitch",
+			"songs": 11,
+			"artists": 8
+		},
+
+		{
+			"genre": "jazz organ",
+			"songs": 10,
+			"artists": 5
+		},
+
+		{
+			"genre": "cumbia",
+			"songs": 10,
+			"artists": 5
+		},
+
+		{
+			"genre": "mexican classic rock",
+			"songs": 10,
+			"artists": 1
+		},
+
+		{
+			"genre": "chill r&b",
+			"songs": 9,
+			"artists": 7
+		},
+
+		{
+			"genre": "canadian house",
+			"songs": 9,
+			"artists": 5
+		},
+
+		{
+			"genre": "underground rap",
+			"songs": 9,
+			"artists": 6
+		},
+
+		{
+			"genre": "buffalo hip hop",
+			"songs": 9,
+			"artists": 6
+		},
+
+		{
+			"genre": "upstate ny rap",
+			"songs": 9,
+			"artists": 6
+		},
+
+		{
+			"genre": "australian garage punk",
+			"songs": 9,
+			"artists": 3
+		},
+
+		{
+			"genre": "classic japanese jazz",
+			"songs": 9,
+			"artists": 6
+		},
+
+		{
+			"genre": "space age pop",
+			"songs": 9,
+			"artists": 3
+		},
+
+		{
+			"genre": "jazz harp",
+			"songs": 9,
+			"artists": 3
+		},
+
+		{
+			"genre": "folk",
+			"songs": 8,
+			"artists": 7
+		},
+
+		{
+			"genre": "roots rock",
+			"songs": 8,
+			"artists": 5
+		},
+
+		{
+			"genre": "trap latino",
+			"songs": 8,
+			"artists": 6
+		},
+
+		{
+			"genre": "vintage italian soundtrack",
+			"songs": 8,
+			"artists": 4
+		},
+
+		{
+			"genre": "latin",
+			"songs": 8,
+			"artists": 6
+		},
+
+		{
+			"genre": "tech house",
+			"songs": 8,
+			"artists": 5
+		},
+
+		{
+			"genre": "chicago house",
+			"songs": 8,
+			"artists": 3
+		},
+
+		{
+			"genre": "classic house",
+			"songs": 8,
+			"artists": 3
+		},
+
+		{
+			"genre": "detroit techno",
+			"songs": 8,
+			"artists": 3
+		},
+
+		{
+			"genre": "japanese alternative pop",
+			"songs": 8,
+			"artists": 3
+		},
+
+		{
+			"genre": "jazz house",
+			"songs": 8,
+			"artists": 3
+		},
+
+		{
+			"genre": "classical",
+			"songs": 8,
+			"artists": 5
+		},
+
+		{
+			"genre": "canadian modern jazz",
+			"songs": 8,
+			"artists": 3
+		},
+
+		{
+			"genre": "afro psych",
+			"songs": 8,
+			"artists": 7
+		},
+
+		{
+			"genre": "trap soul",
+			"songs": 7,
+			"artists": 7
+		},
+
+		{
+			"genre": "chamber pop",
+			"songs": 7,
+			"artists": 5
+		},
+
+		{
+			"genre": "chicago drill",
+			"songs": 7,
+			"artists": 5
+		},
+
+		{
+			"genre": "rare groove",
+			"songs": 7,
+			"artists": 5
+		},
+
+		{
+			"genre": "london rap",
+			"songs": 7,
+			"artists": 5
+		},
+
+		{
+			"genre": "garage psych",
+			"songs": 7,
+			"artists": 4
+		},
+
+		{
+			"genre": "phonk",
+			"songs": 7,
+			"artists": 4
+		},
+
+		{
+			"genre": "pop rock",
+			"songs": 7,
+			"artists": 5
+		},
+
+		{
+			"genre": "house",
+			"songs": 7,
+			"artists": 7
+		},
+
+		{
+			"genre": "cumbia peruana",
+			"songs": 7,
+			"artists": 4
+		},
+
+		{
+			"genre": "folktronica",
+			"songs": 7,
+			"artists": 4
+		},
+
+		{
+			"genre": "hardvapour",
+			"songs": 7,
+			"artists": 4
+		},
+
+		{
+			"genre": "pittsburgh rap",
+			"songs": 7,
+			"artists": 4
+		},
+
+		{
+			"genre": "outsider house",
+			"songs": 7,
+			"artists": 4
+		},
+
+		{
+			"genre": "lo-fi house",
+			"songs": 7,
+			"artists": 5
+		},
+
+		{
+			"genre": "broken beat",
+			"songs": 7,
+			"artists": 4
+		},
+
+		{
+			"genre": "jamaican ska",
+			"songs": 7,
+			"artists": 6
+		},
+
+		{
+			"genre": "vapor soul",
+			"songs": 7,
+			"artists": 6
+		},
+
+		{
+			"genre": "northern soul",
+			"songs": 7,
+			"artists": 1
+		},
+
+		{
+			"genre": "indie garage rock",
+			"songs": 7,
+			"artists": 6
+		},
+
+		{
+			"genre": "techno kayo",
+			"songs": 7,
+			"artists": 3
+		},
+
+		{
+			"genre": "slap house",
+			"songs": 7,
+			"artists": 6
+		},
+
+		{
+			"genre": "philly rap",
+			"songs": 7,
+			"artists": 7
+		},
+
+		{
+			"genre": "smooth jazz",
+			"songs": 7,
+			"artists": 5
+		},
+
+		{
+			"genre": "afroswing",
+			"songs": 6,
+			"artists": 5
+		},
+
+		{
+			"genre": "houston rap",
+			"songs": 6,
+			"artists": 6
+		},
+
+		{
+			"genre": "experimental house",
+			"songs": 6,
+			"artists": 4
+		},
+
+		{
+			"genre": "indie punk",
+			"songs": 6,
+			"artists": 3
+		},
+
+		{
+			"genre": "battle rap",
+			"songs": 6,
+			"artists": 4
+		},
+
+		{
+			"genre": "reggaeton",
+			"songs": 6,
+			"artists": 4
+		},
+
+		{
+			"genre": "jazztronica",
+			"songs": 6,
+			"artists": 5
+		},
+
+		{
+			"genre": "bronx hip hop",
+			"songs": 6,
+			"artists": 6
+		},
+
+		{
+			"genre": "jazz boom bap",
+			"songs": 6,
+			"artists": 6
+		},
+
+		{
+			"genre": "brazilian boogie",
+			"songs": 6,
+			"artists": 2
+		},
+
+		{
+			"genre": "ninja",
+			"songs": 6,
+			"artists": 5
+		},
+
+		{
+			"genre": "acid house",
+			"songs": 6,
+			"artists": 2
+		},
+
+		{
+			"genre": "minimal tech house",
+			"songs": 6,
+			"artists": 4
+		},
+
+		{
+			"genre": "tennessee hip hop",
+			"songs": 6,
+			"artists": 3
+		},
+
+		{
+			"genre": "tropical",
+			"songs": 6,
+			"artists": 5
+		},
+
+		{
+			"genre": "spiritual jazz",
+			"songs": 6,
+			"artists": 4
+		},
+
+		{
+			"genre": "portland hip hop",
+			"songs": 5,
+			"artists": 5
+		},
+
+		{
+			"genre": "ukg revival",
+			"songs": 5,
+			"artists": 5
+		},
+
+		{
+			"genre": "dancehall",
+			"songs": 5,
+			"artists": 5
+		},
+
+		{
+			"genre": "garage pop",
+			"songs": 5,
+			"artists": 2
+		},
+
+		{
+			"genre": "japanese alternative rock",
+			"songs": 5,
+			"artists": 4
+		},
+
+		{
+			"genre": "alternative pop",
+			"songs": 5,
+			"artists": 3
+		},
+
+		{
+			"genre": "glitch hop",
+			"songs": 5,
+			"artists": 4
+		},
+
+		{
+			"genre": "memphis hip hop",
+			"songs": 5,
+			"artists": 3
+		},
+
+		{
+			"genre": "nz electronic",
+			"songs": 5,
+			"artists": 2
+		},
+
+		{
+			"genre": "uk garage",
+			"songs": 5,
+			"artists": 5
+		},
+
+		{
+			"genre": "philly soul",
+			"songs": 5,
+			"artists": 4
+		},
+
+		{
+			"genre": "anime",
+			"songs": 5,
+			"artists": 3
+		},
+
+		{
+			"genre": "spytrack",
+			"songs": 5,
+			"artists": 5
+		},
+
+		{
+			"genre": "ethio-jazz",
+			"songs": 5,
+			"artists": 4
+		},
+
+		{
+			"genre": "nyc rap",
+			"songs": 5,
+			"artists": 4
+		},
+
+		{
+			"genre": "mande pop",
+			"songs": 5,
+			"artists": 4
+		},
+
+		{
+			"genre": "classic uk pop",
+			"songs": 5,
+			"artists": 5
+		},
+
+		{
+			"genre": "japanese vgm",
+			"songs": 5,
+			"artists": 1
+		},
+
+		{
+			"genre": "bolero",
+			"songs": 5,
+			"artists": 5
+		},
+
+		{
+			"genre": "experimental r&b",
+			"songs": 5,
+			"artists": 4
+		},
+
+		{
+			"genre": "bedroom pop",
+			"songs": 5,
+			"artists": 3
+		},
+
+		{
+			"genre": "mallet",
+			"songs": 5,
+			"artists": 1
+		},
+
+		{
+			"genre": "brill building pop",
+			"songs": 5,
+			"artists": 3
+		},
+
+		{
+			"genre": "rock-and-roll",
+			"songs": 5,
+			"artists": 3
+		},
+
+		{
+			"genre": "dutch pop",
+			"songs": 5,
+			"artists": 1
+		},
+
+		{
+			"genre": "exotica",
+			"songs": 5,
+			"artists": 3
+		},
+
+		{
+			"genre": "la indie",
+			"songs": 5,
+			"artists": 3
+		},
+
+		{
+			"genre": "classical performance",
+			"songs": 5,
+			"artists": 3
+		},
+
+		{
+			"genre": "post-romantic era",
+			"songs": 5,
+			"artists": 3
+		},
+
+		{
+			"genre": "collage pop",
+			"songs": 5,
+			"artists": 4
+		},
+
+		{
+			"genre": "classic soundtrack",
+			"songs": 5,
+			"artists": 3
+		},
+
+		{
+			"genre": "psicodelia brasileira",
+			"songs": 5,
+			"artists": 5
+		},
+
+		{
+			"genre": "highlife",
+			"songs": 5,
+			"artists": 5
+		},
+
+		{
+			"genre": "baroque pop",
+			"songs": 4,
+			"artists": 3
+		},
+
+		{
+			"genre": "drone",
+			"songs": 4,
+			"artists": 4
+		},
+
+		{
+			"genre": "crunk",
+			"songs": 4,
+			"artists": 4
+		},
+
+		{
+			"genre": "uk drill",
+			"songs": 4,
+			"artists": 3
+		},
+
+		{
+			"genre": "ohio hip hop",
+			"songs": 4,
+			"artists": 3
+		},
+
+		{
+			"genre": "bass house",
+			"songs": 4,
+			"artists": 4
+		},
+
+		{
+			"genre": "nigerian pop",
+			"songs": 4,
+			"artists": 2
+		},
+
+		{
+			"genre": "gothic rock",
+			"songs": 4,
+			"artists": 2
+		},
+
+		{
+			"genre": "classic dubstep",
+			"songs": 4,
+			"artists": 3
+		},
+
+		{
+			"genre": "melodic hardcore",
+			"songs": 4,
+			"artists": 2
+		},
+
+		{
+			"genre": "chicago bop",
+			"songs": 4,
+			"artists": 2
+		},
+
+		{
+			"genre": "souldies",
+			"songs": 4,
+			"artists": 4
+		},
+
+		{
+			"genre": "miami hip hop",
+			"songs": 4,
+			"artists": 4
+		},
+
+		{
+			"genre": "latin pop",
+			"songs": 4,
+			"artists": 3
+		},
+
+		{
+			"genre": "ranchera",
+			"songs": 4,
+			"artists": 4
+		},
+
+		{
+			"genre": "flint hip hop",
+			"songs": 4,
+			"artists": 2
+		},
+
+		{
+			"genre": "glitchcore",
+			"songs": 4,
+			"artists": 2
+		},
+
+		{
+			"genre": "britpop",
+			"songs": 4,
+			"artists": 3
+		},
+
+		{
+			"genre": "library music",
+			"songs": 4,
+			"artists": 4
+		},
+
+		{
+			"genre": "edm",
+			"songs": 4,
+			"artists": 3
+		},
+
+		{
+			"genre": "egg punk",
+			"songs": 4,
+			"artists": 1
+		},
+
+		{
+			"genre": "instrumental soul",
+			"songs": 4,
+			"artists": 3
+		},
+
+		{
+			"genre": "nueva ola peruana",
+			"songs": 4,
+			"artists": 2
+		},
+
+		{
+			"genre": "peruvian rock",
+			"songs": 4,
+			"artists": 2
+		},
+
+		{
+			"genre": "latin afrobeat",
+			"songs": 4,
+			"artists": 3
+		},
+
+		{
+			"genre": "psychedelic pop",
+			"songs": 4,
+			"artists": 4
+		},
+
+		{
+			"genre": "old school hip hop",
+			"songs": 4,
+			"artists": 4
+		},
+
+		{
+			"genre": "pop soul",
+			"songs": 4,
+			"artists": 4
+		},
+
+		{
+			"genre": "g funk",
+			"songs": 4,
+			"artists": 4
+		},
+
+		{
+			"genre": "ambeat",
+			"songs": 4,
+			"artists": 1
+		},
+
+		{
+			"genre": "drill and bass",
+			"songs": 4,
+			"artists": 3
+		},
+
+		{
+			"genre": "chicago indie",
+			"songs": 4,
+			"artists": 3
+		},
+
+		{
+			"genre": "disco house",
+			"songs": 4,
+			"artists": 3
+		},
+
+		{
+			"genre": "japanese jazztronica",
+			"songs": 4,
+			"artists": 3
+		},
+
+		{
+			"genre": "alternative metal",
+			"songs": 4,
+			"artists": 3
+		},
+
+		{
+			"genre": "electra",
+			"songs": 4,
+			"artists": 3
+		},
+
+		{
+			"genre": "early reggae",
+			"songs": 4,
+			"artists": 4
+		},
+
+		{
+			"genre": "indie poptimism",
+			"songs": 4,
+			"artists": 3
+		},
+
+		{
+			"genre": "electro-pop francais",
+			"songs": 4,
+			"artists": 3
+		},
+
+		{
+			"genre": "lo-fi indie",
+			"songs": 4,
+			"artists": 3
+		},
+
+		{
+			"genre": "impressionism",
+			"songs": 4,
+			"artists": 2
+		},
+
+		{
+			"genre": "ska revival",
+			"songs": 4,
+			"artists": 4
+		},
+
+		{
+			"genre": "pop r&b",
+			"songs": 4,
+			"artists": 4
+		},
+
+		{
+			"genre": "experimental jazz",
+			"songs": 4,
+			"artists": 4
+		},
+
+		{
+			"genre": "reggae fusion",
+			"songs": 3,
+			"artists": 3
+		},
+
+		{
+			"genre": "garage punk",
+			"songs": 3,
+			"artists": 1
+		},
+
+		{
+			"genre": "modern power pop",
+			"songs": 3,
+			"artists": 1
+		},
+
+		{
+			"genre": "power pop",
+			"songs": 3,
+			"artists": 2
+		},
+
+		{
+			"genre": "afro dancehall",
+			"songs": 3,
+			"artists": 1
+		},
+
+		{
+			"genre": "azonto",
+			"songs": 3,
+			"artists": 1
+		},
+
+		{
+			"genre": "nigerian hip hop",
+			"songs": 3,
+			"artists": 1
+		},
+
+		{
+			"genre": "hard techno",
+			"songs": 3,
+			"artists": 2
+		},
+
+		{
+			"genre": "canadian electronic",
+			"songs": 3,
+			"artists": 1
+		},
+
+		{
+			"genre": "lilith",
+			"songs": 3,
+			"artists": 2
+		},
+
+		{
+			"genre": "jazz brass",
+			"songs": 3,
+			"artists": 2
+		},
+
+		{
+			"genre": "future funk",
+			"songs": 3,
+			"artists": 3
+		},
+
+		{
+			"genre": "russian plugg",
+			"songs": 3,
+			"artists": 1
+		},
+
+		{
+			"genre": "dark trap",
+			"songs": 3,
+			"artists": 3
+		},
+
+		{
+			"genre": "florida rap",
+			"songs": 3,
+			"artists": 2
+		},
+
+		{
+			"genre": "harlem renaissance",
+			"songs": 3,
+			"artists": 3
+		},
+
+		{
+			"genre": "nashville sound",
+			"songs": 3,
+			"artists": 3
+		},
+
+		{
+			"genre": "new jack swing",
+			"songs": 3,
+			"artists": 3
+		},
+
+		{
+			"genre": "neo r&b",
+			"songs": 3,
+			"artists": 3
+		},
+
+		{
+			"genre": "irish hip hop",
+			"songs": 3,
+			"artists": 2
+		},
+
+		{
+			"genre": "jazz pop",
+			"songs": 3,
+			"artists": 3
+		},
+
+		{
+			"genre": "japanese new wave",
+			"songs": 3,
+			"artists": 1
+		},
+
+		{
+			"genre": "noise rock",
+			"songs": 3,
+			"artists": 3
+		},
+
+		{
+			"genre": "ethereal wave",
+			"songs": 3,
+			"artists": 1
+		},
+
+		{
+			"genre": "scottish indie",
+			"songs": 3,
+			"artists": 1
+		},
+
+		{
+			"genre": "new orleans jazz",
+			"songs": 3,
+			"artists": 3
+		},
+
+		{
+			"genre": "jazz trombone",
+			"songs": 3,
+			"artists": 3
+		},
+
+		{
+			"genre": "neo-synthpop",
+			"songs": 3,
+			"artists": 3
+		},
+
+		{
+			"genre": "canadian indie",
+			"songs": 3,
+			"artists": 2
+		},
+
+		{
+			"genre": "dark pop",
+			"songs": 3,
+			"artists": 1
+		},
+
+		{
+			"genre": "laboratorio",
+			"songs": 3,
+			"artists": 1
+		},
+
+		{
+			"genre": "double drumming",
+			"songs": 3,
+			"artists": 2
+		},
+
+		{
+			"genre": "dub techno",
+			"songs": 3,
+			"artists": 1
+		},
+
+		{
+			"genre": "tropical house",
+			"songs": 3,
+			"artists": 3
+		},
+
+		{
+			"genre": "latintronica",
+			"songs": 3,
+			"artists": 3
+		},
+
+		{
+			"genre": "musica popular colombiana",
+			"songs": 3,
+			"artists": 3
+		},
+
+		{
+			"genre": "salsa",
+			"songs": 3,
+			"artists": 3
+		},
+
+		{
+			"genre": "popping",
+			"songs": 3,
+			"artists": 1
+		},
+
+		{
+			"genre": "no wave",
+			"songs": 3,
+			"artists": 2
+		},
+
+		{
+			"genre": "kiwi rock",
+			"songs": 3,
+			"artists": 3
+		},
+
+		{
+			"genre": "colombian pop",
+			"songs": 3,
+			"artists": 2
+		},
+
+		{
+			"genre": "desert blues",
+			"songs": 3,
+			"artists": 2
+		},
+
+		{
+			"genre": "malian blues",
+			"songs": 3,
+			"artists": 2
+		},
+
+		{
+			"genre": "uk dance",
+			"songs": 3,
+			"artists": 3
+		},
+
+		{
+			"genre": "arab groove",
+			"songs": 3,
+			"artists": 2
+		},
+
+		{
+			"genre": "reggaeton colombiano",
+			"songs": 3,
+			"artists": 2
+		},
+
+		{
+			"genre": "country",
+			"songs": 3,
+			"artists": 2
+		},
+
+		{
+			"genre": "outlaw country",
+			"songs": 3,
+			"artists": 2
+		},
+
+		{
+			"genre": "texas country",
+			"songs": 3,
+			"artists": 2
+		},
+
+		{
+			"genre": "neo mellow",
+			"songs": 3,
+			"artists": 3
+		},
+
+		{
+			"genre": "vocal house",
+			"songs": 3,
+			"artists": 2
+		},
+
+		{
+			"genre": "free improvisation",
+			"songs": 3,
+			"artists": 3
+		},
+
+		{
+			"genre": "choro",
+			"songs": 3,
+			"artists": 2
+		},
+
+		{
+			"genre": "metal",
+			"songs": 3,
+			"artists": 2
+		},
+
+		{
+			"genre": "harlem hip hop",
+			"songs": 3,
+			"artists": 3
+		},
+
+		{
+			"genre": "minimal techno",
+			"songs": 3,
+			"artists": 2
+		},
+
+		{
+			"genre": "deep ragga",
+			"songs": 3,
+			"artists": 3
+		},
+
+		{
+			"genre": "nyc pop",
+			"songs": 3,
+			"artists": 2
+		},
+
+		{
+			"genre": "french indietronica",
+			"songs": 3,
+			"artists": 2
+		},
+
+		{
+			"genre": "new french touch",
+			"songs": 3,
+			"artists": 2
+		},
+
+		{
+			"genre": "nu-cumbia",
+			"songs": 3,
+			"artists": 2
+		},
+
+		{
+			"genre": "early avant garde",
+			"songs": 3,
+			"artists": 1
+		},
+
+		{
+			"genre": "early modern classical",
+			"songs": 3,
+			"artists": 1
+		},
+
+		{
+			"genre": "classical piano",
+			"songs": 3,
+			"artists": 2
+		},
+
+		{
+			"genre": "french classical piano",
+			"songs": 3,
+			"artists": 1
+		},
+
+		{
+			"genre": "synthesizer",
+			"songs": 3,
+			"artists": 1
+		},
+
+		{
+			"genre": "rock en espanol",
+			"songs": 3,
+			"artists": 2
+		},
+
+		{
+			"genre": "afro-funk",
+			"songs": 3,
+			"artists": 3
+		},
+
+		{
+			"genre": "modern jazz piano",
+			"songs": 3,
+			"artists": 3
+		},
+
+		{
+			"genre": "electric bass",
+			"songs": 3,
+			"artists": 2
+		},
+
+		{
+			"genre": "anime score",
+			"songs": 3,
+			"artists": 2
+		},
+
+		{
+			"genre": "freakbeat",
+			"songs": 3,
+			"artists": 3
+		},
+
+		{
+			"genre": "unclassified genre",
+			"songs": 56,
+			"artists": 5
+		}
+	]
+}

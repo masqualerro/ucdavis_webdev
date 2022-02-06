@@ -1,45 +1,33 @@
-@font-face {
-	font-family: 'Butler';
-	src: url('fonts/Butler-UltraLight.woff2') format('woff2'), url('fonts/Butler-UltraLight.woff') format('woff');
-	font-weight: 200;
-	font-style: normal;
-}
-
 body {
-	/* font-family: 'Butler', serif; */
 	font-family: 'Inconsolata', monospace;
-	background-color: #d7cab7;
+	font-size: 11px;
 }
 
-h1,
-p {
-	text-align: center;
-	color: #403931;
-}
-
-#test {
-	position: relative;
-	height: 187px;
-	width: 200px;
-	border: 1px solid red;
-	margin: 0;
-	padding: 0;
-}
-
-table,
-tr,
-td,
-th {
-	border: 1px solid black;
-	padding: 5px;
-}
-
-table {
+#chartContainer {
+	position: fixed;
+	top: 10px;
+	right: 10px;
 	margin: auto;
+	width: 750px;
 }
 
-th {
-	font-size: 20px;
+#subButtons {
+	padding-top: 10px;
+}
+
+img {
+	width: 100px;
+	padding-right: 15px;
+}
+header {
+	display: flex;
+	width: 500px;
+	align-items: center;
+}
+
+#insights,
+#gList {
+	width: 550px;
 }
 
 a {
@@ -48,38 +36,33 @@ a {
 a:hover {
 	color: #f241c3;
 }
-
-table {
-	font-size: 15px;
+button:hover {
+	cursor: pointer;
 }
 
-form {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
+/* loader --> from loading.io */
 
-.formRow {
-	margin-bottom: 10px;
+.lds-dual-ring {
+	display: none;
+	width: 80px;
+	height: 80px;
 }
-
-input[type='submit'] {
-	margin-bottom: 10px;
+.lds-dual-ring:after {
+	content: ' ';
+	display: block;
+	width: 64px;
+	height: 64px;
+	margin: 8px;
+	border-radius: 50%;
+	border: 6px solid white;
+	border-color: rgb(232, 82, 92) transparent rgb(101, 211, 110) transparent;
+	animation: lds-dual-ring 1.2s linear infinite;
 }
-
-/* #test > div {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	height: 100px;
-	border: 1px solid green;
-	width: 50px;
+@keyframes lds-dual-ring {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
 }
-
-div:nth-child(2) {
-	position: absolute;
-	padding: 50px;
-	height: 150px;
-	border: 1px solid green;
-	width: 50px;
-} */
