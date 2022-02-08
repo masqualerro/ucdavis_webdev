@@ -11,8 +11,8 @@
 		<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet" />
 		<!-- chart.js -->
 		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-		<!-- granim.js -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/granim/2.0.0/granim.min.js"></script>
+		<!-- chroma.js -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.4.2/chroma.min.js"></script>
 		<!-- stylesheet -->
 		<link rel="stylesheet" href="style.css" />
 	</head>
@@ -27,31 +27,33 @@
 			</h1>
 		</header>
 		<main>
+			<div id="subButtons">
+				<h2>create chart</h2>
+				<button class="amButton">apple music</button>
+				<button class="spButton">spotify</button>
+			</div>
 			<section id="data">
-				<div id="subButtons">
-					<h2>create chart</h2>
-					<button class="amButton">apple music</button>
-					<button class="spButton">spotify</button>
+				<div id="rawData">
+					<h2>my data</h2>
+					<section id="amData">
+						<ul>
+							<h3>apple music</h3>
+							<li>songs: 31,209</li>
+							<li>albums: 3,568</li>
+							<li>artists: 3,258</li>
+							<li>genres: 89</li>
+						</ul>
+					</section>
+					<section id="spotData">
+						<ul>
+							<h3>spotify</h3>
+							<li>songs: 3,479</li>
+							<li>albums: 1,567</li>
+							<li>artists: 1,677</li>
+							<li>genres: 491</li>
+						</ul>
+					</section>
 				</div>
-				<h2>my data</h2>
-				<section id="amData">
-					<ul>
-						<h3>apple music</h3>
-						<li>songs: 31,209</li>
-						<li>albums: 3,568</li>
-						<li>artists: 3,258</li>
-						<li>genres: 89</li>
-					</ul>
-				</section>
-				<section id="spotData">
-					<ul>
-						<h3>spotify</h3>
-						<li>songs: 3,479</li>
-						<li>albums: 1,567</li>
-						<li>artists: 1,677</li>
-						<li>genres: 491</li>
-					</ul>
-				</section>
 			</section>
 			<section id="insights">
 				<h2>insights</h2>

@@ -1,3 +1,5 @@
+//used chart.js and chroma.js libraries
+
 'use strict';
 document.querySelector('.amButton').addEventListener('click', runAm);
 document.querySelector('.spButton').addEventListener('click', runSp);
@@ -57,6 +59,8 @@ async function getDataSp() {
 	document.querySelector('.lds-dual-ring').style.display = 'none';
 }
 
+console.log(chroma.random());
+
 function listGenres(x, chart) {
 	document.querySelector('.lds-dual-ring').style.display = 'none';
 	document.getElementById('myChart2').style.display = 'none';
@@ -64,6 +68,7 @@ function listGenres(x, chart) {
 	let genreLabels = [];
 	let genreColor = [];
 	let genreData = [];
+
 	const data = {
 		labels: genreLabels,
 		datasets: [
@@ -71,6 +76,7 @@ function listGenres(x, chart) {
 				label: 'My First Dataset',
 				data: genreData,
 				backgroundColor: genreColor,
+				hoverBackgroundColor: genreColor,
 				hoverOffset: 4,
 			},
 		],
@@ -78,9 +84,10 @@ function listGenres(x, chart) {
 
 	for (let i = 0; i < x.library.length; i++) {
 		genreLabels.push(x.library[i].genre);
-		genreColor.push(`rgb(${getRandomInt(0, 255)},${getRandomInt(0, 255)},${getRandomInt(0, 255)})`);
+		genreColor.push(chroma.random());
+
 		genreData.push(x.library[i].songs);
-		// document.getElementById('listAll').innerHTML += `${x.library[i].genre} --- `;
+
 		document.getElementById(
 			'amListAll'
 		).innerHTML += `<a href="https://www.google.com/search?q=${x.library[i].genre}" target="_blank">${x.library[i].genre}</a> --- `;
@@ -121,11 +128,6 @@ function listGenres(x, chart) {
 	console.log(genreLabels);
 }
 
-function getRandomInt(min, max) {
-	min = Math.ceil(min);
-	max = Math.floor(max);
-	return Math.floor(Math.random() * (max - min + 1)) + min;
-}
 function listSpotify(x, chart) {
 	document.querySelector('.lds-dual-ring').style.display = 'none';
 	document.getElementById('myChart').style.display = 'none';
@@ -141,15 +143,15 @@ function listSpotify(x, chart) {
 				label: 'My First Dataset',
 				data: genreData,
 				backgroundColor: genreColor,
+				hoverBackgroundColor: genreColor,
 				hoverOffset: 4,
 			},
 		],
 	};
 	for (let i = 0; i < x.library.length; i++) {
 		genreLabels.push(x.library[i].genre);
-		genreColor.push(`rgb(${getRandomInt(0, 255)},${getRandomInt(0, 255)},${getRandomInt(0, 255)})`);
+		genreColor.push(chroma.random());
 		genreData.push(x.library[i].songs);
-		// document.getElementById('listAll').innerHTML += `${x.library[i].genre} --- `;
 		document.getElementById(
 			'spListAll'
 		).innerHTML += `<a href="https://www.google.com/search?q=${x.library[i].genre}" target="_blank">${x.library[i].genre}</a> --- `;
@@ -159,7 +161,7 @@ function listSpotify(x, chart) {
 		data: data,
 		options: {
 			animation: {
-				duration: 1000,
+				duration: 1500,
 				delay: 200,
 			},
 			elements: {
@@ -180,3 +182,13 @@ function listSpotify(x, chart) {
 	let genre;
 	console.log(genreLabels);
 }
+
+console.warn = () => {};
+
+// function getRandomInt(min, max) {
+// 	min = Math.ceil(min);
+// 	max = Math.floor(max);
+// 	return Math.floor(Math.random() * (max - min + 1)) + min;
+// }
+
+//REPLACED THIS WITH CHROMA.JS RANDOM FUNCTION

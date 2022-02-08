@@ -66,3 +66,13 @@ button:hover {
 		transform: rotate(360deg);
 	}
 }
+
+#data {
+	display: flex;
+	justify-content: space-between;
+	width: 500px;
+}
+
+ul {
+	list-style-type: '- ';
+}
