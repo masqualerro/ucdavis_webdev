@@ -1,0 +1,38 @@
+body {
+	background-color: #ebebeb;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 11px;
+}
+h1 {
+	font-size: 16px;
+}
+
+h2 {
+	font-size: 14px;
+}
+
+h3 {
+	font-size: 12px;
+	max-width: 600px;
+}
+
+i {
+	transform: rotate(45deg);
+}
+
+h3,
+a,
+p {
+	margin-left: 15px;
+}
+
+.post {
+	padding-bottom: 30px;
+	max-width: 40%;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: #f241c3;
+}
