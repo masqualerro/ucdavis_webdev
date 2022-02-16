@@ -66,3 +66,7 @@ ul {
 	list-style: lower-roman;
 	width: 400px;
 }
+
+li > ul {
+	list-style: circle;
+}
