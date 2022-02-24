@@ -1,0 +1,34 @@
+{
+	"art": [
+		{
+			"genre": "Impressionism",
+			"artworks": [
+				{
+					"title": "Woman with a Parasol - Madame Monet and Her Son",
+					"artist": "Claude Monet",
+					"year": 1875,
+					"human": true,
+					"nature": true,
+					"abstract": false,
+					"representational": true,
+					"color": "#9AC1D9"
+				}
+			]
+		},
+		{
+			"genre": "Contemporary Art",
+			"artworks": [
+				{
+					"title": "Untitled",
+					"artist": "Jean-Michel Basquiat",
+					"year": 1981,
+					"human": true,
+					"nature": false,
+					"abstract": true,
+					"representational": true,
+					"color": "#30A9D9"
+				}
+			]
+		}
+	]
+}

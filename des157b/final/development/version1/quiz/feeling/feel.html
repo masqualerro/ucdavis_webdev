@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&display=swap" rel="stylesheet" />
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.3/dragula.min.css" />
+		<link rel="stylesheet" href="../../master.css" />
+		<link rel="stylesheet" href="feel.css" />
+	</head>
+	<body>
+		<header>
+			<h1>feeling</h1>
+			<p>
+				drag and drop each piece into the box matching your emotional reaction
+				<br />
+				click image to expand for closer look
+			</p>
+		</header>
+		<div id="overlay"></div>
+		<div id="top">
+			<img src="../../images/matisse2.jpg" alt="" />
+			<img src="../../images/rothko.jpg" alt="" />
+			<img src="../../images/call.jpg" alt="" />
+			<img src="../../images/basquiat.jpg" alt="" />
+			<img src="../../images/lilies.jpg" alt="" />
+			<img src="../../images/ermine.jpg" alt="" />
+			<img src="../../images/dusk.jpg" alt="" />
+			<img src="../../images/cubi.jpg" alt="" />
+		</div>
+		<div class="container">
+			<div class="box">
+				<h2>serene</h2>
+				<div id="left"></div>
+			</div>
+			<div class="box">
+				<h2>introspective</h2>
+				<div id="right"></div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="box">
+				<h2>visceral</h2>
+				<div id="bLeft"></div>
+			</div>
+			<div class="box">
+				<h2>indifferent</h2>
+				<div id="bRight"></div>
+			</div>
+		</div>
+
+		<button>next</button>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.3/dragula.min.js"></script>
+		<script src="feel.js"></script>
+		<script src="../quiz.js"></script>
+	</body>
+</html>
