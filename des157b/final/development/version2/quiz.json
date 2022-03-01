@@ -1,0 +1,339 @@
+{
+	"art": [
+		{
+			"period": "Renaissance",
+			"coverImg": {
+				"title": "The Birth of Venus",
+				"artist": "Sandro Botticelli",
+				"year": "1483 - 1485",
+				"period": "Renaissance",
+				"human": true,
+				"nature": true,
+				"abstract": false,
+				"representational": true,
+				"religion": true,
+				"color": "#A67041"
+			},
+			"artworks": []
+		},
+		{
+			"period": "Romanticism",
+			"coverImg": {
+				"title": "Wanderer above the Sea of Fog",
+				"artist": "Caspar David Friedrich",
+				"year": 1818,
+				"period": "Romanticism",
+				"human": true,
+				"nature": true,
+				"abstract": false,
+				"representational": true,
+				"religion": false,
+				"surreal": false,
+				"color": "#869AA6"
+			},
+			"artworks": [
+				{
+					"title": "The Hay Wain",
+					"artist": "John Constable",
+					"year": 1821,
+					"period": "Romanticism",
+					"human": true,
+					"nature": true,
+					"abstract": false,
+					"representational": true,
+					"religion": false,
+					"surreal": false,
+					"color": "#869AA6"
+				},
+				{
+					"title": "The Nightmare",
+					"artist": "Henry Fuseli",
+					"year": 1781,
+					"period": "Romanticism",
+					"human": true,
+					"nature": true,
+					"abstract": false,
+					"representational": true,
+					"religion": true,
+					"surreal": true,
+					"color": "#869AA6"
+				},
+				{
+					"title": "The Oxbow",
+					"artist": "Thomas Cole",
+					"year": 1835,
+					"period": "Romanticism",
+					"human": false,
+					"nature": true,
+					"abstract": false,
+					"representational": true,
+					"religion": false,
+					"surreal": false,
+					"color": "#869AA6"
+				},
+				{
+					"title": "The Raft of Medusa",
+					"artist": "Théodore Géricault",
+					"year": 1818,
+					"period": "Romanticism",
+					"human": true,
+					"nature": true,
+					"abstract": false,
+					"representational": true,
+					"religion": true,
+					"surreal": false,
+					"color": "#869AA6"
+				},
+				{
+					"title": "Chalk Cliffs on Rügen",
+					"artist": "Caspar David Friedrich",
+					"year": 1818,
+					"period": "Romanticism",
+					"human": true,
+					"nature": true,
+					"abstract": false,
+					"representational": true,
+					"religion": false,
+					"surreal": false,
+					"color": "#869AA6"
+				},
+				{
+					"title": "Fishermen at Sea",
+					"artist": "J.M.W. Turner",
+					"year": 1796,
+					"period": "Romanticism",
+					"human": true,
+					"nature": true,
+					"abstract": false,
+					"representational": true,
+					"religion": false,
+					"surreal": false,
+					"color": "#869AA6"
+				}
+			]
+		},
+		{
+			"period": "Impressionism",
+			"coverImg": {
+				"title": "Woman with a Parasol - Madame Monet and Her Son",
+				"artist": "Claude Monet",
+				"year": 1875,
+				"period": "Impressionism",
+				"human": true,
+				"nature": true,
+				"abstract": false,
+				"representational": true,
+				"religion": false,
+				"surreal": false,
+				"color": "#9AC1D9"
+			},
+			"artworks": [
+				{
+					"id": 0,
+					"title": "Almond Blossom",
+					"artist": "Vincent van Gogh",
+					"year": 1890,
+					"period": "Post Impressionism",
+					"human": false,
+					"nature": true,
+					"abstract": false,
+					"representational": true,
+					"religion": false,
+					"surreal": false,
+					"color": "#639FA6"
+				},
+				{
+					"id": 1,
+					"title": "Café Terrace at Night",
+					"artist": "Vincent van Gogh",
+					"year": 1888,
+					"period": "Post Impressionism",
+					"human": true,
+					"nature": false,
+					"abstract": false,
+					"representational": true,
+					"religion": false,
+					"surreal": false,
+					"color": "#D9C148"
+				},
+				{
+					"id": 2,
+					"title": "The Cliff Walk at Pourville",
+					"artist": "Claude Monet",
+					"year": 1882,
+					"period": "Impressionism",
+					"human": true,
+					"nature": true,
+					"abstract": false,
+					"representational": true,
+					"religion": false,
+					"surreal": false,
+					"color": "#3B7FD9"
+				},
+				{
+					"id": 3,
+					"title": "Tiger in a Tropical Storm (Surprised!)",
+					"artist": "Henri Rousseau",
+					"year": 1891,
+					"period": "Post Impressionism",
+					"human": false,
+					"nature": true,
+					"abstract": true,
+					"representational": true,
+					"religion": false,
+					"surreal": true,
+					"color": "#3B7FD9"
+				},
+				{
+					"id": 4,
+					"title": "A Table Corner (Un coin de table)",
+					"artist": "Paul Cézanne",
+					"year": 1895,
+					"period": "Impressionism",
+					"human": false,
+					"nature": true,
+					"abstract": true,
+					"representational": true,
+					"religion": false,
+					"surreal": true,
+					"color": "#3B7FD9"
+				},
+				{
+					"id": 5,
+					"title": "Self-Portrait with Portrait of Emile Bernard (Les misérables)",
+					"artist": "Paul Gaugin",
+					"year": 1888,
+					"period": "Post Impressionism",
+					"human": true,
+					"nature": false,
+					"abstract": true,
+					"representational": true,
+					"religion": false,
+					"surreal": false,
+					"color": "#3B7FD9"
+				},
+				{
+					"id": 6,
+					"title": "A Sunday on La Grande Jatte",
+					"artist": "Georges Seurat",
+					"year": 1884,
+					"period": "Post Impressionism",
+					"human": true,
+					"nature": false,
+					"abstract": true,
+					"representational": true,
+					"religion": false,
+					"surreal": false,
+					"color": "#3B7FD9"
+				},
+				{
+					"id": 7,
+					"title": "Notre-Dame-de-la-Garde (La Bonne-Mère), Marseilles",
+					"artist": "Paul Signac",
+					"year": "1905-1906",
+					"period": "Post Impressionism",
+					"human": false,
+					"nature": true,
+					"abstract": true,
+					"representational": true,
+					"religion": false,
+					"surreal": false,
+					"color": "#3B7FD9"
+				},
+				{
+					"id": 8,
+					"title": "Water Lilies and Japanese Bridge",
+					"artist": "Claude Monet",
+					"year": 1899,
+					"period": "Impressionism",
+					"human": false,
+					"nature": true,
+					"abstract": false,
+					"representational": true,
+					"religion": false,
+					"surreal": false,
+					"color": "#3B7FD9"
+				},
+				{
+					"id": 9,
+					"title": "Oarsmen at Chatou",
+					"artist": "Auguste Renoir",
+					"year": 1879,
+					"period": "Impressionism",
+					"human": true,
+					"nature": true,
+					"abstract": false,
+					"representational": true,
+					"religion": false,
+					"surreal": false,
+					"color": "#3B7FD9"
+				},
+				{
+					"id": 10,
+					"title": "Impression, Sunrise",
+					"artist": "Claude Monet",
+					"year": 1872,
+					"period": "Impressionism",
+					"human": true,
+					"nature": true,
+					"abstract": true,
+					"representational": true,
+					"religion": false,
+					"surreal": false,
+					"color": "#3B7FD9"
+				}
+			]
+		},
+		{
+			"period": "Expressionism",
+			"coverImg": {
+				"title": "Icarus, plate VIII from the illustrated book 'Jazz'",
+				"artist": "Henri Matisse",
+				"year": 1947,
+				"period": "Expressionism",
+				"human": true,
+				"nature": false,
+				"abstract": true,
+				"representational": true,
+				"religion": false,
+				"surreal": true,
+				"color": "#1445D9"
+			},
+			"artworks": []
+		},
+		{
+			"period": "Surrealism",
+			"coverImg": {
+				"title": "Dream Caused by the Flight of a Bee around a Pomegranate a Second before Waking",
+				"artist": "Salvador Dalí",
+				"year": 1944,
+				"period": "Surrealism",
+				"human": true,
+				"nature": false,
+				"abstract": true,
+				"representational": true,
+				"religion": false,
+				"surreal": true,
+				"color": "#30A9D9"
+			},
+			"artworks": []
+		},
+		{
+			"period": "Contemporary Art",
+			"coverImg": {
+				"title": "Untitled",
+				"artist": "Jean-Michel Basquiat",
+				"year": 1981,
+				"period": "Impressionism",
+				"human": true,
+				"nature": false,
+				"abstract": true,
+				"representational": true,
+				"religion": false,
+				"surreal": true,
+				"color": "#30A9D9"
+			},
+			"artworks": []
+		}
+	]
+}

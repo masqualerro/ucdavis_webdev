@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>intro</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&display=swap" rel="stylesheet" />
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.3/dragula.min.css" />
+		<link rel="stylesheet" href="master.css" />
+		<link rel="stylesheet" href="css/fav.css" />
+		<link rel="stylesheet" href="css/rank.css" />
+		<link rel="stylesheet" href="css/feel.css" />
+	</head>
+	<body>
+		<header>
+			<h1>art</h1>
+			<p id="instruction"></p>
+		</header>
+
+		<div id="formCont">
+			<form autocomplete="off">
+				<div class="myform">
+					<label for="uname">name:</label>
+					<input type="text" id="uname" name="uname" />
+					<label for="age">age:</label>
+					<input type="number" id="age" name="age" />
+				</div>
+				<input class="btn" type="submit" value="start" />
+			</form>
+			<a href="random_art/index.html" id="randomlink">random art</a>
+		</div>
+
+		<div id="overlay"></div>
+
+		<main>
+			<div id="step1">
+				<div id="chooseFav">
+					<img src="images/favorite/wander.jpg" alt="romanticism" class="favO" />
+					<img src="images/favorite/venus.jpg" alt="renaissance" class="favO" />
+					<img src="images/favorite/tiger.jpg" alt="surrealism" class="favO" />
+					<img src="images/favorite/icarus.jpg" alt="expressionism" class="favO" />
+					<img src="images/favorite/basquiat.jpg" alt="contemporary" class="favO" />
+					<img src="images/favorite/parasol.jpg" alt="impressionism" class="favO" />
+				</div>
+				<button id="favNext">next</button>
+			</div>
+			<div id="step2">
+				<div id="rankDiv">
+					<img src="images/renaissance/0.jpg" alt="" class="rankO" />
+					<img src="images/renaissance/1.jpg" alt="" class="rankO" />
+					<img src="images/renaissance/2.jpg" alt="" class="rankO" />
+					<img src="images/renaissance/3.jpg" alt="" class="rankO" />
+					<img src="images/renaissance/4.jpg" alt="" class="rankO" />
+					<img src="images/renaissance/5.jpg" alt="" class="rankO" />
+					<img src="images/renaissance/6.jpg" alt="" class="rankO" />
+					<img src="images/renaissance/7.jpg" alt="" class="rankO" />
+					<img src="images/renaissance/8.jpg" alt="" class="rankO" />
+					<img src="images/renaissance/9.jpg" alt="" class="rankO" />
+				</div>
+				<button id="rankNext">next</button>
+			</div>
+			<div id="step3">
+				<div id="top">
+					<img src="images/renaissance/0.jpg" alt="" class="feelO" />
+					<img src="images/renaissance/1.jpg" alt="" class="feelO" />
+					<img src="images/renaissance/2.jpg" alt="" class="feelO" />
+					<img src="images/renaissance/3.jpg" alt="" class="feelO" />
+				</div>
+				<div class="container">
+					<div class="box">
+						<h2>serene</h2>
+						<div id="left"></div>
+					</div>
+					<div class="box">
+						<h2>introspective</h2>
+						<div id="right"></div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="box">
+						<h2>visceral</h2>
+						<div id="bLeft"></div>
+					</div>
+					<div class="box">
+						<h2>indifferent</h2>
+						<div id="bRight"></div>
+					</div>
+				</div>
+
+				<button id="feelNext">next</button>
+			</div>
+			<div id="results">
+				<p></p>
+			</div>
+		</main>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.3/dragula.min.js"></script>
+		<script src="quiz.js"></script>
+		<script src="javascript/fav.js"></script>
+		<script src="javascript/rank.js"></script>
+		<script src="javascript/feel.js"></script>
+	</body>
+</html>
