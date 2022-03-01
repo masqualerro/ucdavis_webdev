@@ -58,6 +58,11 @@
 						imgs[i].src = `images/contemporary/${i}.jpg`;
 					}
 					break;
+				case 'expressionism':
+					for (let i = 0; i <= 9; i++) {
+						imgs[i].src = `images/expressionism/${i}.jpg`;
+					}
+					break;
 			}
 		} else {
 			alert('add error message later');
