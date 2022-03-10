@@ -5,7 +5,6 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 	margin: auto;
-	height: 90%;
 	width: 65%;
 	height: auto;
 	/* border: 1px solid blue; */
@@ -19,7 +18,7 @@
 
 .rankO {
 	max-height: 175px;
-	margin: 15px;
+	margin: 10px;
 }
 .rankO:hover {
 	cursor: pointer;

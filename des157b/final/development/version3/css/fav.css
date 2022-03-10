@@ -1,12 +1,6 @@
-#rankDiv {
-	border: 1px solid blue;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+#chooseFav {
 	margin: auto;
-	height: 90%;
-	width: 65%;
+	width: 80%;
 	height: auto;
 	/* border: 1px solid blue; */
 	display: flex;
@@ -17,15 +11,16 @@
 	animation-duration: 2s;
 }
 
-.rankO {
-	max-height: 175px;
-	margin: 15px;
+.favO {
+	max-height: 300px;
+	margin: 10px;
 }
-.rankO:hover {
+
+.favO:hover {
 	cursor: pointer;
 }
 
-#rankNext {
+#favNext {
 	position: absolute;
 	right: 50px;
 	bottom: 50px;
@@ -39,7 +34,7 @@
 	transition: 0.25s all ease;
 }
 
-#rankNext:hover {
+#favNext:hover {
 	cursor: pointer;
 	transform: scale(1.5);
 }
