@@ -124,8 +124,7 @@ main {
 	transition: 0.25s all ease;
 }
 
-.lds-ripple {
-	display: none;
+/* .lds-ripple {
 	position: relative;
 	width: 80px;
 	height: 80px;
@@ -155,7 +154,7 @@ main {
 		height: 72px;
 		opacity: 0;
 	}
-}
+} */
 #instruction {
 	text-align: center;
 }
