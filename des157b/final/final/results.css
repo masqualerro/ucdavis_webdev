@@ -3,6 +3,7 @@ main {
 }
 
 ul {
+	font-size: 11px;
 	list-style-type: none;
 	margin-left: -15px;
 	margin-top: -5px;
