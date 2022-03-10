@@ -124,6 +124,7 @@
 		}
 	});
 	async function fetchJson() {
+		document.getElementById('loader').style.display = 'initial';
 		const artData = await fetch(`quiz.json`);
 		const data = await artData.json();
 		console.log(data);
@@ -135,6 +136,7 @@
 		listObjective();
 	}
 	function favRead(x) {
+		document.getElementById('loader').style.display = 'none';
 		document.getElementById('topGenre').innerHTML += userFavorite;
 		document.getElementById('favGenreList').children;
 		for (let i = 0; i < top5.length; i++) {
